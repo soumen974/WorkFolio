@@ -1,6 +1,6 @@
 import React from 'react'
 import './navBar.css'
-
+import CancelIcon from "./cancelSVG";
 export default function NavBar() {
   return (
     <>
@@ -22,6 +22,8 @@ export default function NavBar() {
                     <div className="logInButton"> Login</div>
                     <div className="Create_cv">Create Your Resume</div>
                 </div>
+                <CancelIcon/>
+                 {/* this is the cancel button will be appear when media query will fire   */}
             </div>
         </nav><hr/>
     </section></>
