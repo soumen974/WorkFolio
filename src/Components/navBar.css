@@ -4,7 +4,7 @@
 
    }
    nav{
-    padding: 1rem 3rem ;
+    padding: 0.55rem 3rem ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.215);
    }
   
@@ -106,48 +106,66 @@
 
    .openMenuSlider{
     display: none;
-   }
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1400FF 0%, rgba(93, 84, 200, 0.61) 100%);    height: 50vh;
+    /* width: 1306px; */
+    height: 44vw;
+    /* flex-shrink: 0;  */
+    margin-left: 10rem;
+    
+  }
 
    /* ---------------- */
 
    .slideBody{
-    margin-right: 2rem;
    }
    
    .closeMenu{
-    text-align:left;
-    margin-left: 1rem;
-    padding: 3rem 1rem 1rem 1rem;
     
-  
   }
- .user_click_button_mobile{}
+  .closeMenu svg{
+    width:32px ;
+    height:26px;
+    /* background-color: black; */
+
+
+  }
+  
+  
+ .user_click_button_mobile{
+     display: inline-flex;
+     gap: 1.4rem; 
+     text-align: center;
+    }
  .resume_crete_button-mobile{   
-   background-color: #1400FF;
-   border-radius: 0.34rem ;
-   margin-bottom: 0.55rem;
-   margin-left: 22%;
-   padding: .8rem;
-   text-align: center;
+  background-color: #0A0083;
+    color: white;
+    border-radius: 0.34rem ;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    transition: 0.6s;
  }
  .LoginButton-mobile{
-  background-color: #E4E8EC;     border-radius: 0.34rem ;
-  color: black;
-   margin-left: 44%;
-   padding: .6rem .5rem;
-   text-align: center;
+   padding: 0.6rem 2rem;
+    background-color: #E4E8EC;
+    border-radius: 0.34rem  ;
+    cursor: pointer;
+    transition: 0.7s;
  }
  .nav_links_mobile{
-  margin-top: 1rem;
+  padding: 1rem 0rem ;
  }
  .nav_links_mobile ul li{ 
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: white;
   list-style: none;
-  /* text-align: ; */
-
+  line-height: 2rem;
+  font: size 2vw;
   
 }
-
-
 
    .OpenMenuRight svg{
     width: 27px;
@@ -156,7 +174,7 @@
   
 /* ------------------- */
   
-   
+   /* 1st fire  */
    @media (max-width:1290px) {
     .user_click_buttons{
       gap: 1rem; 
@@ -164,11 +182,10 @@
     }
     .navElements .LinkComponents{ 
       max-width: 400px;
-      margin-left: 1%;
-      gap: rem;
+      margin-left: -3%;
     }
-    .navElements{
-      max-width: 1250px;
+    .navElements ul {
+      gap: 44px; 
     }
     .logo{  
       /* margin-left: 2rem; */
@@ -177,7 +194,14 @@
     }
    }
 
+      /* 2nd  fire  */
+
+
    @media (max-width:1255px) {
+
+    .navElements .LinkComponents{ 
+      margin-left: 4%;
+    }
     .navElements ul > li{
      margin-left: -5%;
 
@@ -195,7 +219,13 @@
     
    }
 
-   @media (max-width:1132px) {
+      /* 3rd  fire  */
+
+   @media (max-width:1137px) {
+
+    nav{
+      padding: 0.65rem 1rem ;
+    }
     .navElements ul > li{
       display:none;
     }
@@ -207,24 +237,17 @@
       fill: #0116ff;
      }
      
+     
      .openMenuSlider{
-      color: white;
-      margin-top: -3.1rem;
-      /* display: block; */
-      text-align: right;
-      height: 70vh;
-      /* flex-wrap: nowrap; */
-      border-radius: 8px;
-        background: linear-gradient(135deg, rgba(93, 84, 200, 0.61) 0%,
-         #1400FF 100%);
-
-      margin-left:5rem;
+      display: block;
       
-     }
+    }
      
 
 
    }
+
+   /* 4th fire  */
 
    @media (max-width:820px) {
 
@@ -252,5 +275,30 @@
       margin-top: -0.4rem;
       background-color: #0116ff;
     }
+    .user_click_button_mobile{
+      display:table;
+      gap: 1.4rem; 
+      
+     }
+     .resume_crete_button-mobile{
+      margin-bottom: 1rem;
+     }
+     .openMenuSlider{
+      transition: transform 0.3s ease-in-out;
+      text-align: left;
+      /* padding: 2rem; */
+      border-radius: 8px;
+      background: linear-gradient(135deg, #1400FF 0%, rgba(93, 84, 200, 0.61) 100%);    height: 50vh;
+      /* width: 1306px; */
+      height: 36rem;
+      /* flex-shrink: 0;  */
+      margin-left: 5rem;
+      
+    }
+    .nav_links_mobile ul li{
+      text-align: center;
+      
+    }
+    
     
    }
