@@ -8,7 +8,7 @@ function App() {
   return (
     <>
         <NavBar/>
-        {/* <Section01/> */}
+        <Section01/>
     </>
   );
 }

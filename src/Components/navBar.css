@@ -2,6 +2,9 @@
    nav{
     padding: 0.55rem 3rem ;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.215); */
+    position: relative;
+    z-index: 1;
+
    }
    
 
@@ -124,10 +127,17 @@
 
  
   .closeMenu svg{
-    width:32px ;
-    height:26px;
+    width:40px ;
+    height:36px;
     /* background-color: black; */
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.2rem;
 
+
+  }
+  .closeMenu svg:hover{
+    background-color: #6161634f;
+    background-color: #0015ff;
 
   }
   
@@ -165,8 +175,14 @@
 }
 
    .OpenMenuRight svg{
-    width: 27px;
-    height: 21px;
+    width: 40px;
+    height: 34px;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
+   }
+   .OpenMenuRight svg:hover{
+    background-color: rgba(0, 0, 0, 0.176);
+
    }
   
 /* ------------------- */
@@ -302,9 +318,14 @@
       text-align: center;
       
     }
-    
+    .closeMenu svg:hover{
+      background-color: #6161634f;
+      background-color: #0015ff;
+  
+    }
     
    }
+
    @media (max-width:420px) {
     nav{
       border-bottom: 1px solid rgba(0, 0, 0, 0.635);
