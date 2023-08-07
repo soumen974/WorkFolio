@@ -1,11 +1,15 @@
 .section-01{
     /* background-color: rgb(80, 76, 85); */
     /* height: 100vh; */
-    position: static;
-    z-index: 2;
+    /* position: static; */
+    /* z-index: 2; */
+
+    position: absolute;
+    
+    z-index: -1;
 }
-.UpperVectorHead{
-}
+
+
 svg{
     margin-top: -0.681rem;
     width:99%; 
@@ -34,11 +38,10 @@ svg{
 }
 .landing_ad-talk{
     font-size: 1.2rem;
-    width: 79%;
-
+    width: 59%;
     padding: 2rem 0rem ;
 }
-.left_landing_content button{
+.right_landing_content button{
     padding: 0.85rem 3.2rem ;
     background-color: #0116ff;
     border-radius: 0.4rem;
@@ -48,11 +51,12 @@ svg{
     font-weight:600;
     word-spacing: 0.371rem;
     
-
 }
 .right_landing_content{
+    width: 50%;
 
 }
+
 
    @media (max-width:1290px) {
     svg{
@@ -80,6 +84,19 @@ svg{
     svg{
         margin-top: -4.2rem;
         width:99%; 
+    }
+
+    .right_landing_content button{
+        padding: 0.9rem 1.3rem ;
+        background-color: #0116ff;
+        border-radius: 010rem;
+        border: 1px solid transparent;
+        color: white;
+        font-size: 1rem;
+        font-weight:600;
+        word-spacing: 0.181rem;
+        width: 120%;
+        
     }
 
 

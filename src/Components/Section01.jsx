@@ -18,16 +18,23 @@ export default function Section01() {
                         </svg>
         </div>
         <div className="landing_page_content">
+
             <div className="left_landing_content">
                 <h2>Boost Your chances of Landing that dream job .</h2>
+                
+                
+            </div>
+
+            <div className="right_landing_content">
+
                 <div className="landing_ad-talk"> Create Your CV using our wisely designed themes and increase the chances of getting your dream job .</div>
-                <button>Creat Resume Now</button>
+                    <button>Creat Resume Now</button>
+                </div>
+
                 <div className="Down_things">
                     <div className="starsRates"></div>
                     <div className="Rating_talk"></div>
                 </div>
-            </div>
-            <div className="right_landing_content"></div>
         </div>
      
 

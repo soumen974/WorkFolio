@@ -2,7 +2,7 @@
    nav{
     padding: 0.55rem 3rem ;
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.215); */
-    position: relative;
+    /* position: static; */
     z-index: 1;
 
    }
@@ -120,6 +120,8 @@
     height: 44vw;
     /* flex-shrink: 0;  */
     margin-left: 10rem;
+    z-index: 1;
+    position: absolute;
     
   }
 
@@ -309,9 +311,11 @@
       border-radius: 8px;
       background: linear-gradient(135deg, #1400FF 0%, rgba(93, 84, 200, 0.61) 100%);    height: 50vh;
       /* width: 1306px; */
-      height: 36rem;
+      height: 43rem;
       /* flex-shrink: 0;  */
-      margin-left: 5rem;
+      margin-left: 5.4rem;
+      margin-top: -3.5rem;
+
       
     }
     .nav_links_mobile ul li{
