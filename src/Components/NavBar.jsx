@@ -54,7 +54,7 @@ export default function NavBar() {
             </div>
         </nav>
 
-        {/* this content to show for mobile/tablet device not for desktos */}
+        {/* this content to show for mobile/tablet device not for desktop */}
         
         {
             OpenMenuSlider &&
@@ -62,9 +62,6 @@ export default function NavBar() {
         <div className="openMenuSlider">
             <div className="slideBody">
 
-            
-
-                    
                     <div className="user_click_button_mobile">
                         <div className="resume_crete_button-mobile">Create Your Resume</div>
                         <div className="LoginButton-mobile">Login</div>
