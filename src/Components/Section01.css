@@ -79,5 +79,63 @@
  
    /* -----------------------actual-- */
    @media (max-width:820px){
+    .UpperVectorHead svg{
+        margin-top: -.1991rem;
+        width:100%; 
+    }
+
+    .landing_page_content{
+        /* background-color: black; */
+        margin-top: 0.02rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0rem 2rem ;
+        /* justify-content: space-evenly; */
+        /* gap: 0.1rem; */
+    }
+
+   .left_landing_content h2{
+       font-size: 1.84rem;
+       width: 100%;
+   }
+
+   .right_landing_content  img{
+    height: 10rem;
+    width: 10rem;
+    transform: rotate(-5.99deg);
+    border: 0.55rem solid white;
+}
+
+.Down_things{
+    /* padding: 0rem 0.8rem ; */
+
+}
+  .landing_ad-talk{
+    font-size: 0.86rem;
+    font-weight: 600;
+    width: 102%;
+    text-align: center;
+  padding: 2rem 0rem ;
+
+
+  }
+
+  .Down_things button{
+    padding: 0.9rem 1rem ;
+    background-color: #0116ff;
+    border-radius: 6rem;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1.1rem;
+    font-weight:600;
+    word-spacing: 0.11rem;
+    text-align: center;
+    width: 100%;
     
+}
+
+
+
+
    }

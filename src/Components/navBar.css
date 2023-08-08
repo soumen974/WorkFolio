@@ -120,8 +120,8 @@
     height: 44vw;
     /* flex-shrink: 0;  */
     margin-left: 10rem;
-    z-index: 1;
-    position: absolute;
+    z-index: 2;
+    position: fixed;
     
   }
 
@@ -270,8 +270,8 @@
       padding: 0.4rem 0.6rem ;
       border-bottom: 1px  solid rgba(0, 0, 0, 0.776);
       background-color: #fff;
-      position:sticky;
-      top: 0;
+      /* position:sticky;
+      top: 10; */
     }
 
     .sec-1{
