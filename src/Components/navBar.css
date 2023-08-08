@@ -1,9 +1,9 @@
 
    nav{
     padding: 0.55rem 3rem ;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.215); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.276);
     /* position: static; */
-    z-index: 1;
+    z-index: 2;
 
    }
    
@@ -330,8 +330,4 @@
     
    }
 
-   @media (max-width:420px) {
-    nav{
-      border-bottom: 1px solid rgba(0, 0, 0, 0.635);
-     }
-   }
+   

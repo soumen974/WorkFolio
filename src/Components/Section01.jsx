@@ -1,5 +1,6 @@
 import React from 'react'
 import './Section01.css'
+import Upperimage from "./Images/up_img.jpg";
 
 export default function Section01() {
   return (
@@ -19,23 +20,24 @@ export default function Section01() {
         </div>
         <div className="landing_page_content">
 
-            <div className="left_landing_content">
-                <h2>Boost Your chances of Landing that dream job .</h2>
-                
-                
-            </div>
-
-            <div className="right_landing_content">
-
-                <div className="landing_ad-talk"> Create Your CV using our wisely designed themes and increase the chances of getting your dream job .</div>
-                    <button>Creat Resume Now</button>
+                <div className="left_landing_content">
+                    <h2>Boost Your chances of Landing that dream job .</h2>
+                    .   
                 </div>
 
-                <div className="Down_things">
-                    <div className="starsRates"></div>
-                    <div className="Rating_talk"></div>
+                <div className="right_landing_content">
+                    <img src={Upperimage} alt="" />
                 </div>
+                
         </div>
+
+        <div className="Down_things">
+        
+                    <div className="landing_ad-talk"> Create Your CV using our wisely designed themes and increase the chances of getting your dream job .</div>
+                        <button>Create Resume Now</button>
+                        <div className="starsRates"></div>
+                        <div className="Rating_talk"></div>
+                    </div>
      
 
     </div>
