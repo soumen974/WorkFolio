@@ -18,17 +18,18 @@ export default function Section01() {
                         </defs>
                         </svg>
         </div>
+
         <div className="landing_page_content">
 
                 <div className="left_landing_content">
                     <h2>Boost Your chances of Landing that dream job .</h2>
-                    .   
+                    
                 </div>
 
                 <div className="right_landing_content">
                     <img src={Upperimage} alt="" />
                 </div>
-                
+
         </div>
 
         <div className="Down_things">

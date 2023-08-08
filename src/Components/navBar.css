@@ -267,8 +267,11 @@
    @media (max-width:820px) {
 
     nav{
-      padding: 0.56rem 0.6rem ;
- 
+      padding: 0.4rem 0.6rem ;
+      border-bottom: 1px  solid rgba(0, 0, 0, 0.776);
+      background-color: #fff;
+      position:sticky;
+      top: 0;
     }
 
     .sec-1{
