@@ -28,6 +28,18 @@ export default function Section01() {
 
                 <div className="right_landing_content">
                     <img src={Upperimage} alt="" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="156" height="148" viewBox="0 0 156 148" fill="none">
+                    <rect width="129.959" height="119.479" rx="4" transform="matrix(0.968454 0.249194 -0.252267 0.967658 30.1406 0)" fill="url(#paint0_linear_58_4)"/>
+                    <rect width="106.724" height="6.48486" transform="matrix(0.968454 0.249194 -0.252267 0.967658 36.0389 20.0358)" fill="#EDBA00"/>
+                    <rect width="100.202" height="6.08857" transform="matrix(0.968454 0.249194 -0.252267 0.967658 29.4142 55.9825)" fill="#EDBA00"/>
+                    <rect width="83.6008" height="7.0744" transform="matrix(0.968454 0.249194 -0.252267 0.967658 37.3739 39.4824)" fill="#EDBA00"/>
+                    <defs>
+                        <linearGradient id="paint0_linear_58_4" x1="64.9795" y1="0" x2="64.9795" y2="119.479" gradientUnits="userSpaceOnUse">
+                        <stop offset="0.841621" stopColor="#FFD400"/>
+                        <stop offset="1" stopColor="#BA9B00" stopOpacity="0.56"/>
+                        </linearGradient>
+                    </defs>
+                    </svg>
                 </div>
 
         </div>

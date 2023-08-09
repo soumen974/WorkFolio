@@ -50,7 +50,13 @@
     
 }
 .right_landing_content{
-    /* width: 5%; */
+    display: flex;
+}
+.right_landing_content svg{
+margin-left: -2.6rem;
+margin-top: -1.2rem;
+height: 11rem;
+width: 11rem;
 }
 .Down_things{
     padding: 0rem 4rem ;
@@ -107,10 +113,10 @@
     border: 0.55rem solid white;
 }
 
-.Down_things{
-    /* padding: 0rem 0.8rem ; */
+/* .Down_things{
+    padding: 0rem 0.8rem ;
 
-}
+} */
   .landing_ad-talk{
     font-size: 0.86rem;
     font-weight: 600;
