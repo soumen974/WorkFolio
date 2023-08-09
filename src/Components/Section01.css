@@ -31,12 +31,12 @@
 }
 .left_landing_content h2{
     font-size: 2.6rem;
-    width: 65%;
+    width: 47%;
 }
 .landing_ad-talk{
     font-size: 1.2rem;
-    width: 59%;
-    padding: 2rem 0rem ;
+    width: 39%;
+    padding: 1.5rem 0rem ;
 }
 .right_landing_content button{
     padding: 0.85rem 3.2rem ;
@@ -52,14 +52,37 @@
 .right_landing_content{
     display: flex;
 }
-.right_landing_content svg{
+.ThreeVector{
+    position:static;
+    z-index: -1;
+}
+.yellowVector svg{
 margin-left: -2.6rem;
 margin-top: -1.2rem;
-height: 11rem;
-width: 11rem;
+height: 15rem;
+width: 15rem;
 }
+.blueVector svg{
+    margin-top: -10rem;
+    margin-left: -4rem;
+height: 14rem;
+width: 14rem;
+position:relative;
+
+}
+.dottet-vector svg{
+    position:static;
+    margin-top: -6rem;
+    margin-left: 5rem;
+    height: 7.8rem;
+    width: 7.8rem;       
+}
+
+
+
 .Down_things{
     padding: 0rem 4rem ;
+    margin-top: -8rem;
 
 }
 .Down_things button{
@@ -78,7 +101,9 @@ width: 11rem;
     width: 14rem;
     /* transform: scale(3); */
     transform: rotate(-5.99deg);
-    border: 0.55rem solid white;
+    border: 0.4rem solid white;
+    position:relative;
+
 }
 
 
@@ -110,19 +135,21 @@ width: 11rem;
     height: 10rem;
     width: 10rem;
     transform: rotate(-5.99deg);
-    border: 0.55rem solid white;
+    border: 0.25rem solid white;
+    position:relative;
+}
+.Down_things{
+    padding: 1rem 2rem ; 
+    margin-top: 0rem;
+
 }
 
-/* .Down_things{
-    padding: 0rem 0.8rem ;
-
-} */
   .landing_ad-talk{
     font-size: 0.86rem;
-    font-weight: 600;
+    font-weight: 500;
     width: 102%;
     text-align: center;
-  padding: 2rem 0rem ;
+  padding: 1rem 0rem ;
 
 
   }
@@ -140,6 +167,38 @@ width: 11rem;
     width: 100%;
     
 }
+
+.right_landing_content{
+    display: flex;
+}
+.ThreeVector{
+    position:static;
+    z-index: -1;
+}
+
+.yellowVector svg{
+margin-left: -2.6rem;
+margin-top: -1.2rem;
+height: 11rem;
+width: 11rem;
+}
+
+.blueVector svg{
+    margin-left: -7rem;
+    margin-top: -5rem;
+    height: 11rem;
+    width: 11rem;
+    transform: rotate(17deg);
+    position:relative;
+    }
+
+    .dottet-vector svg{
+     position:static;
+    margin-left: -1rem;
+    margin-top: -8rem;
+     height: 7.2rem;
+    width: 8rem;
+    }
 
 
 

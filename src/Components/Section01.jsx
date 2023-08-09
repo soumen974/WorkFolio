@@ -27,8 +27,13 @@ export default function Section01() {
                 </div>
 
                 <div className="right_landing_content">
-                    <img src={Upperimage} alt="" />
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="156" height="148" viewBox="0 0 156 148" fill="none">
+                    <img src={Upperimage} alt="HMImage" />
+                    
+
+                    <div className="ThreeVector">
+
+                        <div className="yellowVector">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="156" height="148" viewBox="0 0 156 148" fill="none">
                     <rect width="129.959" height="119.479" rx="4" transform="matrix(0.968454 0.249194 -0.252267 0.967658 30.1406 0)" fill="url(#paint0_linear_58_4)"/>
                     <rect width="106.724" height="6.48486" transform="matrix(0.968454 0.249194 -0.252267 0.967658 36.0389 20.0358)" fill="#EDBA00"/>
                     <rect width="100.202" height="6.08857" transform="matrix(0.968454 0.249194 -0.252267 0.967658 29.4142 55.9825)" fill="#EDBA00"/>
@@ -40,14 +45,106 @@ export default function Section01() {
                         </linearGradient>
                     </defs>
                     </svg>
+
+                        </div>
+
+                        <div className="blueVector">
+                                                <svg width="264" height="233" viewBox="0 0 264 233" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="264" height="233" rx="4" fill="url(#paint0_linear_7_2)"/>
+            <rect x="20" y="136" width="210" height="11" fill="#1707D7"/>
+            <rect x="20" y="191" width="169" height="10.3278" fill="#1707D7"/>
+            <rect x="20" y="163" width="141" height="12" fill="#1707D7"/>
+            <defs>
+            <linearGradient id="paint0_linear_7_2" x1="-3.41656e-06" y1="-23.4918" x2="202.522" y2="269.937" gradientUnits="userSpaceOnUse">
+            <stop stopColor="#0B008B" stopOpacity="0"/>
+            <stop offset="0.433998" stopColor="#4031F4"/>
+            <stop offset="1" stopColor="#1A06FF"/>
+            </linearGradient>
+            </defs>
+                                                    </svg>
+
+                        </div>  
+
+                        <div className="dottet-vector">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="141" height="131" viewBox="0 0 141 131" fill="none">
+                        <ellipse cx="3.81081" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="39.3" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="55.675" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="3.81081" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="22.8649" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="41.9189" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="60.973" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="75.325" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="91.7" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="80.027" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="99.0811" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="111.35" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="118.135" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                        <ellipse cx="137.189" cy="127.725" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
+                                                </svg>
+                            
+                        </div>  
+
+                    </div>
                 </div>
 
         </div>
 
         <div className="Down_things">
-        
-                    <div className="landing_ad-talk"> Create Your CV using our wisely designed themes and increase the chances of getting your dream job .</div>
+                        
                         <button>Create Resume Now</button>
+                        <div className="landing_ad-talk"> Create Your Resume using our wisely designed themes and increase the chances of getting your dream job .</div>
+                        
                         <div className="starsRates"></div>
                         <div className="Rating_talk"></div>
                     </div>

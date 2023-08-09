@@ -132,14 +132,16 @@
     width:40px ;
     height:36px;
     /* background-color: black; */
-    padding: 0.1rem 0.3rem;
+    padding: 0.4rem 0.6rem;
     border-radius: 0.2rem;
+
 
 
   }
   .closeMenu svg:hover{
     background-color: #6161634f;
     background-color: #0015ff;
+
 
   }
   
@@ -267,7 +269,7 @@
    @media (max-width:820px) {
 
     nav{
-      padding: 0.4rem 0.6rem ;
+      padding: 0.1rem 0.6rem ;
       border-bottom: 1px  solid rgba(0, 0, 0, 0.776);
       background-color: #fff;
       /* position:sticky;
