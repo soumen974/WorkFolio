@@ -36,7 +36,8 @@
 .landing_ad-talk{
     font-size: 1.2rem;
     width: 39%;
-    padding: 1.5rem 0rem ;
+    padding:  1.5rem 0rem 0.5rem 0rem ;
+
 }
 .right_landing_content button{
     padding: 0.85rem 3.2rem ;
@@ -105,7 +106,18 @@ position:relative;
     position:relative;
 
 }
+.starsRates{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0rem 1rem;
 
+}
+.Rating_talk{
+    font-size: .9rem;
+    padding: 0rem 0.6rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.662);
+}
 
  
    /* -----------------------actual-- */
@@ -198,6 +210,16 @@ width: 11rem;
     margin-top: -8rem;
      height: 7.2rem;
     width: 8rem;
+    }
+    .starsRates{
+        display: inline-flex;
+        justify-content: space-evenly;
+        padding: 0rem 0.69rem;
+    
+    }
+    .Rating_talk{
+        font-size: 0.7rem;
+        padding: 0rem 0.6rem;
     }
 
 

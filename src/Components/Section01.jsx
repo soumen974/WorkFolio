@@ -1,6 +1,9 @@
 import React from 'react'
 import './Section01.css'
 import Upperimage from "./Images/up_img.jpg";
+import FullStarIcon from './FullStarIcon';
+import EmptyStarIcon from './EmptyStarIcon';
+
 
 export default function Section01() {
   return (
@@ -140,13 +143,21 @@ export default function Section01() {
 
         </div>
 
-        <div className="Down_things">
+                     <div className="Down_things">
                         
                         <button>Create Resume Now</button>
                         <div className="landing_ad-talk"> Create Your Resume using our wisely designed themes and increase the chances of getting your dream job .</div>
                         
-                        <div className="starsRates"></div>
-                        <div className="Rating_talk"></div>
+                        <div className="starsRates">
+                            <FullStarIcon/>
+                            <FullStarIcon/>
+                            <FullStarIcon/>
+                            <FullStarIcon/>
+                            <EmptyStarIcon/>
+                          
+                        <div className="Rating_talk">Will be Used by 1M+ industry leaders</div>
+                        </div>
+                        
                     </div>
      
 
