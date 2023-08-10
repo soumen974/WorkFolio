@@ -69,7 +69,7 @@ export default function Section01() {
                         </div>  
 
                         <div className="dottet-vector">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="141" height="131" viewBox="0 0 141 131" fill="none">
+                                                <svg  width="141" height="131" viewBox="0 0 141 131" fill="none">
                         <ellipse cx="3.81081" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
                         <ellipse cx="22.8649" cy="3.275" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>
                         <ellipse cx="3.81081" cy="19.65" rx="3.81081" ry="3.275" fill="#7D74E3" fillOpacity="0.76"/>

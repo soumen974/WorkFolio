@@ -72,3 +72,45 @@
     }
    }
 
+_________________________________________________________
+
+
+
+@media (max-width:1286px) {
+    
+    .landing_page_content{
+        /* background-color: black; */
+        margin-top: -3rem;
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0rem 1.25rem ;
+        justify-content: space-evenly;
+    }
+
+    .left_landing_content h2{
+        font-size: 2.3rem;
+        width: 48%;
+    }
+    .right_landing_content{
+        display: flex;
+    }
+
+    
+.Down_things{
+    padding: 0rem 1.25rem ;
+    margin-top: -8rem;
+
+}
+.Down_things button {
+    padding: 0.85rem 3.2rem ;
+    background-color: #0116ff;
+    border-radius: 0.4rem;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    word-spacing: 0.371rem;
+}
+
+   }
