@@ -96,6 +96,16 @@ position:relative;
     font-weight: 600;
     word-spacing: 0.371rem;
 }
+.Down_things button:hover{
+    padding: 0.85rem 3.2rem ;
+    background-color: #000000;
+    border-radius: 0.4rem;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    word-spacing: 0.371rem;
+}
 
 .right_landing_content  img{
     height: 14rem;
@@ -120,10 +130,8 @@ position:relative;
 }
 
  
-   /* -----------------------Mobile First-- */
-   
-
-   
+   /* --------------small-desktop----------- */
+      
    @media (max-width:1286px) {
     
     .landing_page_content{
@@ -166,6 +174,10 @@ position:relative;
 }
 
    }
+
+
+   /* --------------Tablet ----------- */
+
 
    @media (max-width:1150px) {
 
@@ -253,6 +265,10 @@ position:relative;
 
    }
 
+
+   /* --------------Mobile  ----------- */
+
+
    @media (max-width:680px){
 
     .Down_things button :hover {
@@ -266,7 +282,7 @@ position:relative;
 
     .landing_page_content{
         /* background-color: black; */
-        margin-top: 0.02rem;
+        margin-top: -1.4rem;
         display:inline-block;
         /* flex-wrap: wrap; */
         width: 100%;
@@ -281,8 +297,11 @@ position:relative;
     }
 
    .left_landing_content h2{
-       font-size: 1.84rem;
+       font-size: 1.9rem;
        width: 100%;
+       text-align: center;
+       position:relative;
+       z-index: 2;
    }
 
    .right_landing_content  img{
@@ -321,11 +340,13 @@ position:relative;
     
 }
 
+
 .right_landing_content{
     display: flex;
-    margin-top: 0rem;
+    margin-top: 1.4rem;
         margin-left: 0rem; 
         justify-content: center;
+
 }
 .ThreeVector{
     position:static;
