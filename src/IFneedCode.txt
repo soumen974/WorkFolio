@@ -114,3 +114,113 @@ _________________________________________________________
 }
 
    }
+
+
+-------------------------------------------------------
+
+ @media (max-width:680px){
+
+    .Down_things button :hover {
+        background-color: #000109;
+    }
+    
+    .UpperVectorHead svg{
+        margin-top: -.1991rem;
+        width:100%; 
+    }
+
+    .landing_page_content{
+        /* background-color: black; */
+        margin-top: 0.02rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0rem 2rem ;
+        justify-content: space-evenly;
+        /* gap: 0.1rem; */
+    }
+
+   .left_landing_content h2{
+       font-size: 1.84rem;
+       width: 100%;
+   }
+
+   .right_landing_content  img{
+    height: 10rem;
+    width: 10rem;
+    transform: rotate(-5.99deg);
+    border: 0.25rem solid white;
+    position:relative;
+}
+.Down_things{
+    padding: 1rem 2rem ; 
+    margin-top: 0rem;
+
+}
+
+  .landing_ad-talk{
+    font-size: 0.86rem;
+    font-weight: 500;
+    width: 102%;
+    text-align: center;
+   padding: 1rem 0rem ;
+  }
+  
+
+  .Down_things button{
+    padding: 0.9rem 1rem ;
+    background-color: #0116ff;
+    border-radius: 6rem;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 1.1rem;
+    font-weight:600;
+    word-spacing: 0.11rem;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.right_landing_content{
+    display: flex;
+}
+.ThreeVector{
+    position:static;
+    z-index: -1;
+}
+
+.yellowVector svg{
+margin-left: -2.6rem;
+margin-top: -1.2rem;
+height: 11rem;
+width: 11rem;
+}
+
+.blueVector svg{
+    margin-left: -7rem;
+    margin-top: -5rem;
+    height: 11rem;
+    width: 11rem;
+    transform: rotate(17deg);
+    position:relative;
+    }
+
+    .dottet-vector svg{
+     position:static;
+    margin-left: -1rem;
+    margin-top: -8rem;
+     height: 7.2rem;
+    width: 8rem;
+    }
+    .starsRates{
+        display: inline-flex;
+        justify-content: space-evenly;
+        padding: 0rem 0.69rem;
+    
+    }
+    .Rating_talk{
+        font-size: 0.7rem;
+        padding: 0rem 0.6rem;
+    }
+
+   }
