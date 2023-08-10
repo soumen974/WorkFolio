@@ -134,8 +134,7 @@
     /* background-color: black; */
     padding: 0.4rem 0.6rem;
     border-radius: 0.2rem;
-
-
+    stroke: 1px;
 
   }
   .closeMenu svg:hover{
@@ -307,26 +306,34 @@
       
      }
      .resume_crete_button-mobile{
+      font-size: 1.1rem;
       margin-bottom: 1rem;
+      padding: 1em ;
+      width: 110%;
      }
+     .LoginButton-mobile{
+      width: 110%;
+     font-size: 1.1rem;
+    }
      .openMenuSlider{
       transition: transform 0.3s ease-in-out;
       text-align: left;
-      /* padding: 2rem; */
       border-radius: 8px;
+      padding:  5rem 2rem 5rem 1.2rem   ;
       background: linear-gradient(135deg, #1400FF 0%, rgba(93, 84, 200, 0.61) 100%);    height: 50vh;
-      /* width: 1306px; */
       height: 43rem;
-      /* flex-shrink: 0;  */
-      margin-left: 5.4rem;
-      margin-top: -3.5rem;
+      margin-left: 8rem;
+      margin-top: -3.1rem;
 
       
     }
     .nav_links_mobile ul li{
       text-align: center;
+      padding: 0.6rem;
+      font-size: 1.2rem;
       
     }
+
     .closeMenu svg:hover{
       background-color: #6161634f;
       background-color: #0015ff;
