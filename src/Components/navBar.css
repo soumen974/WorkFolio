@@ -1,9 +1,14 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
+   
+   
    nav{
     padding: 0.55rem 3rem ;
     border-bottom: 1px solid rgba(0, 0, 0, 0.276);
     /* position: static; */
-    z-index: 2;
+    /* z-index: 2; */
 
    }
    
