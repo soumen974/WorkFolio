@@ -14,7 +14,6 @@ export default function NavBar() {
         if (event.target.classList.contains('closeMenuSVG')) {
             setOpenMenuSlider(false);
 
-    
         }
       }
 
@@ -39,7 +38,7 @@ export default function NavBar() {
 
                 <div className="user_click_buttons">
                     <div className="logInButton"> Login</div>
-                    <div className="Create_cv">Create Your Resume</div>
+                    <button className="Create_cv">Create Your Resume</button>
                 </div>
                                     <div className='OpenMenuRight' >
                         <svg  className='OpenMenuRightSVG' onClick={MenuSlideShow}  viewBox="0 0 27 21"  xmlns="http://www.w3.org/2000/svg">
