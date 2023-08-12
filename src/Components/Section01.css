@@ -6,6 +6,7 @@
     position:relative;
     /* z-index: -1; */
     /* background-color: black; */
+    margin-top: 3.7rem;
   width: 100%;
 }
 
@@ -268,6 +269,7 @@ position:relative;
 
 
    @media (max-width:680px){
+
 
     .Down_things button:hover{
         background-color: #2436f8;

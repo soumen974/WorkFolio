@@ -10,7 +10,7 @@ function App() {
     <>
         <NavBar/>
         <Section01/>
-        {/* <Section02/> */}
+        <Section02/>
     </>
   );
 }
