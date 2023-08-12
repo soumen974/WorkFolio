@@ -379,7 +379,6 @@
       transition: ease-in-out 0.5s;
      }
      .resume_crete_button-mobile:hover{
-      transform : scale(1,.1.5);
       background-color: transparent;
       color: rgb(255, 255, 255);
       border: 2px solid rgb(255, 255, 255);
