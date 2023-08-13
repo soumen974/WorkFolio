@@ -3,8 +3,37 @@
     padding: 0;
     
 }
-h1{
-    margin-top: 4rem;
+.FormBody{
+padding: 0rem 0rem;    
+/* background-color: rgba(0, 0, 0, 0.285); */
+}
+.FormHeadder{
     text-align: center;
+
+}
+.FormHeadder h1{
+    margin-top: 4rem;
+    padding: 4rem 0rem 0rem 0rem;    
+
     font-size: 6rem;
+}
+.FormHeadder h3{
+    /* margin-left: 35rem; */
+    padding: 0rem 0rem 4rem 0rem;    
+    color: rgba(0, 0, 0, 0.584);
+}
+abbr{
+    cursor:help;
+}
+.Form-01{
+    padding: 0rem 2rem 4rem 2rem;    
+
+}
+.Form-01_color-back{
+    padding: 0rem 4rem 4rem 4rem;    
+
+    border-radius: 22.048px;
+background: linear-gradient(181deg, rgba(26, 6, 255, 0.68) 50.96%, rgba(26, 6, 255, 0.22) 100%);
+
+
 }

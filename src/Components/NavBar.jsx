@@ -25,7 +25,7 @@ export default function NavBar() {
     <section className="sec-1">
         <nav>
             <div className="navElements">
-                <div className="logo" > <span className="logo_icon">W</span><h3>WorkFolio</h3></div>
+                <div className="logo" > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolio</h3></div>
                 <div className="LinkComponents">
                     <ul>
                         <li>Templates</li>

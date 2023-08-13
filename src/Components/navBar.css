@@ -55,6 +55,10 @@
      /* font-family:cursive; */
 
    }
+   .logo_icon abbr{
+    cursor: pointer;
+    text-decoration: none;
+   }
    .navElements .LinkComponents{ 
      max-width: 1200px;
      margin-left: 10%;
