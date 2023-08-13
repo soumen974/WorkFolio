@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+.FormBody ::placeholder{
+    font-size: medium;
+}
 .FormBody{
 padding: 0rem 0rem;    
 /* background-color: rgba(0, 0, 0, 0.285); */
@@ -25,15 +28,40 @@ padding: 0rem 0rem;
 abbr{
     cursor:help;
 }
+.Uplodeimg abbr{
+    cursor:pointer;
+
+}
 .Form-01{
     padding: 0rem 2rem 4rem 2rem;    
 
 }
+.Uplodeimg{
+    text-align: center;
+}
+.Inital-details{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+.Initial-details-inputs{
+    display: flex;
+    flex-wrap: wrap; 
+    /* justify-content: space-evenly; */
+    gap: 3rem;
+    width: 56%;
+    padding: 1rem 1rem;
+}
+.Initial-details-inputs input{
+    border-color: transparent;
+    height: 3.4rem;
+    width: auto;
+    border-radius: 12px;
+    padding: 1rem;
+}
 .Form-01_color-back{
-    padding: 0rem 4rem 4rem 4rem;    
-
+    padding: 4rem 0rem 4rem 2rem;    
     border-radius: 22.048px;
-background: linear-gradient(181deg, rgba(26, 6, 255, 0.68) 50.96%, rgba(26, 6, 255, 0.22) 100%);
-
+    background: linear-gradient(181deg, rgba(26, 6, 255, 0.68) 50.96%, rgba(26, 6, 255, 0.22) 100%);
 
 }

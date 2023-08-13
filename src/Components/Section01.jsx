@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Section01.css'
 import Upperimage from "./Images/up_img.jpg";
 import FullStarIcon from './FullStarIcon';
