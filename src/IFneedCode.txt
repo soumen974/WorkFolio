@@ -224,3 +224,8 @@ width: 11rem;
     }
 
    }
+
+
+  <input type="file" accept="image/*" onChange={handleImageUpload} />
+   {selectedImage && <img src={selectedImage} alt="Uploaded" />}
+   

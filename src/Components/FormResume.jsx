@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './FormResume.css'
+import ImageUploader from './ImageUploder';
 
 export default function FormResume() {
 
+  
+    const [selectedImage, setSelectedImage] = useState(null);
+  
+    const handleImageUpload = (event) => {
+      const file = event.target.files[0];
+      if (file) {
+        const imageUrl = URL.createObjectURL(file);
+        setSelectedImage(imageUrl);
+      }
+    }
+  
+    
+     
+   
   
   return (
     <>
@@ -26,7 +41,7 @@ export default function FormResume() {
                       fill="#272C5D"
                     />
                   </g>
-              </svg>;
+              </svg>
 
             <h1>Give your Details</h1>
                 <h3>Trust me, I am not <abbr title=" Mark Zuckerberg ">ZUCK</abbr>.</h3>
@@ -39,7 +54,7 @@ export default function FormResume() {
             <div className="Inital-details">
               <div className="Uplodeimg">
                           <abbr title='Upload Your Image Here'> 
-                                     <svg  xmlns="http://www.w3.org/2000/svg" width="243" height="242" viewBox="0 0 243 242" fill="none">
+                                     <svg  type="file" accept="image/*" onChange={handleImageUpload} width="243" height="242" viewBox="0 0 243 242" fill="none">
                                             <ellipse cx="121.469" cy="121" rx="121.469" ry="121" fill="url(#paint0_linear_255_2)" fillOpacity="0.76"/>
                                             <path d="M121.7 74.9465L163.707 110.669H79.6938L121.7 74.9465Z" fill="white"/>
                                             <rect x="98.061" y="106.116" width="46.9291" height="38.5239" fill="white"/>
@@ -51,9 +66,18 @@ export default function FormResume() {
                                               </linearGradient>
                                             </defs>
                                        </svg>
+                                       
                             </abbr>            
 
                       <h6>Upload your Image </h6>
+
+                      <div>
+
+                        <ImageUploader/>
+         
+       </div>
+
+                      
                </div>
 
                <div className="Initial-details-inputs">
