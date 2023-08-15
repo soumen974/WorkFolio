@@ -139,7 +139,7 @@ export default function FormResume() {
                 
                 <div className="language">
                   <h1>Language </h1>
-                  <textarea/>
+                  <textarea rows="5" cols="30" />
                 </div>
               
             </div>
