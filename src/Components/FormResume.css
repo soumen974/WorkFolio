@@ -49,22 +49,44 @@ abbr{
 }
 .Initial-details-inputs{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap:wrap; 
     /* justify-content: space-evenly; */
-    gap: 3rem;
+    gap: 7rem;
     width: 56%;
     padding: 1rem 1rem;
 }
 .Initial-details-inputs input{
     border-color: transparent;
     height: 3.4rem;
-    width: auto;
-    border-radius: 12px;
+    width: 153%;
+    border-radius: 7px;
     padding: 1rem;
 }
 .Form-01_color-back{
-    padding: 4rem 0rem 4rem 2rem;    
+    /* display: grid; */
+    padding: 4rem 2rem 4rem 2rem;    
     border-radius: 22.048px;
     background: linear-gradient(181deg, rgba(26, 6, 255, 0.68) 50.96%, rgba(26, 6, 255, 0.22) 100%);
+
+}
+.Rest-big-details{
+    text-align: center;
+    padding: 4rem 1rem;
+    color: white;
+
+}
+.Rest-big-details h1{
+    padding: 2rem 0rem 1rem 0rem;
+}
+.Rest-big-details textarea{
+    height: inherit;
+    width: 74%;
+    height: 21rem;
+   max-width: 100%;
+   max-height: 25rem;
+
+   border-radius: 0.99rem;
+   padding: 1rem;
+   font-size: 1.2rem;
 
 }

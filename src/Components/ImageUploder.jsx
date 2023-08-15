@@ -1,38 +1,64 @@
 import React, { useState } from 'react';
 
-function ImageUploader() {
-  const [selectedImage, setSelectedImage] = useState(null);
+const UserForm = () => {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [image, setImage] = useState(null);
+  const [showDetails, setShowDetails] = useState(false);
 
-  const handleImageUpload = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      const imageUrl = URL.createObjectURL(file);
-      setSelectedImage(imageUrl);
-    }
+  const handleFirstNameChange = (event) => {
+    setFirstName(event.target.value);
   };
 
-  const handleShowImageClick = () => {
-    // Show the selected image
+  const handleLastNameChange = (event) => {
+    setLastName(event.target.value);
+  };
+
+  const handleImageChange = (event) => {
+    const selectedImage = event.target.files[0];
+    setImage(selectedImage);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setShowDetails(true);
+  };
+
+  const handlePrint = () => {
+    const printWindow = window.open('', '_blank');
+    printWindow.document.open();
+    printWindow.document.write(`
+      <html>
+        <head>
+          <title>User Details</title>
+        </head>
+        <body>
+          <h2>User Details</h2>
+          <p>First Name: ${firstName}</p>
+          <p>Last Name: ${lastName}</p>
+          <img src="${URL.createObjectURL(image)}" alt="${firstName} ${lastName}" />
+        </body>
+      </html>
+    `);
+    printWindow.document.close();
+    printWindow.print();
   };
 
   return (
     <div>
-      {/* SVG icon or any other clickable element for uploading */}
-      <input
-        type="file"
-        accept="image/*"
-        onChange={handleImageUpload}
-        style={{ display: 'none' }}
-      />
-      <button onClick={handleShowImageClick}>Show Me the Image</button>
-      {selectedImage && (
+      <form onSubmit={handleSubmit}>
+        {/* ...form fields */}
+        <button type="submit">Submit</button>
+      </form>
+      {showDetails && (
         <div>
-          <p>Image Review:</p>
-          <img src={selectedImage} alt="Uploaded" />
+          <h2>User Details</h2>
+          {/* ...displayed details */}
+          <button onClick={handlePrint}>Print Details</button>
         </div>
       )}
     </div>
   );
-}
+};
 
-export default ImageUploader;
+export default UserForm;
