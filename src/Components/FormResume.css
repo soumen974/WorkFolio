@@ -3,6 +3,7 @@
     padding: 0;
     
 }
+
 .FormBody ::placeholder{
     font-size: medium;
 }
@@ -36,7 +37,7 @@ abbr{
 
 }
 .Form-01{
-    padding: 0rem 2rem 4rem 2rem;    
+    padding: 0rem 5rem 4rem 5rem;    
 
 }
 .Uplodeimg{
@@ -46,19 +47,23 @@ abbr{
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-evenly;
+    width: 1005;
 }
 .Initial-details-inputs{
+    /* background-color: black; */
     display: flex;
     flex-wrap:wrap; 
-    /* justify-content: space-evenly; */
-    gap: 7rem;
-    width: 56%;
-    padding: 1rem 1rem;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem 1.5rem;
 }
 .Initial-details-inputs input{
-    border-color: transparent;
+    border: none;
+    outline: none;
     height: 3.4rem;
-    width: 153%;
+    font-size: 1.4rem;
+    width: 100%;
     border-radius: 7px;
     padding: 1rem;
 }
@@ -72,21 +77,127 @@ abbr{
 .Rest-big-details{
     text-align: center;
     padding: 4rem 1rem;
-    color: white;
 
 }
 .Rest-big-details h1{
     padding: 2rem 0rem 1rem 0rem;
+    color: white;
+
 }
 .Rest-big-details textarea{
     height: inherit;
-    width: 74%;
-    height: 21rem;
+    width: 73%;
+    height: 20rem;
    max-width: 100%;
    max-height: 25rem;
-
+   border: none;
+   outline: none;
+   
    border-radius: 0.99rem;
    padding: 1rem;
    font-size: 1.2rem;
+   transition: ease-in-out 0.5s;
+
+}
+
+.Rest-big-details textarea:last-child{
+    height: 10rem;
+}
+ textarea:focus{
+    border: none;
+   outline: none;
+   transform: scale(1.05);
+}
+
+.Form-02{
+    padding: 0rem 5rem 4rem 5rem;    
+
+}
+.Form-02 h1{
+    padding: 2rem 0rem 1rem 0rem;
+    color: white;
+}
+.Form-02_color-back{
+    padding: 4rem 2rem 4rem 2rem;   
+    text-align: center;
+    border-radius: 22.048px;
+background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255, 0.22) 100%);
+}
+
+.mx-obj-and-Link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    /* background-color: black; */
+
+}
+.mx-intrst-and-lang{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    grid: 1rem;
+
+}
+.objectives textarea{
+    width: 33rem;
+    height: 100%;
+   max-width: 100%;
+   max-height: 25rem;
+   
+   
+   border-radius: 0.99rem;
+   padding: 1rem;
+   font-size: 1.2rem;
+   transition: ease-in-out 0.5s;
+}
+
+
+
+
+
+.link-inputs {
+    display: grid;
+    justify-content: space-evenly;
+    gap: 2rem;
+    width: 100%;
+    /* padding: 2rem 1.5rem; */
+}
+.link-inputs input{
+    border: none;
+    outline: none;
+    height: 3.4rem;
+    font-size: 1.4rem;
+    width: 25rem;
+    max-width: 100%;
+    border-radius: 7px;
+    padding: 1rem;
+}
+
+.intern-dv textarea{
+    height: inherit;
+    width: 73%;
+    height: 20rem;
+   max-width: 100%;
+   max-height: 25rem;
+   border: none;
+   outline: none;
+   
+   border-radius: 0.99rem;
+   padding: 1rem;
+   font-size: 1.2rem;
+   transition: ease-in-out 0.5s;
+
+}
+.mx-intrst-and-lang textarea{
+    height: inherit;
+    width: 24rem;
+    height: 20rem;
+   max-width: 100%;
+   max-height: 25rem;
+   border-radius: 0.99rem;
+   padding: 1rem;
+   font-size: 1.2rem;
+   transition: ease-in-out 0.5s;
 
 }

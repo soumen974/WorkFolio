@@ -31,3 +31,7 @@ color: rgb(0, 0, 0);
   
   
   }
+  ::selection{
+    background-color: darkblue;
+    color: white;
+}

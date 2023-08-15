@@ -38,6 +38,7 @@ export default function FormResume() {
 
             <div className="Inital-details">
                     <div className="Uplodeimg">
+                          <h6>Upload Here</h6>
                           <abbr title='Upload Your Image Here'> 
                                   <svg width="243" height="242" viewBox="0 0 243 242" fill="none" xmlns="http://www.w3.org/2000/svg">
                                       <ellipse cx="121.469" cy="121" rx="121.469" ry="121" fill="url(#paint0_linear_255_2)" fillOpacity="0.76"/>
@@ -97,7 +98,56 @@ export default function FormResume() {
           </div> 
         </div>
 
-        <div className="Form-02"></div>
+
+        <div className="Form-02">
+          <div className="Form-02_color-back">
+              
+            <div className="mx-obj-and-Link">
+
+                <div className="objectives">
+                    <h1>Objectives</h1>
+                    <textarea/>
+                  </div>
+
+                  <div className="Contacts-Links">
+                      <h1>Contacts /Links</h1> 
+
+                      <div className="link-inputs">
+
+                          <input/>
+                          <input/>
+                          <input/>
+                          <input/>
+                          <input/>
+
+                      </div>
+                  
+                  </div>
+
+            </div>
+            
+            <div className="intern-dv">
+              <h1>Internship</h1>
+              <textarea/>
+            </div>
+
+            <div className="mx-intrst-and-lang">
+                <div className="interest">
+                  <h1>Interest</h1>
+                  <textarea/>
+                </div>
+                
+                <div className="language">
+                  <h1>Language </h1>
+                  <textarea/>
+                </div>
+              
+            </div>
+
+            <div className="download-resume-dv"></div>
+          
+          </div>
+        </div>
 
       </div>
     </>
