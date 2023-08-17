@@ -27,6 +27,7 @@ padding: 0rem 0rem;
 }
 .FormHeadder h3{
     /* margin-left: 35rem; */
+    font-weight: normal;
     padding: 0rem 0rem 4rem 0rem;    
     color: rgba(0, 0, 0, 0.584);
 }
@@ -48,7 +49,7 @@ abbr{
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-evenly;
-    width: 1005;
+    width: 100%;
 }
 .Initial-details-inputs{
     /* background-color: black; */
@@ -126,13 +127,13 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 }
 
 .mx-obj-and-Link{
-    display: flex;
+    display:inline-flex;
+    /* grid-column:auto; */
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
     background-color: black;
     
-
 
 }
 .mx-intrst-and-lang{
@@ -146,13 +147,14 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     height: 100%;
    max-width: 100%;
    max-height: 25rem;
+   border: none;
    outline: none;
-       border: none;
    
    border-radius: 0.99rem;
    padding: 1rem;
    font-size: 1.2rem;
    transition: ease-in-out 0.5s;
+
 }
 
 
@@ -161,6 +163,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 
 .link-inputs {
     display: grid;
+    /* flex-wrap:wrap;  */
     justify-content: space-evenly;
     gap: 2rem;
     width: 100%;
@@ -171,8 +174,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     outline: none;
     height: 3.4rem;
     font-size: 1.4rem;
-    width: 25rem;
-    max-width: 100%;
+    width: 100%;
     border-radius: 7px;
     padding: 1rem;
 }
@@ -211,14 +213,14 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
         padding: 5rem 0 0 0;
     }
     .objectives textarea{
-        width: 33rem;
+        /* width: 33rem;
         height: 100%;
        max-width: 100%;
        max-height: 100%;
        border-radius: 0.99rem;
        padding: 1rem;
        font-size: 1.2rem;
-       transition: ease-in-out 0.5s;
+       transition: ease-in-out 0.5s; */
     }
     .Form-01{
         padding: 0rem 2rem 2rem 2rem;    
