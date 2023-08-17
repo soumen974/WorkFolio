@@ -24,3 +24,21 @@
     width: 60%;
 
 }
+.blockOfSqures svg{
+    width: 100%;
+}
+.Reviews-boxs{
+    justify-content: space-between;
+   /* display: grid; */
+   background-color: black;
+   padding: 0rem 10rem;
+   position:relative;
+
+
+}
+.Review-box-model{
+   padding: 2rem 5rem;
+
+    color: white;
+    border: 1px solid white;
+}

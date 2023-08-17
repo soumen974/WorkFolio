@@ -58,9 +58,6 @@ export default function Section02() {
     </defs>
           </svg>
 
-
-
-
       </div>
 
       <div className="Reviews-boxs">
