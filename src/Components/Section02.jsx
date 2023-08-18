@@ -73,6 +73,7 @@ export default function Section02() {
             </div>
             <div className="review-er-rating"></div>
           </div>
+          <hr/>
           <div className="riview-text">" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "</div>
         </div>
 
@@ -87,6 +88,7 @@ export default function Section02() {
             </div>
             <div className="review-er-rating"></div>
           </div>
+          <hr/>
           <div className="riview-text">" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "</div>
         </div>
 
@@ -101,6 +103,7 @@ export default function Section02() {
             </div>
             <div className="review-er-rating"></div>
           </div>
+          <hr/>
           <div className="riview-text">" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "</div>
         </div>
 

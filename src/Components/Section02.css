@@ -29,24 +29,33 @@
     z-index: -1;
 }
 .Reviews-boxs{
-    margin-top: -36rem;
+    margin-top: -48rem;
     justify-content: space-evenly;
    display: grid;
    /* background-color: black; */
-   padding: 0rem 0rem 0rem 50rem;
+   padding: 0rem 0rem 0rem 42rem;
    position:relative;
    gap: 5rem;
-
+   box-sizing: border-box;
 
 }
 .Review-box-model{
    padding: 1rem 2rem;
+   height: 12rem;
+   width: 100%;
     /* color: white; */
     box-sizing: 0 0 30px black;
-    box-sizing: border-box;
     background-color: white;
     border-radius: 1rem;
     box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+    box-shadow: 0 0 19px rgba(0, 0, 0, 0.185);
    
+}
+.head-box-model{
+    border-color: rgba(0, 0, 0, 0.436);
+    border-bottom: 5px;
+    padding:  0rem 0rem 1rem 0rem ;
+}
+.riview-text{
+    padding: 2rem 0rem;
 }
