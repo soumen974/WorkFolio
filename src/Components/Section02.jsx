@@ -1,5 +1,8 @@
 import React from 'react'
 import './Section02.css'
+import NoStar from "./EmptyStarIcon";
+import Star from "./FullStarIcon";
+import FirstReview from "./Images/jotform-0skyVR99zP8-unsplash.jpg"
 
 export default function Section02() {
   return (
@@ -65,13 +68,19 @@ export default function Section02() {
         <div className="Review-box-model">
           <div className="head-box-model">
             <div className="review-er-details">
-              <div className="review-er-image"></div>
+              <div className="review-er-image">
+                <img src={FirstReview} alt="1ft reviewer" />
+              </div>
               <div className="review-er-name-post">
                 <h1>Soumen Bhunia</h1>
                 <h6>CEO</h6>
               </div>
             </div>
-            <div className="review-er-rating"></div>
+            <div className="review-er-rating">
+              <NoStar/><Star/><Star/><Star/><Star/>
+
+              
+            </div>
           </div>
           <hr/>
           <div className="riview-text">" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "</div>
