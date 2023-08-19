@@ -72,7 +72,7 @@ export default function Section02() {
                 <img src={FirstReview} alt="1ft reviewer" />
               </div>
               <div className="review-er-name-post">
-                <h1>Soumen Bhunia</h1>
+                <h1>jaksons</h1>
                 <h6>CEO</h6>
               </div>
             </div>
