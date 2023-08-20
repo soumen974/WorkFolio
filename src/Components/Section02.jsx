@@ -68,17 +68,21 @@ export default function Section02() {
       <div className="content">
       <RivewerBox
         imageSrc={FirstReview}
-        RiviewrName="sb"
-        RiviewrPost="CEO"
+        RiviewrName="Sweta"
+        RiviewrPost="S/w Developer"
         RiviewText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, beatae!"
         RivewRates={[
-          <Star />,
-          <Star />,
-          <Star />,
-          <NoStar/>
+
+          <Star key={(1)}/>,
+          <Star key={(2)} />,
+          <Star  key={(3)}/>,
+          <Star   key={(4)} />,
+          <NoStar key={(5)}/>
 
         ]}
       />
+
+     
         
       </div>
 
