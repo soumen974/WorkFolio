@@ -27,6 +27,7 @@
 .blockOfSqures svg{
     width: 100%;
     z-index: -1;
+    position: relative;
 }
 .Reviews-boxs{
     margin-top: -48rem;
@@ -41,27 +42,39 @@
 }
 .Review-box-model{
    padding: 1rem 2rem;
-   height: 15rem;
+   /* height: 15rem; */
    width: 100%;
    max-height: 100%;
     /* color: white; */
     box-sizing: 0 0 30px black;
     background-color: white;
     border-radius: 1rem;
-    box-sizing:content-box;
+    box-sizing:border-box;
     box-shadow: 0 0 19px rgba(0, 0, 0, 0.185);
-   
+    z-index: 4;
+
 }
+
+.content{
+    padding: 0rem 0rem 0rem 32rem;
+    margin-top: -40rem;
+    z-index: 4;
+    float:right;
+}
+
+
 .head-box-model{
     border-color: rgba(0, 0, 0, 0.436);
     border-bottom: 5px;
     padding:  0rem 0rem 1rem 0rem ;
     width: 100%;
+    float:right;
 
 }
 .riview-text{
     padding: 2rem 0rem;
     width: 100%;
+    
 
 }
 .Reviews-boxs .Review-box-model:last-child {
@@ -73,17 +86,15 @@
      border-radius: 1rem;
      box-sizing: border-box;
      box-shadow: 0 0 19px rgba(0, 0, 0, 0.185);
-     /* margin-left: -30%; */
+     margin-left: -30%;
 }
 
 .review-er-image img{
     height:100%;
     width: 2rem;
-    transform: scale(1.5);
+    transform: scale(1.4);
     border-radius: 0.341rem;
-    
-
-    
+ 
 }
 .review-er-image{
     padding: 0rem 0rem 1rem 0.4rem;
@@ -106,7 +117,6 @@
     flex-wrap: wrap;
     /* width: 100%; */
     /* background-color: blue; */
-    text-align: left;
 
 }
 .review-er-name-post{
