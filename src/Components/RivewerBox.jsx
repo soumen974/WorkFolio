@@ -19,7 +19,6 @@ export default function RivewerBox(props) {
               </div>
             </div>
             <div className="review-er-rating">
-              {/* <NoStar/><Star/><Star/><Star/><Star/> */}
               {props.RivewRates}
 
               

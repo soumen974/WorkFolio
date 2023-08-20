@@ -66,25 +66,58 @@ export default function Section02() {
       </div>
    
       <div className="content">
-      <RivewerBox
-        imageSrc={FirstReview}
-        RiviewrName="Sweta"
-        RiviewrPost="S/w Developer"
-        RiviewText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, beatae!"
-        RivewRates={[
+          <RivewerBox
+            imageSrc={FirstReview}
+            RiviewrName="paro"
+            RiviewrPost="S/w Developer"
+            RiviewText=" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "
+            RivewRates={[
 
-          <Star key={(1)}/>,
-          <Star key={(2)} />,
-          <Star  key={(3)}/>,
-          <Star   key={(4)} />,
-          <NoStar key={(5)}/>
+              <Star key={(1)}/>,
+              <Star key={(2)} />,
+              <Star  key={(3)}/>,
+              <Star   key={(4)} />,
+              <NoStar key={(5)}/>
 
-        ]}
-      />
+            ]}
+          />
 
-     
-        
+           <RivewerBox
+            imageSrc={FirstReview}
+            RiviewrName="Sweta"
+            RiviewrPost="S/w Developer"
+            RiviewText=" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "
+            RivewRates={[
+
+              <Star key={(1)}/>,
+              <Star key={(2)} />,
+              <Star  key={(3)}/>,
+              <Star   key={(4)} />,
+              <NoStar key={(5)}/>
+
+            ]}
+          />
+
+          <RivewerBox
+            imageSrc={FirstReview}
+            RiviewrName="Sweta"
+            RiviewrPost="S/w Developer"
+            RiviewText=" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "
+            RivewRates={[
+
+              <Star key={(1)}/>,
+              <Star key={(2)} />,
+              <Star  key={(3)}/>,
+              <Star   key={(4)} />,
+              <NoStar key={(5)}/>
+
+            ]}
+          />
+
       </div>
+
+      
+      
 
         
 

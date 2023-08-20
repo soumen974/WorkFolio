@@ -30,25 +30,18 @@
     position: relative;
 }
 .Reviews-boxs{
-    margin-top: -48rem;
-    justify-content:right;
-   display: grid;
-   /* background-color: black; */
-   /* padding: 0rem 0rem 0rem 42rem; */
-   position:relative;
-   gap: 5rem;
-   box-sizing: border-box;
+    
 
 }
 .Review-box-model{
-   padding: 1rem 2rem;
+   padding: 0.8rem 1.7rem;
    /* height: 15rem; */
    width: 100%;
    max-height: 100%;
     /* color: white; */
     box-sizing: 0 0 30px black;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     box-sizing:border-box;
     box-shadow: 0 0 19px rgba(0, 0, 0, 0.185);
     z-index: 4;
@@ -58,10 +51,26 @@
 .content{
     padding: 0rem 0rem 0rem 32rem;
     margin-top: -40rem;
-    z-index: 4;
-    /* float:right; */
+    z-index: 0;
+    margin-top: -48rem;
+    justify-content:right;
+   display: grid;
+   position:relative;
+   gap: 2rem;
+   box-sizing: border-box;
+}
+ .Review-box-model:nth-child(2) {
+    /* margin-top: 1.9rem; */
+margin-left: -6rem;
+ 
 }
 
+.Review-box-model:nth-child(3) {
+    /* margin-top: 1.9rem; */
+    margin-bottom: 5rem;
+margin-left: -3rem;
+ 
+}
 
 .head-box-model{
     border-color: rgba(0, 0, 0, 0.436);
@@ -71,8 +80,12 @@
     float:right;
 
 }
+hr{
+
+border-color:rgba(0, 0, 0, 0.29) ;
+}
 .riview-text{
-    padding: 2rem 0rem;
+    padding: 1.5rem 0rem;
     width: 100%;
     
 
@@ -120,7 +133,7 @@
 
 }
 .review-er-name-post{
-    width: 100%;
+    max-width: 100%;
     padding: 0rem 0rem 0rem 1rem;
 }
 .review-er-name-post h1{
@@ -129,6 +142,6 @@
 }
 .review-er-name-post h6{
     font-size: .8rem;
-    width: 128%;
+    width: 145%;
     color: #4131f4d2;
 }
