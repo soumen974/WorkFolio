@@ -228,3 +228,31 @@ border-color:rgba(0, 0, 0, 0.29) ;
     
     }
 }
+@media (max-width:816px) {
+    .blockOfSqures svg{
+        display: none;
+        margin-top: -3rem;
+    }
+    
+    .content{
+        
+        padding: 0rem 0rem 0rem 5rem;
+        z-index: 0;
+        margin-top: 0rem;
+        justify-content:right;
+       display: grid;
+       position:relative;
+       gap: 2rem;
+       box-sizing: border-box;
+    }
+    .head-box-model{
+        display: inline-flex;
+        padding: 0.2rem;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    
+    
+    }
+
+}
