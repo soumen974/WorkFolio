@@ -187,7 +187,7 @@ position:relative;
         flex-wrap: wrap;
         width: 100%;
         padding: 0rem 0rem ;
-        justify-content: space-evenly;
+        justify-content:end;
     }
 
     .left_landing_content {
@@ -232,12 +232,15 @@ position:relative;
 .ThreeVector{
     position:static;
     z-index: -1;
+    /* display: none; */
 }
 .yellowVector svg{
 margin-left: -2.6rem;
 margin-top: -1.2rem;
 height: 13rem;
 width: 13rem;
+    /* display: none; */
+
 }
 .blueVector svg{
     margin-top: -8rem;
@@ -246,13 +249,15 @@ height: 12rem;
 width: 12rem;
 position:relative;
 
+
 }
 .dottet-vector svg{
     position:static;
     margin-top: -6rem;
     margin-left: 2rem;
     height: 7.8rem;
-    width: 7.8rem;       
+    width: 7.8rem;   
+        
 }
 
 .landing_ad-talk{
