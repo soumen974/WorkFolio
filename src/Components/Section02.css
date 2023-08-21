@@ -18,10 +18,10 @@
 
 }
 .head-tag-text h4{
-    padding: 0rem 2rem;
+    padding: 0rem 0rem;
     font-weight: normal;
     font-size: 1rem;
-    width: 60%;
+    width: 70%;
 
 }
 .blockOfSqures svg{
@@ -50,7 +50,6 @@
 
 .content{
     padding: 0rem 0rem 0rem 32rem;
-    margin-top: -40rem;
     z-index: 0;
     margin-top: -48rem;
     justify-content:right;
@@ -144,4 +143,88 @@ border-color:rgba(0, 0, 0, 0.29) ;
     font-size: .8rem;
     width: 145%;
     color: #4131f4d2;
+}
+
+
+
+
+/* ------------------- */
+
+@media (max-width:1137px) {
+
+    .head-tag-text h4{
+        padding: 0rem 0rem;
+        font-weight: normal;
+        font-size: 1rem;
+        width: 100%;
+    
+    }
+    .blockOfSqures svg{
+        
+        margin-top: -3rem;
+    }
+
+    .head-tag-text{
+        padding: 9rem 25rem 0rem 0rem;
+        margin-left: -8%;
+    
+    }
+    .riview-text{
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+
+    .content{
+        padding: 0rem 0rem 0rem 18rem;
+        z-index: 0;
+        margin-top: -35rem;
+        justify-content:right;
+       display: grid;
+       position:relative;
+       gap: 2rem;
+       box-sizing: border-box;
+    }
+    .head-box-model{
+        display: inline-flex;
+        padding: 0.2rem;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        /* background-color: green; */
+    
+    
+    }
+
+}
+
+@media (max-width:947px) {
+    .head-tag-text{
+        padding: 9rem 0rem 0rem 0rem;
+        margin-left: -12%;
+    
+    }
+    .headder-sec-02 svg{
+        width: 80%;
+    
+    }
+    .content{
+        padding: 0rem 0rem 0rem 10rem;
+        z-index: 0;
+        margin-top: -35rem;
+        justify-content:right;
+       display: grid;
+       position:relative;
+       gap: 2rem;
+       box-sizing: border-box;
+    }
+    .head-box-model{
+        display: inline-flex;
+        padding: 0.2rem;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        /* background-color: green; */
+    
+    
+    }
 }
