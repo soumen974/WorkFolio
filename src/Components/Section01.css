@@ -89,7 +89,7 @@ position:relative;
 }
 .Down_things button {
     padding: 0.85rem 3.2rem ;
-    background-color: #0116ff;
+    background-color:  #4a3af9eb;
     border-radius: 0.4rem;
     border: .2rem solid transparent;
     color: white;
@@ -99,8 +99,8 @@ position:relative;
     box-shadow: 0 0px 0 #0116ff;
 }
 .Down_things button:hover{
-    background-color: #2436f8;
-    border-color: #0116ff;
+    background-color: #4a3af9;
+    border-color: #0116ff00;
     box-shadow: 0 5px 35px #000fb938;
     border-radius: 8px;
 
@@ -125,7 +125,7 @@ position:relative;
     font-size: .9rem;
     padding: 0rem 0.6rem;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.662);
+    color: #4a3af9d9;
 }
 
  
@@ -163,7 +163,7 @@ position:relative;
 }
 .Down_things button {
     padding: 0.85rem 3.2rem ;
-    background-color: #0116ff;
+   
     border-radius: 0.4rem;
     border: 1px solid transparent;
     color: white;
@@ -211,7 +211,7 @@ position:relative;
 }
 .Down_things button {
     padding: 0.85rem 3.2rem ;
-    background-color: #0116ff;
+    
     border-radius: 0.4rem;
     border: 1px solid transparent;
     color: white;
@@ -277,9 +277,8 @@ position:relative;
 
 
     .Down_things button:hover{
-        background-color: #2436f8;
-        border-color: #0116ff;
-        box-shadow: 0 2px 16px #000fb98f;
+        
+        box-shadow: 0 2px 16px #000fb986;
         border-radius: 6rem;
     
     }
@@ -336,7 +335,7 @@ position:relative;
 
   .Down_things button{
     padding: 0.9rem 1rem ;
-    background-color: #0116ff;
+    background-color: #4a3af9;
     border-radius: 6rem;
     border: 1px solid transparent;
     color: white;

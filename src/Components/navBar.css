@@ -45,7 +45,7 @@
    }
    .logo_icon{
      font-size: 1.3rem;
-     background-color: #0116ff;
+     background-color: #4a3af9eb;
      border: 1px solid rgba(0, 0, 0, 0);
      font-weight: bold;
      border-radius: 0.6rem;
@@ -108,7 +108,7 @@
     transform : scale(1.1,1.1);
    }
    .Create_cv{
-    background-color: #4031F4;
+    background-color: #4a3af9eb;
     color: white;
     border-radius: 0.34rem ;
     border-color:transparent ;
@@ -121,7 +121,7 @@
    .Create_cv:hover{
     transform : scale(1.05,1.05);
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.18);
-    background-color: #0116ff;
+    background-color: #0116ffd6;
    }
 
    .OpenMenuRight{
