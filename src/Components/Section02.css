@@ -35,6 +35,10 @@
 
 }
 .blockOfSqures svg{
+z-index: 0;
+    width: 100%;
+    z-index: -1;
+    right:  4rem;
     
 }
 
@@ -42,7 +46,6 @@
     display: none;
     width: 100%;
     z-index: -1;
-    position: relative;
     right:  4rem;
 }
 
@@ -308,11 +311,23 @@ border-color:rgba(0, 0, 0, 0.29) ;
         width:fit-content;
 
     }
+    .blockOfSqures {
+        margin-top: 1rem;
+    }
     .blockOfSqures svg:not(:last-child) {
         display: none;
+        
     }
     .blockOfSqures svg:not(:first-child) {
         display: block;
+        height: 30rem;
+        width: 131%;
+        max-width: fit-content;
+        margin-left: -3rem;
+        overflow:hidden;
+
+
+
     }
 
     
@@ -320,7 +335,7 @@ border-color:rgba(0, 0, 0, 0.29) ;
         
         padding: 0rem 0rem 0rem 5rem;
         z-index: 0;
-        margin-top: 0rem;
+        margin-top: -30rem;
         justify-content:right;
        display: grid;
        position:relative;
