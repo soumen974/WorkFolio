@@ -49,8 +49,6 @@
 }
 
 
-
-
 .right_landing_content{
     display: flex;
 }
@@ -80,15 +78,13 @@ position:relative;
     width: 7.8rem;       
 }
 
-
-
 .Down_things{
     padding: 0rem 4.4rem ;
     margin-top: -8rem;
 
 }
 .Down_things button {
-    padding: 0.85rem 3.2rem ;
+    padding: 0.65rem 2rem ;
     background-color:  #4a3af9eb;
     border-radius: 0.4rem;
     border: .2rem solid transparent;
@@ -162,7 +158,6 @@ position:relative;
 
 }
 .Down_things button {
-    padding: 0.85rem 3.2rem ;
    
     border-radius: 0.4rem;
     border: 1px solid transparent;
@@ -210,7 +205,6 @@ position:relative;
 
 }
 .Down_things button {
-    padding: 0.85rem 3.2rem ;
     
     border-radius: 0.4rem;
     border: 1px solid transparent;
