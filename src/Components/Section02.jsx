@@ -109,7 +109,7 @@ export default function Section02() {
       <div className="content">
           <RivewerBox
             imageSrc={FirstReview}
-            RiviewrName="paro"
+            RiviewrName="Paro"
             RiviewrPost="S/w Developer"
             RiviewText=" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "
             RivewRates={[

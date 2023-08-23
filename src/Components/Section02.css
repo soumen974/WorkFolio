@@ -153,12 +153,13 @@ hr{
 }
 .review-er-name-post{
     max-width: 100%;
-    padding: 0rem 0rem 0rem 0.2rem;
+    padding: 0.4rem 0rem 0rem 0rem;
+
 }
 .review-er-name-post h1{
-    font-size: 1.6rem;
-    color: rgba(45, 45, 45, 0.874);
-    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.594);
+    /* font-weight: normal; */
 
 }
 .review-er-name-post h6{
@@ -433,14 +434,28 @@ hr{
     
     
     }
+
+    /* .review-er-name-post{
+        max-width: 100%;
+        padding: 0.4rem 0rem 0rem 0rem;
+    
+    }
+    .review-er-name-post h1{
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.594);
+    
+    } */
+
     .review-er-name-post{
         padding: 0rem;
     }
 
     .review-er-name-post h1{
-        font-size: 1.3rem;
-        color: rgba(45, 45, 45, 0.874);
-        font-weight: normal;
+        font-size: 1.1rem;
+        color: rgba(45, 45, 45, 0.619);
+        /* font-weight: normal; */
+        /* font-family:; */
+
     }
     .review-er-name-post h6{
 
@@ -453,6 +468,7 @@ hr{
         padding: 0.5rem 0rem;
         width: 100%;
         font-size: 0.8rem;
+        /* line-height: 0.9rem; */
   
         
     }
