@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-weight: normal;
 
     
 }
@@ -11,7 +10,7 @@
 }
 .FormBody{
 padding: 0rem 0rem;    
-/* background-color: rgba(0, 0, 0, 0.285); */
+
 }
 .FormHeadder{
     text-align: center;
@@ -246,5 +245,22 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     
     }
     
+    
+}
+
+@media (max-width:580px) {
+    .FormHeadder svg{
+        width:100%;
+        position: sticky;
+        top: 3rem;
+        margin-top: -1rem;
+    }
+    .Form-01_color-back{
+        /* display: grid; */
+        padding: 0;    
+        margin: 0;
+        border-radius: 15px;
+    
+    }
     
 }

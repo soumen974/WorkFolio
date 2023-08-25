@@ -10,9 +10,9 @@ function App() {
   return (
     <>
         <NavBar/>
-        <Section01/>
-        {/* <FormResume/> */}
-        <Section02/>
+        {/* <Section01/> */}
+        <FormResume/>
+        {/* <Section02/> */}
     </>
   );
 }
