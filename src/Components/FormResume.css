@@ -76,6 +76,7 @@ abbr{
     width: 100%;
     border-radius: 7px;
     padding: 1rem;
+
 }
 .Form-01_color-back{
     /* display: grid; */
@@ -102,7 +103,6 @@ abbr{
    max-height: 25rem;
    border: none;
    outline: none;
-   
    border-radius: 0.99rem;
    padding: 1rem;
    font-size: 1.2rem;
@@ -113,10 +113,14 @@ abbr{
 .Rest-big-details textarea:last-child{
     height: 10rem;
 }
+
+
+
  textarea:focus{
-    border: none;
    outline: none;
    transform: scale(1.05);
+   border:7px solid skyblue;
+
 }
 
 .Form-02{
@@ -159,6 +163,9 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
    transition: ease-in-out 0.5s;
 
 }
+.objectives textarea:focus{
+    border:7px solid skyblue;
+ }
 
 
 .mx-intrst-and-lang{
@@ -185,7 +192,17 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     width: 100%;
     border-radius: 7px;
     padding: 1rem;
+    transition: ease-in-out 0.55s;
+    border:2px solid rgba(135, 207, 235, 0);
+
 }
+
+.Contacts-Links input:focus{
+    transform: scale(1.05 , 1.05);
+    border:2px solid powderblue;
+    
+ 
+ }
 
 .intern-dv textarea{
     height: inherit;
@@ -202,6 +219,9 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
    transition: ease-in-out 0.5s;
 
 }
+.intern-dv textarea:focus{
+    border:7px solid skyblue;
+ }
 .mx-intrst-and-lang textarea{
     height: inherit;
     width: 24rem;
@@ -262,5 +282,18 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
         border-radius: 15px;
     
     }
+
+    .objectives textarea{
+        width: 55vw;
+      
+       transition: ease-in-out 0.1s;
+    }
+
+    .mx-intrst-and-lang  textarea{
+        width: 55vw;
+      
+        transition: ease-in-out 0.1s;
+    }
+    
     
 }
