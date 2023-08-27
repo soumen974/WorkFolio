@@ -235,7 +235,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     flex-wrap: nowrap;
     padding: 0rem 3rem 0rem 0 ;
     border-radius: 0.4rem;
-
+  cursor: pointer;
 
 }
 .Download_button h2{
@@ -319,7 +319,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     
 
     .Initial-details-inputs input{
-        
+        font-size: 1rem;
         height: 3.4rem;
         font-size: 1.4rem;
         width: 75vw;
@@ -329,9 +329,8 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     }
     .link-inputs input{
         height: 3.4rem;
-        font-size: 1.4rem;
+        font-size: 1rem;
         width: 75vw;
-        border-radius: 7px;
         padding: 1rem;
         border-radius: 0.44rem;
 
@@ -339,12 +338,14 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     }
 
     .objectives textarea{
+        font-size: 1rem;
         width: 75vw;
         border-radius: 0.44rem;   
        transition: ease-in-out 0.1s;
     }
 
     .intern-dv textarea{
+        font-size: 1rem;
         width: 75vw;
         border-radius: 0.44rem;  
        
@@ -352,12 +353,14 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     }
 
     .mx-intrst-and-lang  textarea{
+        font-size: 1rem;
         width: 75vw;
         border-radius: 0.44rem;      
         transition: ease-in-out 0.1s;
     }
     
     .Rest-big-details textarea{
+        font-size: 1rem;
         width: 75vw;
         border-radius: 0.44rem;
         padding: 1rem;
@@ -392,6 +395,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
      background-color: gainsboro;
      /* margin-left: 2rem; */
      margin-right: -1rem;
+    
     }
     
     

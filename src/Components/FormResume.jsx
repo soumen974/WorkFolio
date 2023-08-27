@@ -5,6 +5,14 @@ import ResumeFileIcon from "./Images/resume-vector.svg";
 
 export default function FormResume() {
 
+const [ defaultMassage , setdefaultMassage]=useState();
+
+
+
+  const  defaultDetails=()=>{
+   setdefaultMassage("Delhi,India")
+
+  }
   
   return (
     <>
@@ -116,11 +124,11 @@ export default function FormResume() {
 
                       <div className="link-inputs">
 
-                          <input/>
-                          <input/>
-                          <input/>
-                          <input/>
-                          <input/>
+                          <input defaultValue='9876543210'/>
+                          <input defaultValue='WorkFolio@gmail.com'/>
+                          <input defaultValue='https://workFolio/linkedIn.com'/>
+                          <input defaultValue='https://workFolio.Github.com'/>
+                          <input  defaultValue={defaultMassage} />
 
                       </div>
                   
@@ -147,7 +155,7 @@ export default function FormResume() {
             </div>
 
             <div className="download-resume-dv">
-              <div className="Download_button">
+              <div className="Download_button" onClick={defaultDetails}>
               <h2>Download Resume  </h2>
               <img src={ResumeFileIcon} alt='reume download'/>
              
