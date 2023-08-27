@@ -5,13 +5,19 @@ import ResumeFileIcon from "./Images/resume-vector.svg";
 
 export default function FormResume() {
 
-const [ defaultMassage , setdefaultMassage]=useState();
-
+  const [ defaultMob , setdefaultMob]=useState();
+  const [ defaultMail , setdefaultMail]=useState();
+  const [ defaultLnkdIn , setdefaultLnkdIn]=useState();
+  const [ defaultGh , setdefaultGh]=useState();
+  const [ defaultLoc , setdefaultLoc]=useState();
 
 
   const  defaultDetails=()=>{
-   setdefaultMassage("Delhi,India")
-
+    setdefaultMob("9874563210")
+    setdefaultMail("'WorkFolio@gmail.com'")
+    setdefaultLnkdIn("'https://workFolio/linkedIn.com'")
+    setdefaultGh('https://workFolio.Github.com')
+    setdefaultLoc("Delhi,India")
   }
   
   return (
@@ -116,7 +122,7 @@ const [ defaultMassage , setdefaultMassage]=useState();
 
                 <div className="objectives">
                     <h1>Objectives</h1>
-                    <textarea/>
+                    <textarea />
                   </div>
 
                   <div className="Contacts-Links">
@@ -124,11 +130,11 @@ const [ defaultMassage , setdefaultMassage]=useState();
 
                       <div className="link-inputs">
 
-                          <input defaultValue='9876543210'/>
-                          <input defaultValue='WorkFolio@gmail.com'/>
-                          <input defaultValue='https://workFolio/linkedIn.com'/>
-                          <input defaultValue='https://workFolio.Github.com'/>
-                          <input  defaultValue={defaultMassage} />
+                          <input defaultValue={defaultMob}/>
+                          <input defaultValue={defaultMail}/>
+                          <input defaultValue= {defaultLnkdIn}/>
+                          <input defaultValue= {defaultGh}/>
+                          <input  defaultValue={defaultLoc} />
 
                       </div>
                   
