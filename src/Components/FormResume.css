@@ -223,6 +223,36 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 
 }
 
+.download-resume-dv{
+    padding:  4rem 27vw 0 27vw;
+    max-width: 77vw;
+    box-sizing:content-box;
+}
+
+.Download_button{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0rem 3rem 0rem 0 ;
+    border-radius: 0.4rem;
+
+
+}
+.Download_button h2{
+    padding: 1.5rem 0 1rem 0 ;
+ width: 100%;
+ /* background-color: greenyellow; */
+
+
+}
+.Download_button img{
+ width: 4rem;
+ /* height: 7rem; */
+ padding: 1rem 0 0 0 ;
+ background-color: gainsboro;
+}
+
+
 
 @media (max-width:1160px) {
     .Contacts-Links{
@@ -262,7 +292,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     
     }
     .Form-02{
-        padding: 0rem 1rem 2rem 1rem;    
+        padding: 0rem 1rem 3rem 1rem;    
     
     }
     
@@ -281,7 +311,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     }
     .Form-02_color-back{
         /* display: grid; */
-        padding: 0;    
+        padding: 0 0 2rem 0;    
         margin: 0;
         border-radius: 10px;
     

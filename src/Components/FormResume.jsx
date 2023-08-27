@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './FormResume.css'
 
+import ResumeFileIcon from "./Images/resume-vector.svg";
+
 export default function FormResume() {
 
   
@@ -144,7 +146,14 @@ export default function FormResume() {
               
             </div>
 
-            <div className="download-resume-dv"></div>
+            <div className="download-resume-dv">
+              <div className="Download_button">
+              <h2>Download Resume  </h2>
+              <img src={ResumeFileIcon} alt='reume download'/>
+             
+              </div>
+              
+            </div>
           
           </div>
         </div>
