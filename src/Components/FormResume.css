@@ -364,6 +364,35 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
         font-size: 1.2rem;
     }
 
+
+    .download-resume-dv{
+        padding:  4rem 2vw 0 2vw;
+        max-width: 88vw;
+    }
+    
+    .Download_button{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0rem 3rem 0rem 0 ;
+        border-radius: 5rem;
+        height: 3.4rem;
+        /* gap: 2rem; */
+    
+    
+    }
+    .Download_button h2{
+        padding: 0.89rem 0.21rem 1rem 1.5rem ;
+     font-size: 1.4rem;
+     /* background-color: greenyellow; */
+    
+    
+    }
+    .Download_button img{
+     padding: 1rem 0rem 0 0rem ;
+     background-color: gainsboro;
+     /* margin-left: 2rem; */
+     margin-right: -1rem;
+    }
     
     
 }
