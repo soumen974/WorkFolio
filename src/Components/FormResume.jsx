@@ -11,13 +11,57 @@ export default function FormResume() {
   const [ defaultGh , setdefaultGh]=useState();
   const [ defaultLoc , setdefaultLoc]=useState();
 
+  const [defaultSkills , setdefaultSkills]=useState();
+  const [defaultProject ,setdefaultProject]=useState();
+  const[defaultEducation , setdefaultEducation]=useState();
+  const[defaultAchivement,setdefaultAchivement]=useState()
+  const[defaultDomain, setdefaultDomain]=useState();
+  
+
 
   const  defaultDetails=()=>{
     setdefaultMob("9874563210")
-    setdefaultMail("'WorkFolio@gmail.com'")
-    setdefaultLnkdIn("'https://workFolio/linkedIn.com'")
+    setdefaultMail("WorkFolio@gmail.com")
+    setdefaultLnkdIn("https://workFolio/linkedIn.com")
     setdefaultGh('https://workFolio.Github.com')
     setdefaultLoc("Delhi,India")
+
+    setdefaultSkills(
+      " Technical : C, JAVA, HTML, CSS, JS, REACT.JS, MYSQL,ANDROID, GIT & GITHUB, FIGMA.");
+
+
+    setdefaultProject(
+      " Cube E-commers website frontend  : This is a Rubik’s cube selling website , that helps buyers to get their best handy Rubik’s cube ");
+      
+
+    setdefaultEducation(
+      " B.Tech | Centurion University and Technology |(year-year)    Class XII (PCM) | ABC School |(year)  Class X | XYZ  School |(year)");
+      
+      
+
+     
+    setdefaultAchivement("Whats your achivements !");
+    setdefaultDomain("Software Technology ");
+
+
+    // console.log("Default massage added", Math.random())
+  }
+
+  const RemovedefaultDetails =()=>{
+
+
+    setdefaultMob("")
+    setdefaultMail("")
+    setdefaultLnkdIn("")
+    setdefaultGh('')
+    setdefaultLoc("")
+
+    setdefaultSkills(" ");
+    setdefaultProject(" ");
+    setdefaultEducation("");   
+    setdefaultAchivement("");
+    setdefaultDomain(" ");
+
   }
   
   return (
@@ -89,22 +133,28 @@ export default function FormResume() {
                     </div>
                   
             </div>
+            
+            <div className="default-massaging-passing">
+                <button onClick={defaultDetails}>click to Fill this fom byDefault</button>
+                <button onClick={RemovedefaultDetails}>click to remove byDefault text</button>
+
+            </div>
 
             <div className="Rest-big-details">
               <h1>Skills</h1>
-              <textarea/>
+              <textarea defaultValue={defaultSkills}/>
 
               <h1>Project Undertaken</h1>
-              <textarea/>
+              <textarea defaultValue={defaultProject}/>
 
               <h1>Education</h1>
-              <textarea/>
+              <textarea defaultValue={defaultEducation}/>
 
               <h1>Achievement / Industry certification / Recognition</h1>
-              <textarea/>
+              <textarea defaultValue={defaultAchivement}/>
 
               <h1>Domain Expertise</h1>
-              <textarea/>
+              <textarea defaultValue={defaultDomain}/>
 
              
 
@@ -130,11 +180,11 @@ export default function FormResume() {
 
                       <div className="link-inputs">
 
-                          <input defaultValue={defaultMob}/>
-                          <input defaultValue={defaultMail}/>
-                          <input defaultValue= {defaultLnkdIn}/>
-                          <input defaultValue= {defaultGh}/>
-                          <input  defaultValue={defaultLoc} />
+                          <input placeholder='Mobile no' defaultValue={defaultMob}/>
+                          <input  placeholder='Mail id'defaultValue={defaultMail}/>
+                          <input  placeholder='Linkedin profile link' defaultValue= {defaultLnkdIn}/>
+                          <input  placeholder='Github Link' defaultValue= {defaultGh}/>
+                          <input  placeholder='Location' defaultValue={defaultLoc} />
 
                       </div>
                   
@@ -161,7 +211,7 @@ export default function FormResume() {
             </div>
 
             <div className="download-resume-dv">
-              <div className="Download_button" onClick={defaultDetails}>
+              <div className="Download_button">
               <h2>Download Resume  </h2>
               <img src={ResumeFileIcon} alt='reume download'/>
              

@@ -253,6 +253,29 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 }
 
 
+.default-massaging-passing{
+    text-align: center;
+    /* justify-content: center; */
+    /* margin-top: 2rem; */
+    /* background-color: greenyellow; */
+    padding: 2rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: relative;
+    
+    
+}
+.default-massaging-passing button{
+    height: 2rem;
+    /* width:12vh ; */
+    padding: 0.42rem;
+    /* background-color: skyblue; */
+    border-radius: 0.3rem;
+
+}
+
 
 @media (max-width:1160px) {
     .Contacts-Links{
