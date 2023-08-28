@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/WorkFolio/static/css/main.98cb4e3e.css",
-    "main.js": "/WorkFolio/static/js/main.c7d212db.js",
+    "main.css": "/WorkFolio/static/css/main.aa69660b.css",
+    "main.js": "/WorkFolio/static/js/main.2cedaa64.js",
     "static/js/787.bc7d429a.chunk.js": "/WorkFolio/static/js/787.bc7d429a.chunk.js",
     "static/media/up_img.jpg": "/WorkFolio/static/media/up_img.eb461926588a7a9eddc7.jpg",
     "static/media/rivewer-imgpng.png": "/WorkFolio/static/media/rivewer-imgpng.7e733df006cb8d69f21e.png",
     "static/media/resume-vector.svg": "/WorkFolio/static/media/resume-vector.8bcb4d2bc96a58c81a54c5c81a30a905.svg",
     "index.html": "/WorkFolio/index.html",
-    "main.98cb4e3e.css.map": "/WorkFolio/static/css/main.98cb4e3e.css.map",
-    "main.c7d212db.js.map": "/WorkFolio/static/js/main.c7d212db.js.map",
+    "main.aa69660b.css.map": "/WorkFolio/static/css/main.aa69660b.css.map",
+    "main.2cedaa64.js.map": "/WorkFolio/static/js/main.2cedaa64.js.map",
     "787.bc7d429a.chunk.js.map": "/WorkFolio/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98cb4e3e.css",
-    "static/js/main.c7d212db.js"
+    "static/css/main.aa69660b.css",
+    "static/js/main.2cedaa64.js"
   ]
 }
