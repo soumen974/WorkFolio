@@ -255,7 +255,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 
 .default-massaging-passing{
     text-align: center;
-    /* justify-content: center; */
+    justify-content: center;
     /* margin-top: 2rem; */
     /* background-color: greenyellow; */
     padding: 2rem;
@@ -268,11 +268,37 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     
 }
 .default-massaging-passing button{
-    height: 2rem;
+    /* height: 2rem; */
     /* width:12vh ; */
-    padding: 0.42rem;
+    padding: 0.82rem;
     /* background-color: skyblue; */
     border-radius: 0.3rem;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.306);
+   cursor: pointer;
+   transition: ease-in-out 0.2s;
+}
+
+
+.default-massaging-passing :first-child{
+        background-color: #5345FF ;
+        color: white;
+}
+.default-massaging-passing :last-child{
+    background-color:rgb(230, 230, 230) ;
+
+   
+}
+
+.default-massaging-passing :first-child:active{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    background-color: greenyellow;
+    color: black;
+
+}
+.default-massaging-passing :last-child:active{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    background-color: red;
 
 }
 

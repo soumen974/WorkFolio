@@ -212,7 +212,7 @@ export default function FormResume() {
 
             <div className="download-resume-dv">
               <div className="Download_button">
-              <h2>Download Resume  </h2>
+              <h2>Review Resume  </h2>
               <img src={ResumeFileIcon} alt='reume download'/>
              
               </div>
