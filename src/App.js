@@ -5,14 +5,18 @@ import NavBar from "./Components/NavBar";
 import Section01 from './Components/Section01';
 import Section02 from './Components/Section02';
 import FormResume from './Components/FormResume';
+import Section03 from './Components/Section03';
 
 function App() {
   return (
     <>
         <NavBar/>
-        {/* <Section01/> */}
-        <FormResume/>
-        {/* <Section02/> */}
+        <Section01/>
+        <Section02 />
+        <Section03/>
+
+        {/* <FormResume/> */}
+
     </>
   );
 }
