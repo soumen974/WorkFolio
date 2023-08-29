@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Section03.css"
 import AeroplinVector from "./Images/aeroPlainVector.svg"
+import TemplBack from "./Images/Templt_back.svg";
 export default function Section03() {
   return (
     <>
-    <div className="Section03">
+    <div className="Section03">s
     
-       <div className="Templete_head">
+       <div className="Templates_head">
 
         <div className="areroPlainVector">
             <img src={AeroplinVector} alt="" />
@@ -15,8 +16,11 @@ export default function Section03() {
        </div>
 
         <div className="back_templetes">
-            <div className="showTemplets">
-                <div className="templet"></div>
+            <img src={TemplBack} alt="" />
+            <div className="showTemplates">
+                <div className="templates">
+                    hsf
+                </div>
             </div>
         </div>
 

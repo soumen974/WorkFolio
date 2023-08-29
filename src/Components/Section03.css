@@ -1,6 +1,24 @@
 .Section03{
     margin-top: 15rem;
 }
-.Templete_head{
+.Templates_head{
     display: flex;
+    justify-content:space-evenly;
+    gap: 5rem;
+}
+.Templates_head h1{
+    font-size: 5rem;
+}
+
+
+.back_templetes img{
+    width: 100%;
+    position: static;
+    z-index: -2;
+}
+
+.showTemplates{
+    z-index: 0;
+    margin-top: -28rem;
+    padding: 5rem;
 }
