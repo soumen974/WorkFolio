@@ -21,7 +21,7 @@ The Workfolio project embraces the philosophy of mobile-first design. The design
 To explore the Workfolio project locally, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Open the `index.html` file using a web browser.
+2. Open the https://soumen974.github.io/WorkFolio/  file using a web browser.
 3. Experiment with the website by resizing the browser window to observe its responsiveness to different screen sizes.
 
 ## Get Involved
