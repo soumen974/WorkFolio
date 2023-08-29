@@ -1,4 +1,4 @@
-# Workfolio Project - README
+# Workfolio [Resume Builder] - README
 
 Welcome to the Workfolio project repository! This repository documents the development of my personal workfolio website. The project revolves around crafting a dynamic online portfolio that showcases my skills, achievements, and experiences. The website has been meticulously designed and developed to ensure an optimal viewing experience across various devices, embracing both mobile and laptop screens.
 
