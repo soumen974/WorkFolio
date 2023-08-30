@@ -2,6 +2,9 @@ import React from 'react'
 import "./Section03.css"
 import AeroplinVector from "./Images/aeroPlainVector.svg"
 import TemplBack from "./Images/Templt_back.svg";
+import MidTemplate from "./Images/temp-1.png";
+import LeftTemplate from "./Images/temp-left-2.png";
+import RightTemplate from "./Images/temp-right-3.png";
 export default function Section03() {
   return (
     <>
@@ -19,7 +22,9 @@ export default function Section03() {
             <img src={TemplBack} alt="" />
             <div className="showTemplates">
                 <div className="templates">
-                    hsf
+                <img src={LeftTemplate} alt="" />
+                <img src={MidTemplate} alt="" />
+                <img src={RightTemplate} alt="" />
                 </div>
             </div>
         </div>

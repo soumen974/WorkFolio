@@ -22,3 +22,18 @@
     margin-top: -28rem;
     padding: 5rem;
 }
+.templates{
+    text-align: center;
+    margin-top: -11rem;
+    display: flex;
+    position:relative;
+    z-index: 0;
+    flex-wrap: nowrap;
+    width: 100%;
+  padding: 0 5rem 0 5rem;
+}
+.templates img{
+    width: 100%;
+
+    object-fit: contain;
+}
