@@ -165,6 +165,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 
 
 
+
 .mx-intrst-and-lang{
     display: flex;
     flex-wrap: wrap;
@@ -307,16 +308,16 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     .Contacts-Links{
         padding: 5rem 0 0 0;
     }
-    .objectives textarea{
-        /* width: 33rem;
+    /* .objectives textarea{
+        width: 33rem;
         height: 100%;
        max-width: 100%;
        max-height: 100%;
        border-radius: 0.99rem;
        padding: 1rem;
        font-size: 1.2rem;
-       transition: ease-in-out 0.5s; */
-    }
+       transition: ease-in-out 0.5s;
+    } */
     .Form-01{
         padding: 0rem 2rem 2rem 2rem;    
     

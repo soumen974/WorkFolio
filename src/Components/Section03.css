@@ -3,37 +3,46 @@
 }
 .Templates_head{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     gap: 5rem;
+    padding: 0 5rem 0 8rem ;
+    width: 100%;
+}
+.areroPlainVector img{
+    z-index: 0;
+    position: relative;
 }
 .Templates_head h1{
     font-size: 5rem;
+    /* margin-left:-5rem */
 }
 
+.back_templetes{
+    /* margin-top: -20rem; */
+}
 
 .back_templetes img{
     width: 100%;
-    position: static;
-    z-index: -2;
 }
 
 .showTemplates{
-    z-index: 0;
-    margin-top: -28rem;
-    padding: 5rem;
+    /* margin-top: -38rem; */
+    width: 100%;
+    padding: 0 5rem 0 5rem;
+
+
 }
 .templates{
     text-align: center;
-    margin-top: -11rem;
     display: flex;
     position:relative;
     z-index: 0;
     flex-wrap: nowrap;
     width: 100%;
-  padding: 0 5rem 0 5rem;
+    /* gap: 1rem; */
 }
+
 .templates img{
     width: 100%;
-
-    object-fit: contain;
+    object-fit:contain;
 }
