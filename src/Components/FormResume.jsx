@@ -16,6 +16,10 @@ export default function FormResume() {
   const[defaultEducation , setdefaultEducation]=useState();
   const[defaultAchivement,setdefaultAchivement]=useState()
   const[defaultDomain, setdefaultDomain]=useState();
+
+  const[defaultObjective,setdefaultObjective]=useState();
+  const[defaultLanguage,setdefaultLanguage]=useState();
+  
   
 
 
@@ -43,6 +47,12 @@ export default function FormResume() {
     setdefaultAchivement("Whats your achivements !");
     setdefaultDomain("Software Technology ");
 
+    setdefaultObjective("Passionate Frontend Developer and UI/UX Designer eager to blend creativity and technical skills. Seeking opportunities to create captivating user experiences by merging design expertise with cutting-edge development.")
+
+    setdefaultLanguage(
+      "Bengali Hindi English")
+    
+    
 
     // console.log("Default massage added", Math.random())
   }
@@ -61,6 +71,8 @@ export default function FormResume() {
     setdefaultEducation("");   
     setdefaultAchivement("");
     setdefaultDomain(" ");
+    setdefaultObjective("");
+    setdefaultLanguage("");
 
   }
   
@@ -172,7 +184,7 @@ export default function FormResume() {
 
                 <div className="objectives">
                     <h1>Objectives</h1>
-                    <textarea />
+                    <textarea defaultValue={defaultObjective} />
                   </div>
 
                   <div className="Contacts-Links">
@@ -205,7 +217,7 @@ export default function FormResume() {
                 
                 <div className="language">
                   <h1>Language </h1>
-                  <textarea rows="5" cols="30" />
+                  <textarea defaultValue={defaultLanguage} />
                 </div>
               
             </div>
