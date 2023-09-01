@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navBar.css'
-export default function NavBar() {
+export default function NavBar(props) {
 
     const [OpenMenuSlider, setOpenMenuSlider] = useState(false);
    
@@ -17,7 +17,6 @@ export default function NavBar() {
         }
       }
 
-    
    
 
   return (
@@ -38,7 +37,7 @@ export default function NavBar() {
 
                 <div className="user_click_buttons">
                     <div className="logInButton"> Login</div>
-                    <button className="Create_cv">Create Your Resume</button>
+                    <button className="Create_cv" onClick={props.FormDisplay}>Create Your Resume</button>
                 </div>
                                     <div className='OpenMenuRight' >
                         <svg  className='OpenMenuRightSVG' onClick={MenuSlideShow}  viewBox="0 0 27 21"  xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +61,7 @@ export default function NavBar() {
             <div className="slideBody">
 
                     <div className="user_click_button_mobile">
-                        <div className="resume_crete_button-mobile">Create Your Resume</div>
+                        <div className="resume_crete_button-mobile" onClick={props.FormDisplay}>Create Your Resume</div>
                         <div className="LoginButton-mobile">Login</div>
                     </div>
                     <div className="nav_links_mobile">

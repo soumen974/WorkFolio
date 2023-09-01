@@ -8,14 +8,48 @@ import FormResume from './Components/FormResume';
 import Section03 from './Components/Section03';
 
 function App() {
+
+  const [displayForm,setdisplayForm]=useState(false);
+  const [displayRestBody,setdisplayRestBody]=useState(true);
+  
+  function FormDisplay(){
+    setdisplayForm(true)
+    setdisplayRestBody(false)
+  }
+  
   return (
     <>
-        <NavBar/>
-        {/* <Section01/>
-        <Section02 />
-        <Section03/> */}
 
-        <FormResume/>
+         {/* a navbar is here  */}
+
+        <NavBar FormDisplay={FormDisplay} />
+
+        {/* it is the things which will be displayed  when clicked on the create your resume button */}
+
+
+        {
+          displayForm  && 
+          <>
+             <FormResume/>
+          </>
+        }
+
+
+         {/* it is the things which will be displayed off when clicked on the create your resume button */}
+
+        {
+          displayRestBody &&
+
+          <>
+            <Section01 FormDisplay={FormDisplay}/>
+            <Section02 />
+            <Section03/>
+          </>
+        }
+
+     
+     
+        
 
     </>
   );

@@ -5,7 +5,7 @@ import FullStarIcon from './FullStarIcon';
 import EmptyStarIcon from './EmptyStarIcon';
 
 
-export default function Section01() {
+export default function Section01(props) {
   return (
     <>
     <div className="section-01">
@@ -145,7 +145,7 @@ export default function Section01() {
 
                      <div className="Down_things">
                         
-                        <button>Create Resume Now</button>
+                        <button onClick={props.FormDisplay}>Create Resume Now</button>
                         <div className="landing_ad-talk"> Create Your Resume using our wisely designed themes and increase the chances of getting your dream job .</div>
                         
                         <div className="starsRates">
