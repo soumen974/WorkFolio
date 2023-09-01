@@ -12,6 +12,9 @@ Welcome to the Workfolio project repository! This repository documents the devel
 
 4. **Dynamic Portfolio:** The website features a dynamic portfolio section that showcases my projects, skills, and accomplishments. The portfolio is presented in an organized manner, allowing visitors to explore my work in detail.
 
+Connection --
+**Create Resume Now Button ** to **Resume making form **
+
 ## Embracing Responsive and Mobile-First Design
 
 The Workfolio project embraces the philosophy of mobile-first design. The design process begins with a focus on mobile devices and progressively adapts to larger screens, such as laptops. By adopting responsive design practices, the project aims to provide a consistent and engaging user experience across diverse devices.
