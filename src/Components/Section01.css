@@ -93,6 +93,7 @@ position:relative;
     font-weight: 600;
     word-spacing: 0.371rem;
     box-shadow: 0 0px 0 #0116ff;
+    cursor: pointer;
 }
 .Down_things button:hover{
     background-color: #4a3af9;
