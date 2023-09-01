@@ -12,9 +12,15 @@ function App() {
   const [displayForm,setdisplayForm]=useState(false);
   const [displayRestBody,setdisplayRestBody]=useState(true);
   
+  
   function FormDisplay(){
     setdisplayForm(true)
     setdisplayRestBody(false)
+  }
+
+  function GotoHome(){
+    setdisplayForm(false )
+    setdisplayRestBody(true)
   }
   
   return (
@@ -22,7 +28,9 @@ function App() {
 
          {/* a navbar is here  */}
 
-        <NavBar FormDisplay={FormDisplay} />
+        <NavBar FormDisplay={FormDisplay}
+                GotoHome={GotoHome}
+         />
 
         {/* it is the things which will be displayed  when clicked on the create your resume button */}
 

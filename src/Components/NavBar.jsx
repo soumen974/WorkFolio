@@ -24,12 +24,12 @@ export default function NavBar(props) {
     <section className="sec-1">
         <nav>
             <div className="navElements">
-                <div className="logo" > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolio</h3></div>
+                <div className="logo"  onClick={props.GotoHome}> <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolio</h3></div>
                 <div className="LinkComponents">
                     <ul>
+                    <li onClick={props.GotoHome}>Home</li>
                         <li>Templates</li>
                         <li>Examples</li>
-                        <li>Services</li>
                         <li>About</li>
                         <li>Help</li>
                     </ul>
@@ -66,9 +66,9 @@ export default function NavBar(props) {
                     </div>
                     <div className="nav_links_mobile">
                             <ul>
+                            <li onClick={props.GotoHome}>Home</li>
                                 <li>Templates</li>
                                 <li>Examples</li>
-                                <li>Services</li>
                                 <li>About</li>
                                 <li>Help</li>
                             </ul>
