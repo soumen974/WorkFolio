@@ -52,7 +52,9 @@ export default function NavBar(props) {
             </div>
         </nav>
 
+
         {/* this content to show for mobile/tablet device not for desktop */}
+        
         
         {
             OpenMenuSlider &&

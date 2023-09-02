@@ -28,32 +28,25 @@ function App() {
 
          {/* a navbar is here  */}
 
-        <NavBar FormDisplay={FormDisplay}
-                GotoHome={GotoHome}
-         />
-
+        <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} />
+               
         {/* it is the things which will be displayed  when clicked on the create your resume button */}
 
 
-        {
-          displayForm  && 
-          <>
-             <FormResume/>
-          </>
-        }
+        { displayForm  &&  <>  <FormResume/>  </> }
+             
 
+        {/* it is the things which will be displayed off when clicked on the create your resume button */}
 
-         {/* it is the things which will be displayed off when clicked on the create your resume button */}
+        { displayRestBody &&  <>
+                                <Section01 FormDisplay={FormDisplay}/>
+                                <Section02 />
+                                <Section03/>
+                             </>
+        } 
 
-        {
-          displayRestBody &&
-
-          <>
-            <Section01 FormDisplay={FormDisplay}/>
-            <Section02 />
-            <Section03/>
-          </>
-        }
+         
+        
 
      
      
