@@ -11,20 +11,20 @@ export default function NavBar(props) {
     <section className="sec-1">
         <nav>
             <div className="navElements">
-                <div className="logo"  onClick={props.GotoHome}> <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolio</h3></div>
+               <a href='#'> <div className="logo"  onClick={props.GotoHome}> <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolio</h3></div></a>
                 <div className="LinkComponents">
                     <ul>
-                    <li onClick={props.GotoHome}>Home</li>
-                        <li>Templates</li>
-                        <li>Examples</li>
-                        <li>About</li>
-                        <li>Help</li>
+                     <a href='#'> <li onClick={props.GotoHome}>Home</li></a>
+                       <a href='#'> <li>Templates</li></a>
+                       <a href='#'> <li>Examples</li></a>
+                       <a href='#'> <li>About</li></a>
+                       <a href='#'> <li>Help</li></a>
                     </ul>
                 </div>
 
                 <div className="user_click_buttons">
                     <div className="logInButton"> Login</div>
-                    <button className="Create_cv" onClick={props.FormDisplay}>Create Your Resume</button>
+                    <a href="#"><button className="Create_cv" onClick={props.FormDisplay}>Create Your Resume</button></a>
                 </div>
                                     <div className='OpenMenuRight' >
                         <svg  className='OpenMenuRightSVG' onClick={props.MenuSlideShow}  viewBox="0 0 27 21"  xmlns="http://www.w3.org/2000/svg">
@@ -50,12 +50,12 @@ export default function NavBar(props) {
             <div className="slideBody">
 
                     <div className="user_click_button_mobile">
-                        <div className="resume_crete_button-mobile" onClick={props.FormDisplay}>Create Your Resume</div>
+                     <a href="#"> <div className="resume_crete_button-mobile" onClick={props.FormDisplay}>Create Your Resume</div></a>
                         <div className="LoginButton-mobile">Login</div>
                     </div>
                     <div className="nav_links_mobile">
                             <ul>
-                            <li onClick={props.GotoHome}>Home</li>
+                         <a href="#"><li onClick={props.GotoHome}>Home</li></a>
                                 <li>Templates</li>
                                 <li>Examples</li>
                                 <li>About</li>

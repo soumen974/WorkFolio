@@ -19,6 +19,8 @@
     position: fixed; /* Fixed position */
   top: 0; /* Stick to the top of the viewport */
   width: 100%; /* Full width */
+  text-decoration: none;
+  list-style: none;
 
    }
    
@@ -63,8 +65,19 @@
      max-width: 1200px;
      margin-left: 10%;
      gap: 2rem;
-   }
    
+   }
+
+   .sec-1 a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   }
+   .LinkComponents a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   }
    .navElements ul {
      
      display: flex;
@@ -77,6 +90,7 @@
     border-radius: 0.34rem  ;
     cursor: pointer;
     transition: 0.3s;
+    
 
    
    }
@@ -266,6 +280,9 @@
       display:none;
      
     }
+    .LinkComponents a{
+      display: none;
+     }
     .user_click_buttons{  
       display: none;
     }
