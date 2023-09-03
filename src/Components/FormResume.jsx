@@ -3,7 +3,7 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 
-export default function FormResume() {
+export default function FormResume(props) {
 
   const [ defaultMob , setdefaultMob]=useState();
   const [ defaultMail , setdefaultMail]=useState();
@@ -223,11 +223,13 @@ export default function FormResume() {
             </div>
 
             <div className="download-resume-dv">
-              <div className="Download_button">
-              <h2>Review Resume  </h2>
-              <img src={ResumeFileIcon} alt='reume download'/>
-             
+             <a href="#" style={{ textDecoration: "none" ,color:"black" }}> 
+              <div className="Download_button"  onClick={props.RivewResume}>
+                <h2>Review Resume  </h2>
+                <img src={ResumeFileIcon} alt='reume download'/>
+              
               </div>
+            </a>
               
             </div>
           
