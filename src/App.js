@@ -11,26 +11,46 @@ function App() {
 
   const [displayForm,setdisplayForm]=useState(false);
   const [displayRestBody,setdisplayRestBody]=useState(true);
+
   
   
   function FormDisplay(){
     setdisplayForm(true)
     setdisplayRestBody(false)
+    setOpenMenuSlider(false);
+
   }
 
   function GotoHome(){
     setdisplayForm(false )
     setdisplayRestBody(true)
-    setOpenMenuSlider(false)
+    setOpenMenuSlider(false);
+
     
   }
+
+  const [OpenMenuSlider, setOpenMenuSlider] = useState(false);
+   
+
+  function MenuSlideShow(){
+      setOpenMenuSlider(true);
+      
+  }
+
+  function CloseMenuSlider(event) { 
+      if (event.target.classList.contains('closeMenuSVG')) {
+          setOpenMenuSlider(false);
+
+      }
+    }
+
   
   return (
     <>
 
          {/* a navbar is here  */}
 
-        <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} setOpenMenuSlider={setOpenMenuSlider}/>
+        <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} MenuSlideShow={MenuSlideShow} CloseMenuSlider={CloseMenuSlider} OpenMenuSlider={OpenMenuSlider}/>
                
         {/* it is the things which will be displayed  when clicked on the create your resume button */}
 
