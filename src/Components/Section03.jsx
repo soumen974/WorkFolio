@@ -19,9 +19,8 @@ export default function Section03() {
        </div>
 
         <div className="back_templetes">
-            <img src={TemplBack} alt="" />
             <div className="showTemplates">
-                <div className="templates">
+                <div  className="templates">
                 <img src={LeftTemplate} alt="" />
                 <img src={MidTemplate} alt="" />
                 <img src={RightTemplate} alt="" />

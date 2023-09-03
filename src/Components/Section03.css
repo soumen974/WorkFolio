@@ -19,16 +19,25 @@
 
 .back_templetes{
     /* margin-top: -20rem; */
+    overflow:hidden;
+
 }
 
-.back_templetes img{
-    width: 100%;
+.back_templetes {
+    width: 110%;
+    background: conic-gradient(from 1deg at 50% 50%, #1A06FF 176.57856345176697deg, rgba(26, 6, 255, 0.22) 353.96408557891846deg);
+    object-fit:contain;
+   transform: rotate(-7.576deg);
+   margin-left: -3.1rem;
+
 }
 
 .showTemplates{
     /* margin-top: -38rem; */
-    width: 100%;
-    padding: 0 5rem 0 5rem;
+    width: 110%;
+    padding: 0 8rem 0 8rem;
+   
+
 
 
 }
@@ -39,10 +48,10 @@
     z-index: 0;
     flex-wrap: nowrap;
     width: 100%;
-    /* gap: 1rem; */
+    transform: rotate(7.576deg);
 }
 
 .templates img{
-    width: 100%;
+    /* width: 100%; */
     object-fit:contain;
 }

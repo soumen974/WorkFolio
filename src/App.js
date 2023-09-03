@@ -48,17 +48,17 @@ function App() {
   return (
     <>
 
-         {/* a navbar is here  */}
+         {/*--------------------- a navbar is here ---------------------- */}
 
         <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} MenuSlideShow={MenuSlideShow} CloseMenuSlider={CloseMenuSlider} OpenMenuSlider={OpenMenuSlider}/>
                
-        {/* it is the things which will be displayed  when clicked on the create your resume button */}
+        {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
         { displayForm  &&  <>  <FormResume/>  </> }
              
 
-        {/* it is the things which will be displayed off when clicked on the create your resume button */}
+        {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
 
         { displayRestBody &&  <>
                                 <Section01 FormDisplay={FormDisplay}/>
