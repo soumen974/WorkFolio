@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './navBar.css'
 export default function NavBar(props) {
 
+    
     const [OpenMenuSlider, setOpenMenuSlider] = useState(false);
    
 

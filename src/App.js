@@ -21,6 +21,8 @@ function App() {
   function GotoHome(){
     setdisplayForm(false )
     setdisplayRestBody(true)
+    setOpenMenuSlider(false)
+    
   }
   
   return (
@@ -28,7 +30,7 @@ function App() {
 
          {/* a navbar is here  */}
 
-        <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} />
+        <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} setOpenMenuSlider={setOpenMenuSlider}/>
                
         {/* it is the things which will be displayed  when clicked on the create your resume button */}
 
