@@ -36,8 +36,8 @@ function App() {
   
   
   
-    const handleInputChange = (e) => {
-      setUserFirstName(e.target.value);
+    const handleInputChange = (input) => {
+      setUserFirstName(input);
     };
   
   function FormDisplay(){
@@ -99,7 +99,7 @@ function App() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume RivewResume={RivewResume}/>  </> }
+        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} onInputChange={handleInputChange}/>  </> }
              
 
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
