@@ -13,7 +13,32 @@ function App() {
   const [displayForm,setdisplayForm]=useState(false);
   const [displayRestBody,setdisplayRestBody]=useState(true);
 
+    // user details
+
+    const[UserFirstName,setUserFirstName]=useState()
+    const[UserLastName,setUserLastName]=useState()
+    const[UserWorkPost,setUserWorkPost]=useState()
+    const[UserSkills,setUserSkills]=useState()
+    const[UserProjects,setUserProjects]=useState()
+    const[UserEducation,setUserEducation]=useState()
+    const[UserAchievement,setUserAchievement]=useState()
+    const[UserDomain,setUserDomain]=useState()
+    const[UserObjectives,setUserObjectives]=useState()
+    const[UserMobile,setUserMobile]=useState()
+    const[UserMail,setUserMail]=useState()
+    const[UserLinkedIn,setUserLinkedIn]=useState()
+    const[UserGitHub,setUserGitHub]=useState()
+    const[UserLocation,setUserLocation]=useState()
+    const[UserInternships,setUserInternships]=useState()
+    const[UserInterests,setUserInterests]=useState()
+    const[UserLanguages,setUserLanguages]=useState()
+    
   
+  
+  
+    const handleInputChange = (e) => {
+      setUserFirstName(e.target.value);
+    };
   
   function FormDisplay(){
     setdisplayForm(true)
@@ -87,7 +112,7 @@ function App() {
         } 
 
          
-         {  ShowResume &&  <Resume /> }
+         {  ShowResume &&  <Resume UserFirstName={UserFirstName}  /> }
          
         
 
