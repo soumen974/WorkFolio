@@ -1,5 +1,6 @@
 .Section03{
     margin-top: 15rem;
+    overflow: hidden;
 }
 .Templates_head{
     display: flex;
@@ -19,22 +20,24 @@
 
 .back_templetes{
     /* margin-top: -20rem; */
-    overflow:hidden;
+    /* overflow:hidden; */
 
 }
 
 .back_templetes {
-    width: 110%;
-    background: conic-gradient(from 1deg at 50% 50%, #1A06FF 176.57856345176697deg, rgba(26, 6, 255, 0.22) 353.96408557891846deg);
-    object-fit:contain;
-   transform: rotate(-7.576deg);
-   margin-left: -3.1rem;
 
+    width: 100%;
+    height: 100%  ;
+    background: conic-gradient(from 1deg at 50% 50%, #1A06FF 176.57856345176697deg, rgba(26, 6, 255, 0.22) 353.96408557891846deg);
+    /* object-fit:contain; */
+   transform: rotate(-7.576deg);
+   
+   /* margin-left: 3.1rem; */
 }
 
 .showTemplates{
     /* margin-top: -38rem; */
-    width: 110%;
+    width: 100%;
     padding: 0 8rem 0 8rem;
    
 
