@@ -8,7 +8,7 @@ import RightTemplate from "./Images/temp-right-3.png";
 export default function Section03() {
   return (
     <>
-    <div className="Section03">s
+    <div className="Section03">
     
        <div className="Templates_head">
 
