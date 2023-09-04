@@ -11,6 +11,36 @@ export default function FormResume(props) {
   const [ defaultGh , setdefaultGh]=useState();
   const [ defaultLoc , setdefaultLoc]=useState();
 
+
+  // user details
+
+  const[UserFirstName,setUserFirstName]=useState()
+  const[UserLastName,setUserLastName]=useState()
+  const[UserWorkPost,setUserWorkPost]=useState()
+  const[UserSkills,setUserSkills]=useState()
+  const[UserProjects,setUserProjects]=useState()
+  const[UserEducation,setUserEducation]=useState()
+  const[UserAchievement,setUserAchievement]=useState()
+  const[UserDomain,setUserDomain]=useState()
+  const[UserObjectives,setUserObjectives]=useState()
+  const[UserMobile,setUserMobile]=useState()
+  const[UserMail,setUserMail]=useState()
+  const[UserLinkedIn,setUserLinkedIn]=useState()
+  const[UserGitHub,setUserGitHub]=useState()
+  const[UserLocation,setUserLocation]=useState()
+  const[UserInternships,setUserInternships]=useState()
+  const[UserInterests,setUserInterests]=useState()
+  const[UserLanguages,setUserLanguages]=useState()
+  
+
+
+
+  const handleInputChange = (e) => {
+    setUserFirstName(e.target.value);
+  };
+
+
+  // default massages 
   const [defaultSkills , setdefaultSkills]=useState();
   const [defaultProject ,setdefaultProject]=useState();
   const[defaultEducation , setdefaultEducation]=useState();
@@ -131,15 +161,15 @@ export default function FormResume(props) {
                     
                     <div className="Initial-details-inputs">
                         <div className="FirstNameGet">
-                          <input placeholder='First Name'/>
+                          <input value={UserFirstName} placeholder='First Name'/>
                         </div>
 
                         <div className="lastNameGet">
-                          <input placeholder='Last Name'/>
+                          <input value={UserLastName} placeholder='Last Name'/>
                         </div>
 
                         <div className="WorkPost">
-                          <input placeholder='Work Post (ex-Software Engineer)'/>
+                          <input value={UserWorkPost} placeholder='Work Post (ex-Software Engineer)'/>
                         </div>
 
                     </div>
@@ -154,19 +184,19 @@ export default function FormResume(props) {
 
             <div className="Rest-big-details">
               <h1>Skills</h1>
-              <textarea defaultValue={defaultSkills}/>
+              <textarea value={UserSkills} defaultValue={defaultSkills}/>
 
               <h1>Project Undertaken</h1>
-              <textarea defaultValue={defaultProject}/>
+              <textarea value={UserProjects} defaultValue={defaultProject}/>
 
               <h1>Education</h1>
-              <textarea defaultValue={defaultEducation}/>
+              <textarea value={UserEducation} defaultValue={defaultEducation}/>
 
               <h1>Achievement / Industry certification / Recognition</h1>
-              <textarea defaultValue={defaultAchivement}/>
+              <textarea value={UserAchievement} defaultValue={defaultAchivement}/>
 
               <h1>Domain Expertise</h1>
-              <textarea defaultValue={defaultDomain}/>
+              <textarea value={UserDomain} defaultValue={defaultDomain}/>
 
              
 
@@ -184,7 +214,7 @@ export default function FormResume(props) {
 
                 <div className="objectives">
                     <h1>Objectives</h1>
-                    <textarea defaultValue={defaultObjective} />
+                    <textarea value={UserObjectives} defaultValue={defaultObjective} />
                   </div>
 
                   <div className="Contacts-Links">
@@ -192,11 +222,11 @@ export default function FormResume(props) {
 
                       <div className="link-inputs">
 
-                          <input placeholder='Mobile no' defaultValue={defaultMob}/>
-                          <input  placeholder='Mail id'defaultValue={defaultMail}/>
-                          <input  placeholder='Linkedin profile link' defaultValue= {defaultLnkdIn}/>
-                          <input  placeholder='Github Link' defaultValue= {defaultGh}/>
-                          <input  placeholder='Location' defaultValue={defaultLoc} />
+                          <input value={UserMobile} placeholder='Mobile no' defaultValue={defaultMob}/>
+                          <input value={UserMail} placeholder='Mail id'defaultValue={defaultMail}/>
+                          <input value={UserLinkedIn}  placeholder='Linkedin profile link' defaultValue= {defaultLnkdIn}/>
+                          <input value={UserGitHub} placeholder='Github Link' defaultValue= {defaultGh}/>
+                          <input value={UserLocation} placeholder='Location' defaultValue={defaultLoc} />
 
                       </div>
                   
@@ -206,18 +236,18 @@ export default function FormResume(props) {
             
             <div className="intern-dv">
               <h1>Internship</h1>
-              <textarea/>
+              <textarea value={UserInternships}/>
             </div>
 
             <div className="mx-intrst-and-lang">
                 <div className="interest">
                   <h1>Interest</h1>
-                  <textarea/>
+                  <textarea value={UserInterests}/>
                 </div>
                 
                 <div className="language">
                   <h1>Language </h1>
-                  <textarea defaultValue={defaultLanguage} />
+                  <textarea  value={UserLanguages} defaultValue={defaultLanguage} />
                 </div>
               
             </div>

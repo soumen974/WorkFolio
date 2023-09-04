@@ -49,12 +49,14 @@ function App() {
     }
 
   const [ShowResume,setShowResume]=useState(false);
+  const[OffNav,setOffNav]=useState(true);
 
   function RivewResume(){
     setShowResume(true);
     setdisplayForm(false )
     setdisplayRestBody(false)
     setOpenMenuSlider(false);
+    setOffNav(false)
   }
 
   
@@ -62,8 +64,12 @@ function App() {
     <>
 
          {/*--------------------- a navbar is here ---------------------- */}
+        {
+          OffNav &&
+          <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} MenuSlideShow={MenuSlideShow} CloseMenuSlider={CloseMenuSlider} OpenMenuSlider={OpenMenuSlider}/>
 
-        <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} MenuSlideShow={MenuSlideShow} CloseMenuSlider={CloseMenuSlider} OpenMenuSlider={OpenMenuSlider}/>
+
+        }
                
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
