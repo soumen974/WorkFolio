@@ -3,7 +3,7 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 
-export default function FormResume({ onInputChange },props) {
+export default function FormResume({ onSubmit },props) {
 
   const [ defaultMob , setdefaultMob]=useState();
   const [ defaultMail , setdefaultMail]=useState();
@@ -34,15 +34,15 @@ export default function FormResume({ onInputChange },props) {
   
 
 
-
-  // const handleInputChange = (e) => {
-  //   setUserFirstName(e.target.value);
-  // };
-
-  const handleInputChange = (e) => {
-    UserFirstName(e.target.value);
-    onInputChange(e.target.value);
+  const handleChange = (e) => {
+    setUserFirstName(e.target.value);
   };
+
+  const handleSubmit = () => {
+    onSubmit(UserFirstName);
+  };
+
+ 
 
 
   // default massages 
@@ -166,7 +166,7 @@ export default function FormResume({ onInputChange },props) {
                     
                     <div className="Initial-details-inputs">
                         <div className="FirstNameGet">
-                          <input value={props.UserFirstName} placeholder='First Name' onChange={handleInputChange} />
+                          <input value={props.UserFirstName} placeholder='First Name'  onChange={handleInputChange} />
                         </div>
 
                         <div className="lastNameGet">
