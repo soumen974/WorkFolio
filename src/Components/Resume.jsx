@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Resume({ userInput }) {
+export default function Resume({UserFirstName}) {
   return (
     <>
     <div className="ResumWhole">
       <button>Go Back</button>
      <div className="ResumeDetails">
-      <h1>Your name is : { userInput }</h1>
+      <h1>Hai : {UserFirstName}</h1>
      </div>
        
     </div>

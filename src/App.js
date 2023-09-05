@@ -15,7 +15,7 @@ function App() {
 
     // user details
 
-    const[UserFirstName,setUserFirstName]=useState()
+    const[UserFirstName,setUserFirstName]=useState('')
     const[UserLastName,setUserLastName]=useState()
     const[UserWorkPost,setUserWorkPost]=useState()
     const[UserSkills,setUserSkills]=useState()
@@ -32,6 +32,19 @@ function App() {
     const[UserInternships,setUserInternships]=useState()
     const[UserInterests,setUserInterests]=useState()
     const[UserLanguages,setUserLanguages]=useState()
+
+
+
+
+  const handleInputSubmit = (input) => {
+    setUserFirstName(input);
+
+    setShowResume(true);
+    setdisplayForm(false )
+    setdisplayRestBody(false)
+    setOpenMenuSlider(false);
+    setOffNav(false)
+  };
     
   
   
@@ -79,11 +92,7 @@ function App() {
     setOffNav(false)
   }
 
-  const [userInput, setUserInput] = useState('');
-
-  const handleInputSubmit = (input) => {
-    setUserInput(input);
-  };
+  
 
 
   
@@ -93,7 +102,12 @@ function App() {
          {/*--------------------- a navbar is here ---------------------- */}
         {
           OffNav &&
-          <NavBar FormDisplay={FormDisplay} GotoHome={GotoHome} MenuSlideShow={MenuSlideShow} CloseMenuSlider={CloseMenuSlider} OpenMenuSlider={OpenMenuSlider}/>
+          <NavBar 
+          FormDisplay={FormDisplay} 
+          GotoHome={GotoHome} 
+          MenuSlideShow={MenuSlideShow} 
+          CloseMenuSlider={CloseMenuSlider}
+           OpenMenuSlider={OpenMenuSlider}/>
 
 
         }
@@ -101,7 +115,7 @@ function App() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} onInputSubmit={handleInputSubmit} />  </> }
+        { displayForm  &&  <>  <FormResume onInputSubmit={handleInputSubmit} />  </> }
              
 
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
@@ -114,7 +128,7 @@ function App() {
         } 
 
          
-         {  ShowResume &&  <Resume UserFirstName={UserFirstName} userInput={userInput} /> }
+         {  ShowResume &&  <Resume UserFirstName={UserFirstName}  /> }
          
         
 

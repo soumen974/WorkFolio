@@ -34,6 +34,15 @@ export default function FormResume({ onInputSubmit ,...props }) {
   
 
 
+  const handleInputChange = (event) => {
+    setUserFirstName(event.target.value);
+  };
+
+  const handleSubmit = () => {
+    onInputSubmit(UserFirstName);
+  };
+
+
   
 
  
@@ -105,15 +114,8 @@ export default function FormResume({ onInputSubmit ,...props }) {
 
   }
   
-  const [inputValue, setInputValue] = useState('');
 
-  const handleInputChange = (event) => {
-    setInputValue(event.target.value);
-  };
 
-  const handleSubmit = () => {
-    onInputSubmit(inputValue);
-  };
 
 
 
@@ -175,10 +177,9 @@ export default function FormResume({ onInputSubmit ,...props }) {
                     
                     <div className="Initial-details-inputs">
                         <div className="FirstNameGet">
-                          <input value={inputValue} onChange={handleInputChange} placeholder='First Name'   />
+                          <input value={UserFirstName} onChange={handleInputChange} placeholder='First Name'   />
                         </div>
 
-                        <button onClick={handleSubmit}>Submit</button>
 
                         <div className="lastNameGet">
                           <input value={UserLastName} placeholder='Last Name'/>
@@ -270,7 +271,7 @@ export default function FormResume({ onInputSubmit ,...props }) {
 
             <div className="download-resume-dv">
              <a href="#" style={{ textDecoration: "none" ,color:"black" }}> 
-              <div className="Download_button"  onClick={props.RivewResume}>
+              <div className="Download_button"  onClick={handleSubmit}>
                 <h2>Review Resume  </h2>
                 <img src={ResumeFileIcon} alt='reume download'/>
               
