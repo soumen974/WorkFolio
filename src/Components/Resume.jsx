@@ -6,7 +6,7 @@ export default function Resume({UserFirstName}) {
     <div className="ResumWhole">
       <button>Go Back</button>
      <div className="ResumeDetails">
-      <h1>Hai : {UserFirstName}</h1>
+      <h1>Your name is {UserFirstName}</h1>
      </div>
        
     </div>

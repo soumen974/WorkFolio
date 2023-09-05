@@ -16,6 +16,7 @@ function App() {
     // user details
 
     const[UserFirstName,setUserFirstName]=useState('')
+    
     const[UserLastName,setUserLastName]=useState()
     const[UserWorkPost,setUserWorkPost]=useState()
     const[UserSkills,setUserSkills]=useState()
@@ -36,7 +37,7 @@ function App() {
 
 
 
-  const handleInputSubmit = (input) => {
+  const RivewResume = (input) => {
     setUserFirstName(input);
 
     setShowResume(true);
@@ -84,13 +85,13 @@ function App() {
   const [ShowResume,setShowResume]=useState(false);
   const[OffNav,setOffNav]=useState(true);
 
-  function RivewResume(){
-    setShowResume(true);
-    setdisplayForm(false )
-    setdisplayRestBody(false)
-    setOpenMenuSlider(false);
-    setOffNav(false)
-  }
+  // function RivewResume(){
+  //   setShowResume(true);
+  //   setdisplayForm(false )
+  //   setdisplayRestBody(false)
+  //   setOpenMenuSlider(false);
+  //   setOffNav(false)
+  // }
 
   
 
@@ -115,7 +116,7 @@ function App() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume onInputSubmit={handleInputSubmit} />  </> }
+        { displayForm  &&  <>  <FormResume onInputSubmit={RivewResume} />  </> }
              
 
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
