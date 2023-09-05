@@ -14,7 +14,7 @@ export default function FormResume({ onInputSubmit ,...props }) {
 
   // user details
 
-  const[UserFirstName,setUserFirstName]=useState()
+  const[UserFirstName,setUserFirstName]=useState('')
   const[UserLastName,setUserLastName]=useState()
   const[UserWorkPost,setUserWorkPost]=useState()
   const[UserSkills,setUserSkills]=useState()
