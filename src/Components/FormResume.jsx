@@ -3,7 +3,7 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 
-export default function FormResume({ onSubmit },props) {
+export default function FormResume({ onInputSubmit ,...props }) {
 
   const [ defaultMob , setdefaultMob]=useState();
   const [ defaultMail , setdefaultMail]=useState();
@@ -34,13 +34,7 @@ export default function FormResume({ onSubmit },props) {
   
 
 
-  const handleChange = (e) => {
-    setUserFirstName(e.target.value);
-  };
-
-  const handleSubmit = () => {
-    onSubmit(UserFirstName);
-  };
+  
 
  
 
@@ -111,6 +105,21 @@ export default function FormResume({ onSubmit },props) {
 
   }
   
+  const [inputValue, setInputValue] = useState('');
+
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+
+  const handleSubmit = () => {
+    onInputSubmit(inputValue);
+  };
+
+
+
+
+
+
   return (
     <>
       <div className="FormBody">
@@ -166,8 +175,10 @@ export default function FormResume({ onSubmit },props) {
                     
                     <div className="Initial-details-inputs">
                         <div className="FirstNameGet">
-                          <input value={props.UserFirstName} placeholder='First Name'  onChange={handleInputChange} />
+                          <input value={inputValue} onChange={handleInputChange} placeholder='First Name'   />
                         </div>
+
+                        <button onClick={handleSubmit}>Submit</button>
 
                         <div className="lastNameGet">
                           <input value={UserLastName} placeholder='Last Name'/>

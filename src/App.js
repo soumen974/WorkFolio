@@ -35,11 +35,6 @@ function App() {
     
   
   
-  
-    const handleFormSubmit = (Fname) => {
-      setUserFirstName(Fname);
-    };
-  
   function FormDisplay(){
     setdisplayForm(true)
     setdisplayRestBody(false)
@@ -84,6 +79,13 @@ function App() {
     setOffNav(false)
   }
 
+  const [userInput, setUserInput] = useState('');
+
+  const handleInputSubmit = (input) => {
+    setUserInput(input);
+  };
+
+
   
   return (
     <>
@@ -99,7 +101,7 @@ function App() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume RivewResume={RivewResume}  onSubmit={handleFormSubmit}/>  </> }
+        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} onInputSubmit={handleInputSubmit} />  </> }
              
 
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
@@ -112,7 +114,7 @@ function App() {
         } 
 
          
-         {  ShowResume &&  <Resume UserFirstName={UserFirstName}  /> }
+         {  ShowResume &&  <Resume UserFirstName={UserFirstName} userInput={userInput} /> }
          
         
 
