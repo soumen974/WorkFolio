@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WorkFolio/static/css/main.34eb7401.css",
-    "main.js": "/WorkFolio/static/js/main.f78a4ed1.js",
+    "main.js": "/WorkFolio/static/js/main.38c26fde.js",
     "static/js/787.bc7d429a.chunk.js": "/WorkFolio/static/js/787.bc7d429a.chunk.js",
     "static/media/up_img.jpg": "/WorkFolio/static/media/up_img.eb461926588a7a9eddc7.jpg",
     "static/media/rivewer-imgpng.png": "/WorkFolio/static/media/rivewer-imgpng.7e733df006cb8d69f21e.png",
@@ -13,11 +13,11 @@
     "static/media/Templt_back.svg": "/WorkFolio/static/media/Templt_back.1a1b3c114d11cf7ea2ac151b49217e33.svg",
     "index.html": "/WorkFolio/index.html",
     "main.34eb7401.css.map": "/WorkFolio/static/css/main.34eb7401.css.map",
-    "main.f78a4ed1.js.map": "/WorkFolio/static/js/main.f78a4ed1.js.map",
+    "main.38c26fde.js.map": "/WorkFolio/static/js/main.38c26fde.js.map",
     "787.bc7d429a.chunk.js.map": "/WorkFolio/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34eb7401.css",
-    "static/js/main.f78a4ed1.js"
+    "static/js/main.38c26fde.js"
   ]
 }
