@@ -5,6 +5,8 @@ import ResumeFileIcon from "./Images/resume-vector.svg";
 
 export default function FormResume({ onInputSubmit ,...props }) {
 
+  // default value 
+
   const [ defaultMob , setdefaultMob]=useState();
   const [ defaultMail , setdefaultMail]=useState();
   const [ defaultLnkdIn , setdefaultLnkdIn]=useState();
