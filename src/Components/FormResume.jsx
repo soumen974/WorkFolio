@@ -42,8 +42,13 @@ export default function FormResume({ onInputSubmit ,...props }) {
 
   const handleSubmit = () => {
     onInputSubmit(UserFirstName);
+
   };
 
+
+  const handleInputLastName = (e) => {
+    setUserLastName(e.target.value);
+  };
 
   
 
@@ -184,7 +189,7 @@ export default function FormResume({ onInputSubmit ,...props }) {
 
 
                         <div className="lastNameGet">
-                          <input value={UserLastName} placeholder='Last Name'/>
+                          <input value={UserLastName} onChange={handleInputLastName} placeholder='Last Name'/>
                         </div>
 
                         <div className="WorkPost">
