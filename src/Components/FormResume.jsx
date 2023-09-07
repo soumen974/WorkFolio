@@ -50,14 +50,69 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
 
   };
 
-
   const handleInputLastName = (e) => {
     setUserLastName(e.target.value);
   };
 
-  
+  const handleInputWorkPost = (e) => {
+    setUserLastName(e.target.value);
+  };
 
+  const handleInputSkills = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputProjects = (e) => {
+    setUserLastName(e.target.value);
+  };
+  
+  const handleInputEducation = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputAchievement = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputDomain = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputObjectives = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputMobile = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputMail = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputLinkedIn = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputGitHub = (e) => {
+    setUserLastName(e.target.value);
+  };
+  
+  const handleInputLocation = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputInternships = (e) => {
+    setUserLastName(e.target.value);
+  };
+
+  const handleInputInterest = (e) => {
+    setUserLastName(e.target.value);
+  };
  
+  const handleInputLanguage = (e) => {
+    setUserLastName(e.target.value);
+  };
 
 
   // default massages 
@@ -198,7 +253,7 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
                         </div>
 
                         <div className="WorkPost">
-                          <input value={UserWorkPost} placeholder='Work Post (ex-Software Engineer)'/>
+                          <input value={UserWorkPost} onChange={handleInputWorkPost} placeholder='Work Post (ex-Software Engineer)'/>
                         </div>
 
                     </div>
@@ -213,19 +268,19 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
 
             <div className="Rest-big-details">
               <h1>Skills</h1>
-              <textarea value={UserSkills} defaultValue={defaultSkills}/>
+              <textarea value={UserSkills} onChange={handleInputSkills} defaultValue={defaultSkills}/>
 
               <h1>Project Undertaken</h1>
-              <textarea value={UserProjects} defaultValue={defaultProject}/>
+              <textarea value={UserProjects} onChange={handleInputProjects} defaultValue={defaultProject}/>
 
               <h1>Education</h1>
-              <textarea value={UserEducation} defaultValue={defaultEducation}/>
+              <textarea value={UserEducation} onChange={handleInputEducation}  defaultValue={defaultEducation}/>
 
               <h1>Achievement / Industry certification / Recognition</h1>
-              <textarea value={UserAchievement} defaultValue={defaultAchivement}/>
+              <textarea value={UserAchievement} onChange={handleInputAchievement} defaultValue={defaultAchivement}/>
 
               <h1>Domain Expertise</h1>
-              <textarea value={UserDomain} defaultValue={defaultDomain}/>
+              <textarea value={UserDomain} onChange={handleInputDomain} defaultValue={defaultDomain}/>
 
              
 
@@ -243,7 +298,7 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
 
                 <div className="objectives">
                     <h1>Objectives</h1>
-                    <textarea value={UserObjectives} defaultValue={defaultObjective} />
+                    <textarea value={UserObjectives} onChange={handleInputObjectives} defaultValue={defaultObjective} />
                   </div>
 
                   <div className="Contacts-Links">
@@ -251,11 +306,11 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
 
                       <div className="link-inputs">
 
-                          <input value={UserMobile} placeholder='Mobile no' defaultValue={defaultMob}/>
-                          <input value={UserMail} placeholder='Mail id'defaultValue={defaultMail}/>
-                          <input value={UserLinkedIn}  placeholder='Linkedin profile link' defaultValue= {defaultLnkdIn}/>
-                          <input value={UserGitHub} placeholder='Github Link' defaultValue= {defaultGh}/>
-                          <input value={UserLocation} placeholder='Location' defaultValue={defaultLoc} />
+                          <input value={UserMobile} onChange={handleInputMobile} placeholder='Mobile no' defaultValue={defaultMob}/>
+                          <input value={UserMail} onChange={handleInputMail} placeholder='Mail id'defaultValue={defaultMail}/>
+                          <input value={UserLinkedIn} onChange={handleInputLinkedIn} placeholder='Linkedin profile link' defaultValue= {defaultLnkdIn}/>
+                          <input value={UserGitHub} placeholder='Github Link' onChange={handleInputGitHub} defaultValue= {defaultGh}/>
+                          <input value={UserLocation} placeholder='Location' onChange={handleInputLocation} defaultValue={defaultLoc} />
 
                       </div>
                   
@@ -265,18 +320,18 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
             
             <div className="intern-dv">
               <h1>Internship</h1>
-              <textarea value={UserInternships}/>
+              <textarea value={UserInternships} onChange={handleInputInternships}/>
             </div>
 
             <div className="mx-intrst-and-lang">
                 <div className="interest">
                   <h1>Interest</h1>
-                  <textarea value={UserInterests}/>
+                  <textarea value={UserInterests} onChange={handleInputInterest}/>
                 </div>
                 
                 <div className="language">
                   <h1>Language </h1>
-                  <textarea  value={UserLanguages} defaultValue={defaultLanguage} />
+                  <textarea  value={UserLanguages} onChange={handleInputLanguage} defaultValue={defaultLanguage} />
                 </div>
               
             </div>
