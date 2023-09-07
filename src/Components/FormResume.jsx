@@ -3,7 +3,25 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 
-export default function FormResume({ RivewResume ,handleLastName,...props }) {
+export default function FormResume({ RivewResume ,
+                                      handleLastName,
+                                      handleWorkPost,
+                                      handleSkills,
+                                      handleProjects,
+                                      handleEducation,
+                                      handleAchievement,
+                                      handleDomain,
+                                      handleObjectives,
+                                      handleMobile,
+                                      handleMail,
+                                      handleLinkedIn,
+                                      handleGitHub,
+                                      handleLocation,
+                                      handleInternships,
+                                      handleInterests,
+                                      handleLanguages,
+                              
+                                      ...props }) {
 
   // default value 
 
