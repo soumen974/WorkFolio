@@ -3,7 +3,7 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 
-export default function FormResume({ RivewResume ,handleFirstName,...props }) {
+export default function FormResume({ RivewResume ,handleLastName,...props }) {
 
   // default value 
 
@@ -22,7 +22,7 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
   const[UserSkills,setUserSkills]=useState('')
   const[UserProjects,setUserProjects]=useState('')
   const[UserEducation,setUserEducation]=useState('')
-  const[UserAchievement,setUserAchievement]=useState('')
+  const[UserAchievement,setUserAchievement]=useState('')  
   const[UserDomain,setUserDomain]=useState('')
   const[UserObjectives,setUserObjectives]=useState('')
   const[UserMobile,setUserMobile]=useState('')
@@ -43,8 +43,7 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
 
   const handleSubmit = () => {
     RivewResume(UserFirstName);
-    // RivewResume(UserLastName);
-    handleFirstName(UserLastName);
+    handleLastName(UserLastName);
     
     
 
@@ -55,63 +54,63 @@ export default function FormResume({ RivewResume ,handleFirstName,...props }) {
   };
 
   const handleInputWorkPost = (e) => {
-    setUserLastName(e.target.value);
+    setUserWorkPost(e.target.value);
   };
 
   const handleInputSkills = (e) => {
-    setUserLastName(e.target.value);
+    setUserSkills(e.target.value);
   };
 
   const handleInputProjects = (e) => {
-    setUserLastName(e.target.value);
+    setUserProjects(e.target.value);
   };
   
   const handleInputEducation = (e) => {
-    setUserLastName(e.target.value);
+    setUserEducation(e.target.value);
   };
 
   const handleInputAchievement = (e) => {
-    setUserLastName(e.target.value);
+    setUserAchievement(e.target.value);
   };
 
   const handleInputDomain = (e) => {
-    setUserLastName(e.target.value);
+    setUserDomain(e.target.value);
   };
 
   const handleInputObjectives = (e) => {
-    setUserLastName(e.target.value);
+    setUserObjectives(e.target.value);
   };
 
   const handleInputMobile = (e) => {
-    setUserLastName(e.target.value);
+    setUserMobile(e.target.value);
   };
 
   const handleInputMail = (e) => {
-    setUserLastName(e.target.value);
+    setUserMail(e.target.value);
   };
 
   const handleInputLinkedIn = (e) => {
-    setUserLastName(e.target.value);
+    setUserLinkedIn(e.target.value);
   };
 
   const handleInputGitHub = (e) => {
-    setUserLastName(e.target.value);
+    setUserGitHub(e.target.value);
   };
   
   const handleInputLocation = (e) => {
-    setUserLastName(e.target.value);
+    setUserLocation(e.target.value);
   };
 
   const handleInputInternships = (e) => {
-    setUserLastName(e.target.value);
+    setUserInternships(e.target.value);
   };
 
   const handleInputInterest = (e) => {
-    setUserLastName(e.target.value);
+    setUserInterests(e.target.value);
   };
  
   const handleInputLanguage = (e) => {
-    setUserLastName(e.target.value);
+    setUserLanguages(e.target.value);
   };
 
 

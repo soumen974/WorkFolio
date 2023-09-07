@@ -48,11 +48,71 @@ function App() {
     setOffNav(false)
   };
  
-  const handleFirstName = (input) => { 
+  const handleLastName = (input) => { 
     setUserLastName(input);
 
   }
     
+ 
+  const handleWorkPost = (e) => {
+    setUserWorkPost(e.target.value);
+  };
+
+  const handleSkills = (e) => {
+    setUserSkills(e.target.value);
+  };
+
+  const handleProjects = (e) => {
+    setUserProjects(e.target.value);
+  };
+  
+  const handleEducation = (e) => {
+    setUserEducation(e.target.value);
+  };
+
+  const handleAchievement = (e) => {
+    setUserAchievement(e.target.value);
+  };
+
+  const handleDomain = (e) => {
+    setUserDomain(e.target.value);
+  };
+
+  const handleObjectives = (e) => {
+    setUserObjectives(e.target.value);
+  };
+
+  const handleMobile = (e) => {
+    setUserMobile(e.target.value);
+  };
+
+  const handleMail = (e) => {
+    setUserMail(e.target.value);
+  };
+
+  const handleLinkedIn = (e) => {
+    setUserLinkedIn(e.target.value);
+  };
+
+  const handleGitHub = (e) => {
+    setUserGitHub(e.target.value);
+  };
+  
+  const handleLocation = (e) => {
+    setUserLocation(e.target.value);
+  };
+
+  const handleInternships = (e) => {
+    setUserInternships(e.target.value);
+  };
+
+  const handleInterest = (e) => {
+    setUserInterests(e.target.value);
+  };
+ 
+  const handleLanguage = (e) => {
+    setUserLanguages(e.target.value);
+  };
   
   
   function FormDisplay(){
@@ -122,7 +182,25 @@ function App() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} handleFirstName={handleFirstName} />  </> }
+        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} 
+                                            handleLastName={handleLastName}
+                                            handleWorkPost={handleWorkPost}
+                                            handleSkills={handleSkills}
+                                            handleProjects={handleProjects}
+                                            handleEducation={handleEducation}
+                                            handleAchievement={handleAchievement}
+                                            handleDomain={handleDomain}
+                                            handleObjectives={handleObjectives}
+                                            handleMobile={handleMobile}
+                                            handleMail={handleMail}
+                                            handleLinkedIn={handleLinkedIn}
+                                            handleGitHub={handleGitHub}
+                                            handleLocation={handleLocation}
+                                            handleInternships={handleInternships}
+                                            handleInterest={handleInterest}
+                                            handleLanguage={handleLanguage}
+                                            
+                                            />  </> }
              
 
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
@@ -135,7 +213,25 @@ function App() {
         } 
 
          
-         {  ShowResume &&  <Resume UserFirstName={UserFirstName} UserLastName={UserLastName}  /> }
+         {  ShowResume &&  <Resume UserFirstName={UserFirstName}
+                                   UserLastName={UserLastName}  
+                                   UserWorkPost={UserWorkPost}
+                                  UserSkills={UserSkills}
+                                  UserProjects={UserProjects}
+                                  UserEducation={UserEducation}
+                                  UserAchievement={UserAchievement}
+                                  UserDomain={UserDomain}
+                                  UserObjectives={UserObjectives}
+                                  UserMobile={UserMobile}
+                                  UserMail={UserMail}
+                                  UserLinkedIn={UserLinkedIn}
+                                  UserGitHub={UserGitHub}
+                                  UserLocation={UserLocation}
+                                  UserInternships={UserInternships}
+                                  UserInterests={UserInterests}
+                                  UserLanguages={UserLanguages}
+
+                                   /> }
          
         
 
