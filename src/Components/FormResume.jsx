@@ -3,7 +3,7 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 
-export default function FormResume({ onInputSubmit ,...props }) {
+export default function FormResume({ RivewResume ,handleFirstName,...props }) {
 
   // default value 
 
@@ -36,12 +36,17 @@ export default function FormResume({ onInputSubmit ,...props }) {
   
 
 
-  const handleInputChange = (event) => {
+  const handleInputFirstName = (event) => {
     setUserFirstName(event.target.value);
+
   };
 
   const handleSubmit = () => {
-    onInputSubmit(UserFirstName);
+    RivewResume(UserFirstName);
+    // RivewResume(UserLastName);
+    handleFirstName(UserLastName);
+    
+    
 
   };
 
@@ -184,7 +189,7 @@ export default function FormResume({ onInputSubmit ,...props }) {
                     
                     <div className="Initial-details-inputs">
                         <div className="FirstNameGet">
-                          <input value={UserFirstName} onChange={handleInputChange} placeholder='First Name'   />
+                          <input value={UserFirstName} onChange={handleInputFirstName} placeholder='First Name'   />
                         </div>
 
 

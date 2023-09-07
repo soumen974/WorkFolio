@@ -39,6 +39,7 @@ function App() {
 
   const RivewResume = (input) => {
     setUserFirstName(input);
+   
 
     setShowResume(true);
     setdisplayForm(false )
@@ -46,6 +47,11 @@ function App() {
     setOpenMenuSlider(false);
     setOffNav(false)
   };
+ 
+  const handleFirstName = (input) => { 
+    setUserLastName(input);
+
+  }
     
   
   
@@ -116,7 +122,7 @@ function App() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume onInputSubmit={RivewResume} />  </> }
+        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} handleFirstName={handleFirstName} />  </> }
              
 
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
@@ -129,7 +135,7 @@ function App() {
         } 
 
          
-         {  ShowResume &&  <Resume UserFirstName={UserFirstName}  /> }
+         {  ShowResume &&  <Resume UserFirstName={UserFirstName} UserLastName={UserLastName}  /> }
          
         
 
