@@ -49,13 +49,7 @@ function App() {
     setOffNav(false)
   };
 
-  const GoBackForm=()=>{
-    setShowResume(false);
-    setdisplayForm(true )
-    setdisplayRestBody(false)
-    setOpenMenuSlider(false);
-    setOffNav(false)
-  }
+  
  
   const handleLastName = (input) => { 
     setUserLastName(input);
@@ -129,6 +123,7 @@ function App() {
     setdisplayRestBody(false)
     setOpenMenuSlider(false);
     setShowResume(false);
+    setOffNav(true)
 
 
   }
@@ -242,7 +237,7 @@ function App() {
                                   UserInterests={UserInterests}
                                   UserLanguages={UserLanguages}
                                   
-                                  GoBackForm={GoBackForm}
+                                  FormDisplay={FormDisplay}
 
                                    /> }
          
