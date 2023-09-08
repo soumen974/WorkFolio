@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
+import ImageInput from './ImageInput';
 
 export default function FormResume({ RivewResume ,
                                       handleLastName,
@@ -248,18 +249,7 @@ export default function FormResume({ RivewResume ,
                     <div className="Uplodeimg">
                           <h6>Upload Here</h6>
                           <abbr title='Upload Your Image Here'> 
-                                  <svg width="243" height="242" viewBox="0 0 243 242" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                      <ellipse cx="121.469" cy="121" rx="121.469" ry="121" fill="url(#paint0_linear_255_2)" fillOpacity="0.76"/>
-                                      <path d="M121.7 74.9465L163.707 110.669H79.6935L121.7 74.9465Z" fill="white"/>
-                                      <rect x="98.0605" y="106.116" width="46.9291" height="38.5239" fill="white"/>
-                                      <rect x="76.5112" y="157.598" width="90.7915" height="9.80608" fill="white"/>
-                                      <defs>
-                                      <linearGradient id="paint0_linear_255_2" x1="44.3318" y1="370.613" x2="217.226" y2="-41.6718" gradientUnits="userSpaceOnUse">
-                                      <stop stopOpacity="0.52"/>
-                                      <stop offset="0.629744" stopColor="#7D74E3" stopOpacity="0.58"/>
-                                      </linearGradient>
-                                      </defs>
-                                  </svg>
+                                  <ImageInput/>
                           </abbr>
 
                     </div>

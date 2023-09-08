@@ -251,6 +251,7 @@ width: 11rem;
         </div>
 
      <div className="Review-box-model">
+
           <div className="head-box-model">
             <div className="review-er-details">
               <div className="review-er-image"></div>
@@ -264,3 +265,46 @@ width: 11rem;
           <hr/>
           <div className="riview-text">" As someone who spent a long time unemployed in the past , I absolutely love this. Well done guys! I really hope this gets wildly popular, it will be valuable to so many people. "</div>
         </div>
+
+
+        import React, { useState } from "react";
+
+function ImageUploader() {
+  const [imageSrc, setImageSrc] = useState(null);
+  const [showImage, setShowImage] = useState(false);
+
+  const handleImageChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        setImageSrc(e.target.result);
+      };
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const toggleImage = () => {
+    setShowImage(!showImage);
+  };
+
+  return (
+    <div>
+      <h1>Image Uploader</h1>
+      <input type="file" onChange={handleImageChange} accept="image/*" />
+      <button onClick={toggleImage}>Show Image</button>
+      {showImage && imageSrc && (
+        <div>
+          <h2>Uploaded Image</h2>
+          <img
+            style={{ height: "12rem", width: "12rem" }}
+            src={imageSrc}
+            alt="Uploaded"
+          />
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default ImageUploader;
