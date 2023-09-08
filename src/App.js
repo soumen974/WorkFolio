@@ -41,12 +41,21 @@ function App() {
     setUserFirstName(input);
    
 
+    
     setShowResume(true);
     setdisplayForm(false )
     setdisplayRestBody(false)
     setOpenMenuSlider(false);
     setOffNav(false)
   };
+
+  const GoBackForm=()=>{
+    setShowResume(false);
+    setdisplayForm(true )
+    setdisplayRestBody(false)
+    setOpenMenuSlider(false);
+    setOffNav(false)
+  }
  
   const handleLastName = (input) => { 
     setUserLastName(input);
@@ -199,6 +208,8 @@ function App() {
                                             handleInternships={handleInternships}
                                             handleInterest={handleInterest}
                                             handleLanguage={handleLanguage}
+
+                                            
                                             
                                             />  </> }
              
@@ -230,6 +241,8 @@ function App() {
                                   UserInternships={UserInternships}
                                   UserInterests={UserInterests}
                                   UserLanguages={UserLanguages}
+                                  
+                                  GoBackForm={GoBackForm}
 
                                    /> }
          
