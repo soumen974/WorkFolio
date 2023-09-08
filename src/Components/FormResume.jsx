@@ -150,46 +150,33 @@ export default function FormResume({ RivewResume ,
   };
 
 
-  // default massages 
-  const [defaultSkills , setdefaultSkills]=useState();
-  const [defaultProject ,setdefaultProject]=useState();
-  const[defaultEducation , setdefaultEducation]=useState();
-  const[defaultAchivement,setdefaultAchivement]=useState()
-  const[defaultDomain, setdefaultDomain]=useState();
-
-  const[defaultObjective,setdefaultObjective]=useState();
-  const[defaultLanguage,setdefaultLanguage]=useState();
-  
-  
-
-
   const  defaultDetails=()=>{
-    setdefaultMob("9874563210")
-    setdefaultMail("WorkFolio@gmail.com")
-    setdefaultLnkdIn("https://workFolio/linkedIn.com")
-    setdefaultGh('https://workFolio.Github.com')
-    setdefaultLoc("Delhi,India")
+    setUserMobile("9874563210")
+    setUserMail("WorkFolio@gmail.com")
+    setUserLinkedIn("https://workFolio/linkedIn.com")
+    setUserGitHub('https://workFolio.Github.com')
+    setUserLocation("Delhi,India")
 
-    setdefaultSkills(
+    setUserSkills(
       " Technical : C, JAVA, HTML, CSS, JS, REACT.JS, MYSQL,ANDROID, GIT & GITHUB, FIGMA.");
 
 
-    setdefaultProject(
+      setUserProjects(
       " Cube E-commers website frontend  : This is a Rubik’s cube selling website , that helps buyers to get their best handy Rubik’s cube ");
       
 
-    setdefaultEducation(
+      setUserEducation(
       " B.Tech | Centurion University and Technology |(year-year)    Class XII (PCM) | ABC School |(year)  Class X | XYZ  School |(year)");
       
       
 
      
-    setdefaultAchivement("Whats your achivements !");
-    setdefaultDomain("Software Technology ");
+      setUserAchievement("Whats your achivements !");
+      setUserDomain("Software Technology ");
 
-    setdefaultObjective("Passionate Frontend Developer and UI/UX Designer eager to blend creativity and technical skills. Seeking opportunities to create captivating user experiences by merging design expertise with cutting-edge development.")
+      setUserObjectives("Passionate Frontend Developer and UI/UX Designer eager to blend creativity and technical skills. Seeking opportunities to create captivating user experiences by merging design expertise with cutting-edge development.")
 
-    setdefaultLanguage(
+      setUserLanguages(
       "Bengali Hindi English")
     
     
@@ -200,19 +187,20 @@ export default function FormResume({ RivewResume ,
   const RemovedefaultDetails =()=>{
 
 
-    setdefaultMob("")
-    setdefaultMail("")
-    setdefaultLnkdIn("")
-    setdefaultGh('')
-    setdefaultLoc("")
-
-    setdefaultSkills(" ");
-    setdefaultProject(" ");
-    setdefaultEducation("");   
-    setdefaultAchivement("");
-    setdefaultDomain(" ");
-    setdefaultObjective("");
-    setdefaultLanguage("");
+    setUserSkills("");
+    setUserProjects("");
+    setUserEducation("");
+    setUserAchievement("");
+    setUserDomain("");
+    setUserObjectives("");
+    setUserMobile("");
+    setUserMail("");
+    setUserLinkedIn("");
+    setUserGitHub("");
+    setUserLocation("");
+    setUserInternships("");
+    setUserInterests("");
+    setUserLanguages("");
 
   }
   
@@ -303,19 +291,19 @@ export default function FormResume({ RivewResume ,
 
             <div className="Rest-big-details">
               <h1>Skills</h1>
-              <textarea value={UserSkills} onChange={handleInputSkills} defaultValue={defaultSkills}/>
+              <textarea value={UserSkills} onChange={handleInputSkills} />
 
               <h1>Project Undertaken</h1>
-              <textarea value={UserProjects} onChange={handleInputProjects} defaultValue={defaultProject}/>
+              <textarea value={UserProjects} onChange={handleInputProjects} />
 
               <h1>Education</h1>
-              <textarea value={UserEducation} onChange={handleInputEducation}  defaultValue={defaultEducation}/>
+              <textarea value={UserEducation} onChange={handleInputEducation}  />
 
               <h1>Achievement / Industry certification / Recognition</h1>
-              <textarea value={UserAchievement} onChange={handleInputAchievement} defaultValue={defaultAchivement}/>
+              <textarea value={UserAchievement} onChange={handleInputAchievement} />
 
               <h1>Domain Expertise</h1>
-              <textarea value={UserDomain} onChange={handleInputDomain} defaultValue={defaultDomain}/>
+              <textarea value={UserDomain} onChange={handleInputDomain} />
 
              
 
@@ -333,7 +321,7 @@ export default function FormResume({ RivewResume ,
 
                 <div className="objectives">
                     <h1>Objectives</h1>
-                    <textarea value={UserObjectives} onChange={handleInputObjectives} defaultValue={defaultObjective} />
+                    <textarea value={UserObjectives} onChange={handleInputObjectives}  />
                   </div>
 
                   <div className="Contacts-Links">
@@ -341,11 +329,11 @@ export default function FormResume({ RivewResume ,
 
                       <div className="link-inputs">
 
-                          <input value={UserMobile} onChange={handleInputMobile} placeholder='Mobile no' defaultValue={defaultMob}/>
-                          <input value={UserMail} onChange={handleInputMail} placeholder='Mail id'defaultValue={defaultMail}/>
-                          <input value={UserLinkedIn} onChange={handleInputLinkedIn} placeholder='Linkedin profile link' defaultValue= {defaultLnkdIn}/>
-                          <input value={UserGitHub} placeholder='Github Link' onChange={handleInputGitHub} defaultValue= {defaultGh}/>
-                          <input value={UserLocation} placeholder='Location' onChange={handleInputLocation} defaultValue={defaultLoc} />
+                          <input value={UserMobile} onChange={handleInputMobile} placeholder='Mobile no' />
+                          <input value={UserMail} onChange={handleInputMail} placeholder='Mail id'/>
+                          <input value={UserLinkedIn} onChange={handleInputLinkedIn} placeholder='Linkedin profile link' />
+                          <input value={UserGitHub} placeholder='Github Link' onChange={handleInputGitHub} />
+                          <input value={UserLocation} placeholder='Location' onChange={handleInputLocation}  />
 
                       </div>
                   
@@ -366,7 +354,7 @@ export default function FormResume({ RivewResume ,
                 
                 <div className="language">
                   <h1>Language </h1>
-                  <textarea  value={UserLanguages} onChange={handleInputLanguage} defaultValue={defaultLanguage} />
+                  <textarea  value={UserLanguages} onChange={handleInputLanguage}  />
                 </div>
               
             </div>
