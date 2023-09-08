@@ -17,9 +17,9 @@ function App() {
 
     const[UserFirstName,setUserFirstName]=useState('')
     
-    const[UserLastName,setUserLastName]=useState()
-    const[UserWorkPost,setUserWorkPost]=useState()
-    const[UserSkills,setUserSkills]=useState()
+    const[UserLastName,setUserLastName]=useState('')
+    const[UserWorkPost,setUserWorkPost]=useState('')
+    const[UserSkills,setUserSkills]=useState('')
     const[UserProjects,setUserProjects]=useState()
     const[UserEducation,setUserEducation]=useState()
     const[UserAchievement,setUserAchievement]=useState()
