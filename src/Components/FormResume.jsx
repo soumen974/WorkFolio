@@ -54,16 +54,22 @@ export default function FormResume({ RivewResume ,
   
 
 
-  const handleInputFirstName = (event) => {
-    setUserFirstName(event.target.value);
-
-  };
+ 
 
   const handleSubmit = () => {
     RivewResume(UserFirstName);
     handleLastName(UserLastName);
+    handleWorkPost(UserWorkPost);
+    handleSkills(UserSkills);
+   
+
     
     
+
+  };
+
+  const handleInputFirstName = (e) => {
+    setUserFirstName(e.target.value);
 
   };
 

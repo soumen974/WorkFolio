@@ -64,63 +64,63 @@ function App() {
     
  
   const handleWorkPost = (e) => {
-    setUserWorkPost(e.target.value);
+    setUserWorkPost(e);
   };
 
   const handleSkills = (e) => {
-    setUserSkills(e.target.value);
+    setUserSkills(e);
   };
 
   const handleProjects = (e) => {
-    setUserProjects(e.target.value);
+    setUserProjects(e);
   };
   
   const handleEducation = (e) => {
-    setUserEducation(e.target.value);
+    setUserEducation(e);
   };
 
   const handleAchievement = (e) => {
-    setUserAchievement(e.target.value);
+    setUserAchievement(e);
   };
 
   const handleDomain = (e) => {
-    setUserDomain(e.target.value);
+    setUserDomain(e);
   };
 
   const handleObjectives = (e) => {
-    setUserObjectives(e.target.value);
+    setUserObjectives(e);
   };
 
   const handleMobile = (e) => {
-    setUserMobile(e.target.value);
+    setUserMobile(e);
   };
 
   const handleMail = (e) => {
-    setUserMail(e.target.value);
+    setUserMail(e);
   };
 
   const handleLinkedIn = (e) => {
-    setUserLinkedIn(e.target.value);
+    setUserLinkedIn(e);
   };
 
   const handleGitHub = (e) => {
-    setUserGitHub(e.target.value);
+    setUserGitHub(e);
   };
   
   const handleLocation = (e) => {
-    setUserLocation(e.target.value);
+    setUserLocation(e);
   };
 
   const handleInternships = (e) => {
-    setUserInternships(e.target.value);
+    setUserInternships(e);
   };
 
   const handleInterest = (e) => {
-    setUserInterests(e.target.value);
+    setUserInterests(e);
   };
  
   const handleLanguage = (e) => {
-    setUserLanguages(e.target.value);
+    setUserLanguages(e);
   };
   
   
