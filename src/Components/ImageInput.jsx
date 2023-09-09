@@ -1,7 +1,9 @@
 
 import React, { useState } from "react";
+import     UploadSign from './Images/uploadSign.svg'
+import './FormResume.css'
 
-function ImageInput() {
+export default function ImageInput() {
   const [imageSrc, setImageSrc] = useState(null);
   const [showImage, setShowImage] = useState(false);
 
@@ -27,12 +29,12 @@ function ImageInput() {
   };
 
   return (
-    <div>
+    <div className="ImageInput">
       <label htmlFor="image-upload">
         <img
-          src="/upload-icon.svg" // Replace with the path to your SVG icon
+          src={ UploadSign} 
           alt="Upload Icon"
-          style={{ width: "48px", height: "48px", cursor: "pointer" }}
+          // style={{ width: "48px", height: "48px", cursor: "pointer" }}
         />
       </label>
       <input
@@ -46,8 +48,8 @@ function ImageInput() {
         {showImage ? "Hide Image" : "Show Image"}
       </button>
       {showImage && imageSrc && (
-        <div>
-          <h2>Uploaded Image</h2>
+        <div className="UploadedImageReview">
+          <h2></h2>
           <img src={imageSrc} alt="Uploaded" />
           <button onClick={removeImage}>Remove Image</button>
         </div>
@@ -56,4 +58,3 @@ function ImageInput() {
   );
 }
 
-export default ImageInput;
