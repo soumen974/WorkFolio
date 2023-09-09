@@ -17,7 +17,8 @@ export default function Resume({UserFirstName,
                                   UserInternships,
                                   UserInterests,
                                   UserLanguages,
-                                  FormDisplay
+                                  FormDisplay,
+                                  UserImage
                               
                               },props) {
   return (
@@ -26,6 +27,9 @@ export default function Resume({UserFirstName,
       <button onClick={FormDisplay} >Go Back</button>
      <div className="ResumeDetails">
      <h1>Hay Mr. {UserFirstName}  {UserLastName}</h1>
+                                   <br/>
+                                   {UserImage && <img src={URL.createObjectURL(UserImage)} alt="Selected" />}
+
      
                                   {UserWorkPost}<br/>
                                   {UserSkills}<br/>
