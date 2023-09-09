@@ -125,7 +125,6 @@ function App() {
     setShowResume(false);
     setOffNav(true)
 
-
   }
 
   function GotoHome(){
