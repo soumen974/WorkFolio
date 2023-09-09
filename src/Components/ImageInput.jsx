@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import     UploadSign from './Images/uploadSign.svg'
 import './FormResume.css'
 
-export default function ImageInput() {
+export default function ImageInput({onImageSelect}) {
   const [imageSrc, setImageSrc] = useState(null);
   const [showImage, setShowImage] = useState(false);
 
@@ -20,6 +20,7 @@ export default function ImageInput() {
       reader.readAsDataURL(file);
     }
     setOffUploadIcon(false)
+    onImageSelect(file);
     
 
   };

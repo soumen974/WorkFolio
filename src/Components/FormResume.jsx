@@ -21,6 +21,8 @@ export default function FormResume({ RivewResume ,
                                       handleInternships,
                                       handleInterest,
                                       handleLanguage,
+                                      
+                                      UserImage,
 
                               
                                       ...props }) {
@@ -245,7 +247,7 @@ export default function FormResume({ RivewResume ,
             <div className="Inital-details">
                     <div className="Uplodeimg">
                           
-                                  <ImageInput/>
+                                  <ImageInput UserImage={UserImage} onImageSelect={handleImageChange}/>
                          
 
                     </div>
