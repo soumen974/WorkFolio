@@ -21,16 +21,13 @@ export default function FormResume({ RivewResume ,
                                       handleInternships,
                                       handleInterest,
                                       handleLanguage,
+
                               
                                       ...props }) {
 
   // default value 
 
-  const [ defaultMob , setdefaultMob]=useState();
-  const [ defaultMail , setdefaultMail]=useState();
-  const [ defaultLnkdIn , setdefaultLnkdIn]=useState();
-  const [ defaultGh , setdefaultGh]=useState();
-  const [ defaultLoc , setdefaultLoc]=useState();
+ 
 
 
   // user details

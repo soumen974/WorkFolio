@@ -164,7 +164,7 @@ function App() {
 
   const [UserImage, setUserImage] = useState(null);
 
-  const handleImageSelect = () => {
+  const handleImageChange = () => {
     setUserImage(UserImage);
   };
   
@@ -207,6 +207,7 @@ function App() {
                                             handleInternships={handleInternships}
                                             handleInterest={handleInterest}
                                             handleLanguage={handleLanguage}
+                                            handleImageChange={handleImageChange}
 
                                             
                                             
