@@ -339,7 +339,6 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     
     }
     .Form-01_color-back{
-        padding: 0rem ;    
         border-radius: 22.048px;
     
     }
@@ -369,8 +368,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
         margin-top: -1rem;
     }
     .Form-01_color-back{
-        /* display: grid; */
-        padding: 0;    
+         
         margin: 0;
         border-radius: 10px;
     

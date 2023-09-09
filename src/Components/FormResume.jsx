@@ -247,7 +247,6 @@ export default function FormResume({ RivewResume ,
 
             <div className="Inital-details">
                     <div className="Uplodeimg">
-                          <h6>Upload Here</h6>
                           
                                   <ImageInput/>
                          

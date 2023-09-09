@@ -20,6 +20,7 @@ export default function ImageInput() {
       reader.readAsDataURL(file);
     }
     setOffUploadIcon(false)
+    
 
   };
 
@@ -31,7 +32,7 @@ export default function ImageInput() {
 
   const removeImage = () => {
     setImageSrc(null);
-    setShowImage(false);
+    // setShowImage(false);
     setOffUploadIcon(true)
 
   };
@@ -44,7 +45,7 @@ export default function ImageInput() {
       <label htmlFor="image-upload">
         <img
           src={ UploadSign} 
-          alt="No image Uploaded"
+          alt="No image Uploasded"
           // style={{ width: "48px", height: "48px", cursor: "pointer" }}
         />
       </label>
@@ -63,17 +64,17 @@ export default function ImageInput() {
     
     }
 
+
+        
       
-      <button onClick={toggleImage}>
-        {showImage ? "Hide Image" : "Show Image"}
-      </button>
       {showImage && imageSrc && (
         <div className="UploadedImageReview">
           <h2></h2>
           <abbr title="Uploaded image">
           <img src={imageSrc} alt="Uploaded" />
           </abbr>
-          <button onClick={removeImage}><abbr title="Remove">X</abbr></button>
+          <br/>
+          <button onClick={removeImage}>Remove this image</button>
         </div>
       )}
     </div>
