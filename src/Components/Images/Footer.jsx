@@ -1,7 +1,12 @@
 import React from 'react'
+import './Footer.css'
 
 export default function Footer() {
   return (
-    <div>this is footer </div>
+    <>
+    <div className="wholeFoot">
+        this is footer
+    </div>
+     </>
   )
 }
