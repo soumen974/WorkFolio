@@ -161,12 +161,12 @@ function App() {
   //   setOpenMenuSlider(false);
   //   setOffNav(false)
   // }
+  const [selectedImage, setSelectedImage] = useState(null);
 
-  const [UserImage, setUserImage] = useState(null);
-
-  const handleImageChange = (UserImage) => {
-    setUserImage(UserImage);
+  const handleImageSelect = (imageData) => {
+    setSelectedImage(imageData);
   };
+ 
   
 
 
@@ -207,8 +207,7 @@ function App() {
                                             handleInternships={handleInternships}
                                             handleInterest={handleInterest}
                                             handleLanguage={handleLanguage}
-                                            onImageSelect={handleImageChange}
-                                            UserImage={UserImage}
+                                            onImageSelect={handleImageSelect}
                                             
                                             />  </> }
              
@@ -240,10 +239,8 @@ function App() {
                                   UserInternships={UserInternships}
                                   UserInterests={UserInterests}
                                   UserLanguages={UserLanguages}
-                                  
                                   FormDisplay={FormDisplay}
-                                  UserImage={UserImage}
-                                  onImageSelect={handleImageChange}
+                                  selectedImage={selectedImage}
                                   
 
                                    /> }
