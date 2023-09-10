@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import     UploadSign from './Images/uploadSign.svg'
 import './FormResume.css'
 
-export default function ImageInput({ onImageSelect }) {
+export default function ImageInput({onImageSelect}) {
   const [imageSrc, setImageSrc] = useState(null);
   const [showImage, setShowImage] = useState(false);
 
@@ -14,12 +14,14 @@ export default function ImageInput({ onImageSelect }) {
     if (file) {
       const reader = new FileReader();
       reader.onload = (e) => {
-        const imageData = e.target.result;
-        onImageSelect(imageData); // Pass the selected image back to the parent component
+        setImageSrc(e.target.result);
+        setShowImage(true);
       };
       reader.readAsDataURL(file);
     }
     setOffUploadIcon(false)
+    // onImageSelect(file);
+    
 
   };
 
