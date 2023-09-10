@@ -7,7 +7,7 @@ import Section02 from './Components/Section02';
 import FormResume from './Components/FormResume';
 import Section03 from './Components/Section03';
 import Resume from './Components/Resume';
-import Footer from './Components/Images/Footer';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -248,7 +248,7 @@ function App() {
          
         
 
-     <Footer/>
+     <Footer GotoHome={GotoHome} />
      
         
 

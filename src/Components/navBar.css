@@ -57,6 +57,12 @@
      /* font-family:cursive; */
 
    }
+
+   .logo_icon:hover{
+    background-color: #4a3af9;
+    
+
+  }
    .logo_icon abbr{
     cursor: pointer;
     text-decoration: none;
