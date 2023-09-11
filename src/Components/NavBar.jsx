@@ -11,7 +11,7 @@ export default function NavBar(props) {
     <section className="sec-1">
         <nav>
             <div className="navElements">
-               <a href='#'> <div className="logo"  onClick={props.GotoHome}> <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolio</h3></div></a>
+               <a href='#'> <div className="logo"  onClick={props.GotoHome}> <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></a>
                 <div className="LinkComponents">
                     <ul>
                      <a href='#'> <li onClick={props.GotoHome}>Home</li></a>

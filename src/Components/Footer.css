@@ -5,6 +5,10 @@
 .wholeFoot h4{
     text-align: center;
     padding: 0.52rem;
+    font-weight: lighter;
+    color: white;
+    background-color: #6356FF;
+
 }
 .backFoot{
     background: #E9E9E9;
@@ -36,15 +40,24 @@
     justify-content: center;
     gap: 1rem;
     padding: 0.82rem;
+    padding-bottom:1.5rem ;
 
 }
 .footContent h5{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 0.62rem;
 }
-.ownBranding h5{
- font-size: 0.82rem;
-}
+
 .footContent abbr{
     cursor: pointer;
+}
+.ownBranding h5{
+    font-size: 0.92rem;
+}
+.ownBranding h6{
+    font-size: 0.72rem;
+}
+.ownBranding {
+    padding-bottom:0.7rem ;
+
 }
