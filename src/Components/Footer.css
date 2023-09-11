@@ -1,53 +1,50 @@
 .wholeFoot{
-    padding: 2rem;
+    /* padding: 2rem; */
     margin-top: 5rem;
 }
-.wholeFoot h6{
+.wholeFoot h4{
     text-align: center;
     padding: 0.52rem;
 }
 .backFoot{
     background: #E9E9E9;
-    /* height: 20rem; */
     padding: 4rem;
-    border-radius: 0.832rem;
 
 }
 
 .footContent{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     /* background-color: green; */
     flex-wrap: wrap;
     box-sizing:content-box;
     text-align: center;
-}
-.logoAtFooter{
-display: grid;
-gap: 2rem;
-/* background-color: black; */
-}
-.logoAtFooter a{
-    text-decoration: none;
-}
-.logoAtFooter h3{
-color: black;
-}
-.BigLogoAtFoot{
-    background-color: #4a3af9eb;
-    font-size: 6rem;
-    height: 10rem;
-    width:10rem;
-    padding: 2rem;
-    border-radius: 100%;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 
 }
-.logoAtFooter abbr{
+
+.footContent ul li{
     text-decoration: none;
+    list-style: none;
+    display: flex;
+   justify-content: center;
+   text-align: center;
 }
-.BigLogoAtFoot:hover{
-    background-color: #4a3af9;
-   
+.footContent ul {
+  
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.82rem;
+
+}
+.footContent h5{
+    font-size: 1.2rem;
+    padding: 0.62rem;
+}
+.ownBranding h5{
+ font-size: 0.82rem;
+}
+.footContent abbr{
+    cursor: pointer;
 }

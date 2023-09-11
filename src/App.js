@@ -130,6 +130,7 @@ function App() {
 
   function GotoHome(){
     setdisplayForm(false )
+    setOffNav(true)
     setdisplayRestBody(true)
     setOpenMenuSlider(false);
     setShowResume(false);
