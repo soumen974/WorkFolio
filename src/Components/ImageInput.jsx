@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import     UploadSign from './Images/uploadSign.svg'
 import './FormResume.css'
-import Resume from "./Resume";
 
 export default function ImageInput({onImageSelect}) {
   const [imageSrc, setImageSrc] = useState(null);
@@ -38,8 +37,6 @@ export default function ImageInput({onImageSelect}) {
     setOffUploadIcon(true)
 
   };
-
-  const [resumeOFF,setresumeOFF]=useState(false);
 
   return (
     <div className="ImageInput">
@@ -81,11 +78,6 @@ export default function ImageInput({onImageSelect}) {
           <button onClick={removeImage}>Remove this image</button>
         </div>
       )}
-
-    {resumeOFF &&
-          <Resume userImage={imageSrc}/>
-
-    }
     </div>
   );
 }

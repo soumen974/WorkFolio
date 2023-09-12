@@ -18,7 +18,8 @@ export default function Resume({UserFirstName,
                                   UserInterests,
                                   UserLanguages,
                                   FormDisplay,
-                                  
+                                  imageSrc
+
                               
                               },props) {
   return (
@@ -28,8 +29,14 @@ export default function Resume({UserFirstName,
      <div className="ResumeDetails">
      <h1>Hai Mr. {UserFirstName}  {UserLastName}</h1>
                                    <br/>
-                                  <img src={props.UserImage} alt="Selected" />
-
+                                   {/* {userImage && <img src={URL.createObjectURL(UserImage)} alt="Selected" />} */}
+                                   
+                                  
+        <div>
+          <h2>Selected Image</h2>
+          <img src={imageSrc} alt="Selected" />
+        </div>
+      
      
                                   {UserWorkPost}<br/>
                                   {UserSkills}<br/>
