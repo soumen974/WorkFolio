@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import     UploadSign from './Images/uploadSign.svg'
 import './FormResume.css'
+import Resume from "./Resume";
 
 export default function ImageInput({onImageSelect}) {
   const [imageSrc, setImageSrc] = useState(null);
@@ -38,6 +39,8 @@ export default function ImageInput({onImageSelect}) {
 
   };
 
+  const [resumeOFF,setresumeOFF]=useState(false);
+
   return (
     <div className="ImageInput">
       { OffUploadIcon &&
@@ -46,7 +49,7 @@ export default function ImageInput({onImageSelect}) {
       <label htmlFor="image-upload">
         <img
           src={ UploadSign} 
-          alt="No image Uploasded"
+          alt="No image Uploaded"
           // style={{ width: "48px", height: "48px", cursor: "pointer" }}
         />
       </label>
@@ -78,6 +81,11 @@ export default function ImageInput({onImageSelect}) {
           <button onClick={removeImage}>Remove this image</button>
         </div>
       )}
+
+    {resumeOFF &&
+          <Resume userImage={imageSrc}/>
+
+    }
     </div>
   );
 }
