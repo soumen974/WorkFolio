@@ -25,19 +25,25 @@ export default function Resume({UserFirstName,
                               },props) {
   return (
     <>
-    <div className="ResumeWhole">
+    <div className="ResumeWhole-body">
       <button onClick={FormDisplay} >Go Back</button>
 
-     <div className="ResumeDetails">
+      <div className="resumeWholeBack">
       <div className="ResumeHead">
-        <div className="imageleft"></div>
-        <div className="Name-post">
-        <h1> {UserFirstName}  </h1>
-        <h1> {UserLastName}</h1>
-        <h4>{UserWorkPost}</h4>
+            <div className="imageleft"></div>
+            <div className="Name-post">
+            <h1> {UserFirstName}  </h1>
+            <h1> {UserLastName}</h1>
+            <h4>{UserWorkPost}</h4>
 
-        </div>
+              </div>
+          </div>
+      <div className="ResumeDetails">
+        <div className="leftBlackDiv">left things</div>
+        <div className="rightWhiteDiv">right  things</div>
+        
       </div>
+        
                                    
                                   
         

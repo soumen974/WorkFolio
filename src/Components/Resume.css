@@ -1,6 +1,7 @@
-.ResumeDetails{
+.resumeWholeBack{
     padding: 0 22rem 0 22rem;
     /* text-align: center; */
+    /* background-color: gray; */
 }
 .ResumeHead{
     background: #043382;
@@ -27,4 +28,24 @@ line-height: normal;
    
     transform: skewX(16.47deg);
     
+}
+.ResumeDetails{
+    display: flex;
+    /* justify-content:space-between; */
+    padding-left: 2rem;
+    
+}
+.leftBlackDiv{
+    width: 738.059px;
+    height: 500px;
+    flex-shrink: 0;
+ background-color: black;
+ color: white;
+ width: 28%;
+ 
+}
+.rightWhiteDiv{
+    background-color: greenyellow;
+    width: 100%;
+
 }
