@@ -1,4 +1,5 @@
 import React from 'react'
+import './Resume.css'
 
 export default function Resume({UserFirstName,
                                 UserLastName,
@@ -26,19 +27,23 @@ export default function Resume({UserFirstName,
     <>
     <div className="ResumeWhole">
       <button onClick={FormDisplay} >Go Back</button>
+
      <div className="ResumeDetails">
-     <h1>Hai Mr. {UserFirstName}  {UserLastName}</h1>
-                                   <br/>
-                                   {/* {userImage && <img src={URL.createObjectURL(UserImage)} alt="Selected" />} */}
+      <div className="ResumeHead">
+        <div className="imageleft"></div>
+        <div className="Name-post">
+        <h1> {UserFirstName}  </h1>
+        <h1> {UserLastName}</h1>
+        <h4>{UserWorkPost}</h4>
+
+        </div>
+      </div>
                                    
                                   
-        <div>
-          <h2>Selected Image</h2>
-          <img src={imageSrc} alt="Selected" />
-        </div>
+        
       
      
-                                  {UserWorkPost}<br/>
+                                  <br/>
                                   {UserSkills}<br/>
                                   {UserProjects}<br/>
                                   {UserEducation}<br/>

@@ -1,0 +1,30 @@
+.ResumeDetails{
+    padding: 0 22rem 0 22rem;
+    /* text-align: center; */
+}
+.ResumeHead{
+    background: #043382;
+    box-shadow: -1.50932px 24.14917px 33.2051px 3.01865px rgba(0, 0, 0, 0.25);    color: white;
+    height: 12rem;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.ResumeHead h1{
+    /* font-family: Inter; */
+font-size: rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Name-post{
+    background: #042B6B;
+    transform: skewX(-16.47deg);
+    width: fit-content;
+    height: 12rem;
+    padding: 1.5rem;
+}
+ .Name-post h1 {
+   
+    transform: skewX(16.47deg);
+    
+}
