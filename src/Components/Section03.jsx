@@ -2,9 +2,9 @@ import React from 'react'
 import "./Section03.css"
 import AeroplinVector from "./Images/aeroPlainVector.svg"
 import TemplBack from "./Images/Templt_back.svg";
-import MidTemplate from "./Images/temp-1.png";
-import LeftTemplate from "./Images/temp-left-2.png";
-import RightTemplate from "./Images/temp-right-3.png";
+import MidTemplate from "./Images/Mid-rsm.png";
+import LeftTemplate from "./Images/lft-rsm.png";
+import RightTemplate from "./Images/right-rsm.png";
 export default function Section03() {
   return (
     <>
