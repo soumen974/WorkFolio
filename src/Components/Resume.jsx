@@ -25,8 +25,9 @@ export default function Resume({UserFirstName,
                               },props) {
   return (
     <>
+          <button onClick={FormDisplay} >Go Back</button>
+
     <div className="ResumeWhole-body">
-      <button onClick={FormDisplay} >Go Back</button>
 
       <div className="resumeWholeBack">
       <div className="ResumeHead">
@@ -39,8 +40,8 @@ export default function Resume({UserFirstName,
               </div>
           </div>
       <div className="ResumeDetails">
-        <div className="leftBlackDiv">left things</div>
-        <div className="rightWhiteDiv">right  things</div>
+        <div className="leftBlackDiv"></div>
+        <div className="rightWhiteDiv"></div>
         
       </div>
         
@@ -49,7 +50,9 @@ export default function Resume({UserFirstName,
         
       
      
-                                  <br/>
+                                 
+     </div>
+     <br/>
                                   {UserSkills}<br/>
                                   {UserProjects}<br/>
                                   {UserEducation}<br/>
@@ -64,8 +67,6 @@ export default function Resume({UserFirstName,
                                   {UserInternships}<br/>
                                   {UserInterests}<br/>
                                   {UserLanguages}<br/>
-     </div>
-       
     </div>
     
     

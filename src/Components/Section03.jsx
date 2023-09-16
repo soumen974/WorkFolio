@@ -26,10 +26,11 @@ export default function Section03() {
                 <img src={RightTemplate} alt="" />
                 </div>
             </div>
+
         </div>
         <br/>
-
     </div>
+
     
     </>
   )

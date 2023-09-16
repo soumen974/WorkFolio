@@ -1,6 +1,8 @@
 .Section03{
     margin-top: 10rem;
     overflow: hidden;
+    margin-bottom: 1rem;
+
 }
 .Templates_head{
     width: 100%;
@@ -92,6 +94,8 @@
 .templates :last-child{
     z-index: -1;
 }
+
+
 
 @media (max-width:985px) {
     .Section03{
