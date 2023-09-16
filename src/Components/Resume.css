@@ -7,8 +7,10 @@
     
 }
 .resumeWholeBack{
-   border: 1px solid ;
+   border: 1px solid rgba(0, 0, 0, 0.42);
    border-radius: 1rem;
+   box-shadow: 0 0 10rem rgb(178, 178, 178);
+
 }
 .ResumeHead{
     background: #043382;
@@ -51,10 +53,10 @@ line-height: normal;
 .leftBlackDiv{
     width: 738.059px;
     /* flex-shrink: 0; */
- background-color: black;
+ background-color: rgba(0, 0, 0, 0.815);
  color: white;
  width: 28%;
- height: 55rem;
+ height: 22rem;
  
 }
 .rightWhiteDiv{

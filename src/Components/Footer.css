@@ -32,6 +32,25 @@
    justify-content: center;
    text-align: center;
 }
+
+.footContent ul  svg{
+    fill:#6356FF;
+    
+}
+.footContent ul  svg{
+    fill:#6356FF;
+    
+}
+
+.footContent ul :hover svg{
+    fill:#1500fcdd;
+}
+
+.footContent ul li  :nth-child(2){
+    /* fill:#6356FF; */
+}
+
+
 .footContent ul {
   
     display: flex;
