@@ -9,6 +9,13 @@ import Section03 from './Components/Section03';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 function App() {
 
   const [displayForm,setdisplayForm]=useState(false);
