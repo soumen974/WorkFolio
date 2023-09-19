@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './navBar.css'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 export default function NavBar(props) {
 
     
@@ -24,7 +26,7 @@ export default function NavBar(props) {
 
                 <div className="user_click_buttons">
                     <div className="logInButton"> Login</div>
-                    <a href="#"><button className="Create_cv" onClick={props.FormDisplay}>Create Your Resume</button></a>
+                    <Link to ="/FormResume"><button className="Create_cv" onClick={props.FormDisplay}>Create Your Resume</button></Link>
                 </div>
                                     <div className='OpenMenuRight' >
                         <svg  className='OpenMenuRightSVG' onClick={props.MenuSlideShow}  viewBox="0 0 27 21"  xmlns="http://www.w3.org/2000/svg">

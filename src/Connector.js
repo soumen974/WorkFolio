@@ -8,8 +8,14 @@ import FormResume from './Components/FormResume';
 import Section03 from './Components/Section03';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
-function App() {
+function Connentor() {
 
   const [displayForm,setdisplayForm]=useState(false);
   const [displayRestBody,setdisplayRestBody]=useState(true);
@@ -257,4 +263,4 @@ function App() {
   );
 }
 
-export default App;
+export default Connentor;
