@@ -13,20 +13,20 @@ export default function NavBar(props) {
     <section className="sec-1">
         <nav>
             <div className="navElements">
-               <a href='#'> <div className="logo"  onClick={props.GotoHome}> <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></a>
+               <Link to='/'> <div className="logo"  > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></Link>
                 <div className="LinkComponents">
                     <ul>
-                     <a href='#'> <li onClick={props.GotoHome}>Home</li></a>
-                       <a href='#'> <li>Templates</li></a>
-                       <a href='#'> <li>Examples</li></a>
-                       <a href='#'> <li>About</li></a>
-                       <a href='#'> <li>Help</li></a>
+                     <Link to='/'> <li >Home</li></Link>
+                       <Link to='/'> <li>Templates</li></Link>
+                       <Link to='/'> <li>Examples</li></Link>
+                       <Link to='/'> <li>About</li></Link>
+                       <Link to='/'> <li>Help</li></Link>
                     </ul>
                 </div>
 
                 <div className="user_click_buttons">
                     <div className="logInButton"> Login</div>
-                    <Link to ="/FormResume"><button className="Create_cv" onClick={props.FormDisplay}>Create Your Resume</button></Link>
+                    <Link to ="/FormResume"><button className="Create_cv" >Create Your Resume</button></Link>
                 </div>
                                     <div className='OpenMenuRight' >
                         <svg  className='OpenMenuRightSVG' onClick={props.MenuSlideShow}  viewBox="0 0 27 21"  xmlns="http://www.w3.org/2000/svg">
