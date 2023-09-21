@@ -3,6 +3,8 @@ import './Section01.css'
 import Upperimage from "./Images/up_img.jpg";
 import FullStarIcon from './FullStarIcon';
 import EmptyStarIcon from './EmptyStarIcon';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 
 
 export default function Section01(props) {
@@ -145,7 +147,7 @@ export default function Section01(props) {
 
                      <div className="Down_things">
                         
-                        <button onClick={props.FormDisplay}>Create Resume Now</button>
+                       <Link to ="/FormResume"> <button onClick={props.FormDisplay}>Create Resume Now</button></Link>
                         <div className="landing_ad-talk"> Create Your Resume using our wisely designed themes and increase the chances of getting your dream job .</div>
                         
                         <div className="starsRates">
