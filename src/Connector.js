@@ -8,12 +8,8 @@ import FormResume from './Components/FormResume';
 import Section03 from './Components/Section03';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 
 function Connentor() {
 
@@ -125,24 +121,9 @@ function Connentor() {
   };
   
   
-  function FormDisplay(){
-    setdisplayForm(true)
-    setdisplayRestBody(false)
-    setOpenMenuSlider(false);
-    setShowResume(false);
-    setOffNav(true)
+ 
 
-  }
-
-  function GotoHome(){
-    setdisplayForm(false )
-    setOffNav(true)
-    setdisplayRestBody(true)
-    setOpenMenuSlider(false);
-    setShowResume(false);
-
-    
-  }
+ 
 
   const [OpenMenuSlider, setOpenMenuSlider] = useState(false);
    
@@ -182,18 +163,14 @@ function Connentor() {
   return (
     <>
 
-         {/*--------------------- a navbar is here ---------------------- */}
-        {
-          OffNav &&
+        
           <NavBar 
-          FormDisplay={FormDisplay} 
-          GotoHome={GotoHome} 
           MenuSlideShow={MenuSlideShow} 
           CloseMenuSlider={CloseMenuSlider}
            OpenMenuSlider={OpenMenuSlider}/>
 
 
-        }
+        
                
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
@@ -223,7 +200,7 @@ function Connentor() {
         {/* ----------it is the things which will be displayed off when clicked on the create your resume button---------- */}
 
         { displayRestBody &&  <>
-                                <Section01 FormDisplay={FormDisplay}/>
+                                <Section01 />
                                 <Section02 />
                                 <Section03/>
                              </>
@@ -247,7 +224,6 @@ function Connentor() {
                                   UserInternships={UserInternships}
                                   UserInterests={UserInterests}
                                   UserLanguages={UserLanguages}
-                                  FormDisplay={FormDisplay}
                                   selectedImage={selectedImage}
                                   
 
@@ -255,7 +231,7 @@ function Connentor() {
          
         
 
-     <Footer GotoHome={GotoHome} />
+     <Footer  />
      
         
 
