@@ -3,8 +3,9 @@ import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
 import ImageInput from './ImageInput';
+import { Link } from 'react-router-dom';
 
-export default function FormResume({ RivewResume ,
+export default function FormResume({ 
                                       handleLastName,
                                       handleWorkPost,
                                       handleSkills,
@@ -21,7 +22,6 @@ export default function FormResume({ RivewResume ,
                                       handleInternships,
                                       handleInterest,
                                       handleLanguage,
-                                      
                                       UserImage,
 
                               
@@ -56,29 +56,28 @@ export default function FormResume({ RivewResume ,
 
  
 
-  const handleSubmit = () => {
-    RivewResume(UserFirstName);
-    handleLastName(UserLastName);
-    handleWorkPost(UserWorkPost);
-    handleSkills(UserSkills);
-    handleProjects(UserProjects)
-    handleEducation(UserEducation)
-    handleAchievement(UserAchievement)
-    handleDomain(UserDomain)
-    handleObjectives(UserObjectives)
-    handleMobile(UserMobile)
-    handleMail(UserMail)
-    handleLinkedIn(UserLinkedIn)
-    handleGitHub(UserGitHub)
-    handleLocation(UserGitHub)
-    handleInternships(UserInternships)
-    handleInterest(UserInterests)
-    handleLanguage(UserLanguages)
+  // const handleSubmit = () => {
+  //   handleLastName(UserLastName);
+  //   handleWorkPost(UserWorkPost);
+  //   handleSkills(UserSkills);
+  //   handleProjects(UserProjects)
+  //   handleEducation(UserEducation)
+  //   handleAchievement(UserAchievement)
+  //   handleDomain(UserDomain)
+  //   handleObjectives(UserObjectives)
+  //   handleMobile(UserMobile)
+  //   handleMail(UserMail)
+  //   handleLinkedIn(UserLinkedIn)
+  //   handleGitHub(UserGitHub)
+  //   handleLocation(UserGitHub)
+  //   handleInternships(UserInternships)
+  //   handleInterest(UserInterests)
+  //   handleLanguage(UserLanguages)
 
     
     
 
-  };
+  // };
 
   const handleInputFirstName = (e) => {
     setUserFirstName(e.target.value);
@@ -151,7 +150,7 @@ export default function FormResume({ RivewResume ,
 
 
   const  defaultDetails=()=>{
-    setUserMobile("9874563210")
+    setUserMobile("9876543210")
     setUserMail("WorkFolio@gmail.com")
     setUserLinkedIn("https://workFolio/linkedIn.com")
     setUserGitHub('https://workFolio.Github.com')
@@ -247,7 +246,7 @@ export default function FormResume({ RivewResume ,
             <div className="Inital-details">
                     <div className="Uplodeimg">
                           
-                                  <ImageInput zs/>
+                                  <ImageInput />
                          
 
                     </div>
@@ -348,13 +347,13 @@ export default function FormResume({ RivewResume ,
             </div>
 
             <div className="download-resume-dv">
-             <a href="#" style={{ textDecoration: "none" ,color:"black" }}> 
-              <div className="Download_button"  onClick={handleSubmit}>
+             <Link to=" /Resume" style={{ textDecoration: "none" ,color:"black" }}> 
+              <div className="Download_button" >
                 <h2>Review Resume  </h2>
                 <img src={ResumeFileIcon} alt='reume download'/>
               
               </div>
-            </a>
+            </Link>
               
             </div>
           

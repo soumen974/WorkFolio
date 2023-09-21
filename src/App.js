@@ -29,6 +29,10 @@ function App() {
       <Routes> 
         <Route path="/FormResume" element={<FormResume/>} />
       </Routes>
+
+      <Routes> 
+        <Route path="/Resume" element={<Resume/>} />
+      </Routes>
       
       <Footer/>
     </Router>

@@ -175,7 +175,7 @@ function Connentor() {
         {/*---------- it is the things which will be displayed  when clicked on the create your resume button--------- */}
 
 
-        { displayForm  &&  <>  <FormResume RivewResume={RivewResume} 
+        { displayForm  &&  <>  <FormResume 
                                             handleLastName={handleLastName}
                                             handleWorkPost={handleWorkPost}
                                             handleSkills={handleSkills}
