@@ -20,7 +20,7 @@ export default function ImageInput({onImageSelect}) {
       reader.readAsDataURL(file);
     }
     setOffUploadIcon(false)
-    // onImageSelect(file);
+    onImageSelect(file);
     
 
   };
