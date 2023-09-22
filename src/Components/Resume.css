@@ -1,66 +1,44 @@
 .ResumeWhole-body{
-    padding: 0 22vw 0 22vw;
-    /* background-color: gray; */
-    /* display: flex; */
-    /* justify-content: center; */
+    padding: 5rem;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: content-box;
 
-    
 }
 .resumeWholeBack{
-   border: 1px solid rgba(0, 0, 0, 0.42);
-   border-radius: 1rem;
-   box-shadow: 0 0 10rem rgb(178, 178, 178);
+    background: greenyellow;
+    border: 1px solid;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    width: 100%;
 
 }
-.ResumeHead{
-    background: #043382;
-    box-shadow: -1.50932px 24.14917px 33.2051px 3.01865px rgba(0, 0, 0, 0.25);  
-      color: white;
+img{
     height: 12rem;
-    padding: 0 2rem;
-    /* position:absolute; */
-    /* width: 53.8%; */
-    z-index: 1;
-    margin-top: 5vw;    
-    overflow: hidden;
-}
-.ResumeHead h1{
-    /* font-family: Inter; */
-font-size: rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    width: 12rem;
+    border-radius: 50%;
 }
 .Name-post{
-    background: #042B6B;
-    transform: skewX(-16.47deg);
-    width: fit-content;
-    height: 12rem;
-    padding: 1.5rem;
-
-}
- .Name-post h1 {
-   
-    transform: skewX(16.47deg);
-    
+    display: flex;
+    gap: 0.42rem;
+    justify-content: center;
 }
 .ResumeDetails{
-    display: flex;
-    padding-left: 2rem;
-    height:fit-content;
-    
-}
-.leftBlackDiv{
-    width: 738.059px;
-    /* flex-shrink: 0; */
- background-color: rgba(0, 0, 0, 0.815);
- color: white;
- width: 28%;
- height: 22rem;
- 
+ border: 1px solid ;
+ text-align: left;
+ width: 100%;
 }
 .rightWhiteDiv{
-    /* background-color: greenyellow; */
-    width: 100%;
+    /* background: gray; */
+    padding: 5rem;
+}
+.ResumeHead{
+    border: 1px solid ;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    /* width: 100%; */
 
 }
