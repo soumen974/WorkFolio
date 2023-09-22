@@ -19,19 +19,30 @@ export default function Resume({UserFirstName,
                                   UserInterests,
                                   UserLanguages,
                                   FormDisplay,
-                                  imageSrc
+                                  selectedImage 
 
                               
                               },props) {
   return (
     <>
-          <button onClick={FormDisplay} >Go Back</button>
+
+<br />
+<br />
+<br />
+<br />
+<br />
 
     <div className="ResumeWhole-body">
 
       <div className="resumeWholeBack">
       <div className="ResumeHead">
-            <div className="imageleft"></div>
+            <div className="imageleft">
+            {selectedImage && (
+        <img src={URL.createObjectURL(selectedImage)} alt="Selected" />
+      )}
+
+
+            </div>
             <div className="Name-post">
             <h1> {UserFirstName}  </h1>
             <h1> {UserLastName}</h1>
@@ -41,18 +52,11 @@ export default function Resume({UserFirstName,
           </div>
       <div className="ResumeDetails">
         <div className="leftBlackDiv"></div>
-        <div className="rightWhiteDiv"></div>
-        
-      </div>
-        
-                                   
-                                  
-        
-      
-     
-                                 
-     </div>
-     <br/>
+        <div className="rightWhiteDiv">
+
+
+
+        <br/>
                                   {UserSkills}<br/>
                                   {UserProjects}<br/>
                                   {UserEducation}<br/>
@@ -67,6 +71,19 @@ export default function Resume({UserFirstName,
                                   {UserInternships}<br/>
                                   {UserInterests}<br/>
                                   {UserLanguages}<br/>
+
+        </div>
+        
+      </div>
+        
+                                   
+                                  
+        
+      
+     
+                                 
+     </div>
+    
     </div>
     
     
