@@ -8,7 +8,7 @@ import FormResume from './Components/FormResume';
 import Section03 from './Components/Section03';
 import Resume from './Components/Resume';
 import Footer from './Components/Footer';
-import Connector from './Connector';
+// import Connector from './Connector';
 import Home from './Home';
 // import { Switch, Route } from 'react-router-dom';
 
@@ -23,17 +23,14 @@ function App() {
 
       <NavBar />
       
+      
+      <Routes> 
+        <Route path="/FormResume" element={<FormResume/>} />
+      </Routes> 
+
       <Routes> 
         <Route path="/" element={<Home/>} />
       </Routes>
-      <Routes> 
-        <Route path="/FormResume" element={<FormResume/>} />
-      </Routes>
-
-      <Routes> 
-        <Route path="/Resume" element={<Resume/>} />
-      </Routes>
-      
       <Footer/>
     </Router>
 
