@@ -3,6 +3,9 @@
     padding: 0;
    
 }
+.ormWholeThings{
+    display: flex;
+}
 
 .FormBody ::placeholder{
     font-size: medium;
@@ -318,6 +321,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     background-color: red;
 
 }
+
 
 
 @media (max-width:1160px) {
