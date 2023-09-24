@@ -226,7 +226,7 @@ const [selectedImage, setSelectedImage] = useState(null);
   };
 
 
-
+  document.title = 'WorkFolios [ Resume Form] ';
 
 
 
