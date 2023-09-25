@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
+
 import './FormResume.css'
 
 import ResumeFileIcon from "./Images/resume-vector.svg";
@@ -28,9 +30,10 @@ export default function FormResume({
                               
                                       ...props }) {
 
-  // default value 
+  // add page title
 
- 
+  document.title = 'WorkFolios [ Resume Form] ';
+
 
 
   // user details
@@ -226,7 +229,27 @@ const [selectedImage, setSelectedImage] = useState(null);
   };
 
 
-  document.title = 'WorkFolios [ Resume Form] ';
+
+  useEffect(() => {
+    const confirmExit = (e) => {
+      e.preventDefault();
+      e.returnValue = ''; // This line is needed for older browsers
+
+      // Display a confirmation dialog when the user tries to close the tab
+      const confirmationMessage = 'Are you sure you want to leave this page?';
+      e.returnValue = confirmationMessage;
+      return confirmationMessage;
+    };
+
+    // Add the event listener when the component mounts
+    window.addEventListener('beforeunload', confirmExit);
+
+    // Remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('beforeunload', confirmExit);
+    };
+  }, []);
+
 
 
 
@@ -398,7 +421,7 @@ const [selectedImage, setSelectedImage] = useState(null);
 <br />
 <br />
     
-    <button onClick={BackToform} >Go Back</button>
+    <button className='gobackResumeToForm' onClick={BackToform} >Go Back</button>
 
     <Resume UserFirstName={UserFirstName}
                                    UserLastName={UserLastName}  
