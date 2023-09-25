@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Resume.css'
 import {useState} from 'react';
 import html2canvas from 'html2canvas';
@@ -26,7 +26,10 @@ export default function Resume({UserFirstName,
 
                               
                               },props) {
+ 
+    // add page title
 
+    document.title = UserFirstName ? `${UserFirstName}'s Resume - WorkFolios` : 'Resume - WorkFolios';
 
                                 const [loader, setLoader] = useState(false);
 
@@ -43,6 +46,29 @@ export default function Resume({UserFirstName,
                                     doc.save('Resume-from-workfolios-by-soumen-bhunia.pdf');
                                   })
                                 }
+
+
+
+    useEffect(() => {
+      const confirmExit = (e) => {
+        e.preventDefault();
+        e.returnValue = ''; // This line is needed for older browsers
+  
+        // Display a confirmation dialog when the user tries to close the tab
+        const confirmationMessage = 'Are you sure you want to leave this page?';
+        e.returnValue = confirmationMessage;
+        return confirmationMessage;
+      };
+  
+      // Add the event listener when the component mounts
+      window.addEventListener('beforeunload', confirmExit);
+  
+      // Remove the event listener when the component unmounts
+      return () => {
+        window.removeEventListener('beforeunload', confirmExit);
+      };
+    }, []);
+
 
   return (
     
