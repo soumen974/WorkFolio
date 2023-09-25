@@ -218,8 +218,7 @@ function ResumeShow(){
 
 function BackToform(){
   setuseShowTheForm(true);
-  setuseoNTheResume(false)
-
+  setuseoNTheResume(false);
 }
 
 const [selectedImage, setSelectedImage] = useState(null);
@@ -292,7 +291,7 @@ const [selectedImage, setSelectedImage] = useState(null);
               <div className="Inital-details">
                       <div className="Uplodeimg">
                             
-                                    <ImageInput onImageSelect={handleImageSelect} />
+                                   <ImageInput onImageSelect={handleImageSelect} />
                           
 
                       </div>
