@@ -1,5 +1,5 @@
 .ResumeWhole-body{
-    padding: 5rem;
+    padding: 0rem 30rem;
     margin: 0 auto;
     text-align: center;
     box-sizing: content-box;
@@ -41,4 +41,27 @@
     justify-content: center;
     /* width: 100%; */
 
+}
+
+.gobackResumeToForm{
+    background: greenyellow;
+    border: none;
+    padding:0.5rem;
+    position: fixed;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+.gobackResumeToForm::before{
+    content: '< ';
+}
+.ResumeWhole-body  button{
+    background: rgb(106, 252, 3);
+    border: none;
+    padding:0.5rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    font-size: large;
 }
