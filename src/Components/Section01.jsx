@@ -4,6 +4,8 @@ import Upperimage from "./Images/up_img.jpg";
 import FullStarIcon from './FullStarIcon';
 import EmptyStarIcon from './EmptyStarIcon';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import GoToTop from './GoToTop';
+
 
 
 
@@ -162,7 +164,7 @@ export default function Section01(props) {
                         
                     </div>
      
-
+   <GoToTop/>
     </div>
 
     

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-
 import './FormResume.css'
-
 import ResumeFileIcon from "./Images/resume-vector.svg";
 import ImageInput from './ImageInput';
 import { Link } from 'react-router-dom';
 import Resume from './Resume';
+import GoToTop from './GoToTop';
+
 
 export default function FormResume({ 
                                       handleLastName,
@@ -254,6 +254,7 @@ const [selectedImage, setSelectedImage] = useState(null);
 
   return (
     <>
+
    
    {
     useShowTheForm &&
@@ -405,6 +406,9 @@ const [selectedImage, setSelectedImage] = useState(null);
             </div>
           </div>
 
+          <GoToTop/>
+
+
         </div>
 
 
@@ -447,8 +451,6 @@ const [selectedImage, setSelectedImage] = useState(null);
  
 
    }
-      
-
      
         
     </>
