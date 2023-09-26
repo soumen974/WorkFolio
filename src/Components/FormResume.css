@@ -16,13 +16,14 @@ padding: 0rem 0rem;
 }
 .FormHeadder{
     text-align: center;
-    padding: 3.7rem 0rem 0rem 0rem;    
+    /* padding: 3.7rem 0rem 0rem 0rem;     */
 }
 .FormHeadder svg{
     height: 100%;
     width:100%;
     position: sticky;
     top: 3.68rem;
+
 }
 
 

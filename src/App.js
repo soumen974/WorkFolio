@@ -22,8 +22,7 @@ function App() {
     <Router>
 
       <NavBar />
-      
-      
+=      
       <Routes> 
         <Route path="/FormResume" element={<FormResume/>} />
       </Routes> 

@@ -6,7 +6,7 @@
     position:relative;
     /* z-index: -1; */
     /* background-color: black; */
-    margin-top: 3.7rem;
+    margin-top: 2rem;
   width: 100%;
 }
 
@@ -278,7 +278,6 @@ position:relative;
     
     }
     .UpperVectorHead svg{
-        margin-top: -.1991rem;
         width:100%; 
     }
 
