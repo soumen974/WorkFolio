@@ -12,7 +12,7 @@ export default function Home() {
     <Section01/>
     <Section02/>
     <Section03/>
-    <GoToTop/>
+    {/* <GoToTop/> */}
     
     </>
 
