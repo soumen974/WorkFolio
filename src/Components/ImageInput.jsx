@@ -4,7 +4,7 @@ import     UploadSign from './Images/uploadSign.svg'
 import './FormResume.css'
 
 export default function ImageInput({onImageSelect}) {
-  const [imageSrc, setImageSrc] = useState(null);
+  const [imageSrc, setImageSrc] = useState();
   const [showImage, setShowImage] = useState(false);
 
   const [OffUploadIcon,setOffUploadIcon]=useState(true)
