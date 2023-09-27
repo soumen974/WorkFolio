@@ -15,6 +15,7 @@ export default function NavBar(props) {
     function CloseMenuSlider(event) { 
         const li = document.querySelector('li'); 
       
+        
         if (
             event.target.classList.contains('openMenuSlider') ||
           event.target.classList.contains('LinkComponents') ||
