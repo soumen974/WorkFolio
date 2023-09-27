@@ -11,22 +11,19 @@ function App() {
   return (
     <>
     
-    {/* <Router>
+    <Router>
+    <NavBar />
 
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/FormResume" element={<FormResume />} />
       </Routes>
+      <GoToTop/>
 
-    </Router> */}
+    </Router> 
 
 
-    <BrowserRouter>
-    <Routes>
-    <Route path="/" element={<Home/>} />
-    <Route path="/FormResume" element={<FormResume />} />
-    </Routes>
-    </BrowserRouter>
+   
 
 
     </>
