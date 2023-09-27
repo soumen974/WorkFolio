@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/WorkFolio/static/css/main.19935418.css",
-    "main.js": "/WorkFolio/static/js/main.501d8447.js",
-    "static/js/703.adb6323e.chunk.js": "/WorkFolio/static/js/703.adb6323e.chunk.js",
-    "static/js/210.fbe14935.chunk.js": "/WorkFolio/static/js/210.fbe14935.chunk.js",
-    "static/media/up_img.jpg": "/WorkFolio/static/media/up_img.eb461926588a7a9eddc7.jpg",
-    "static/media/rivewer-imgpng.png": "/WorkFolio/static/media/rivewer-imgpng.7e733df006cb8d69f21e.png",
-    "static/media/lft-rsm.png": "/WorkFolio/static/media/lft-rsm.3b6b887ba7bfa6916ff5.png",
-    "static/media/right-rsm.png": "/WorkFolio/static/media/right-rsm.01daa954ada2157b9371.png",
-    "static/media/Mid-rsm.png": "/WorkFolio/static/media/Mid-rsm.a2a482518ad1f1f6124c.png",
-    "static/media/resume-vector.svg": "/WorkFolio/static/media/resume-vector.8bcb4d2bc96a58c81a54c5c81a30a905.svg",
-    "static/media/aeroPlainVector.svg": "/WorkFolio/static/media/aeroPlainVector.eca56106d291ecce4dc380346c3dd67f.svg",
-    "static/media/uploadSign.svg": "/WorkFolio/static/media/uploadSign.5fcbd85d5a02cabe574a549a7aa35f51.svg",
-    "index.html": "/WorkFolio/index.html",
-    "static/media/Templt_back.svg": "/WorkFolio/static/media/Templt_back.1a1b3c114d11cf7ea2ac151b49217e33.svg",
-    "main.19935418.css.map": "/WorkFolio/static/css/main.19935418.css.map",
-    "main.501d8447.js.map": "/WorkFolio/static/js/main.501d8447.js.map",
-    "703.adb6323e.chunk.js.map": "/WorkFolio/static/js/703.adb6323e.chunk.js.map",
-    "210.fbe14935.chunk.js.map": "/WorkFolio/static/js/210.fbe14935.chunk.js.map"
+    "main.css": "/static/css/main.59919267.css",
+    "main.js": "/static/js/main.24232f2d.js",
+    "static/js/703.adb6323e.chunk.js": "/static/js/703.adb6323e.chunk.js",
+    "static/js/210.fbe14935.chunk.js": "/static/js/210.fbe14935.chunk.js",
+    "static/media/up_img.jpg": "/static/media/up_img.eb461926588a7a9eddc7.jpg",
+    "static/media/rivewer-imgpng.png": "/static/media/rivewer-imgpng.7e733df006cb8d69f21e.png",
+    "static/media/lft-rsm.png": "/static/media/lft-rsm.3b6b887ba7bfa6916ff5.png",
+    "static/media/right-rsm.png": "/static/media/right-rsm.01daa954ada2157b9371.png",
+    "static/media/Mid-rsm.png": "/static/media/Mid-rsm.a2a482518ad1f1f6124c.png",
+    "static/media/resume-vector.svg": "/static/media/resume-vector.8bcb4d2bc96a58c81a54c5c81a30a905.svg",
+    "static/media/aeroPlainVector.svg": "/static/media/aeroPlainVector.eca56106d291ecce4dc380346c3dd67f.svg",
+    "static/media/uploadSign.svg": "/static/media/uploadSign.5fcbd85d5a02cabe574a549a7aa35f51.svg",
+    "static/media/Templt_back.svg": "/static/media/Templt_back.1a1b3c114d11cf7ea2ac151b49217e33.svg",
+    "index.html": "/index.html",
+    "main.59919267.css.map": "/static/css/main.59919267.css.map",
+    "main.24232f2d.js.map": "/static/js/main.24232f2d.js.map",
+    "703.adb6323e.chunk.js.map": "/static/js/703.adb6323e.chunk.js.map",
+    "210.fbe14935.chunk.js.map": "/static/js/210.fbe14935.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19935418.css",
-    "static/js/main.501d8447.js"
+    "static/css/main.59919267.css",
+    "static/js/main.24232f2d.js"
   ]
 }
