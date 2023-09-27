@@ -13,12 +13,10 @@ export default function Home() {
   return (
     <>
     <div>
-    <NavBar />
 
       <Section01/>
       <Section02/>
       <Section03/>
-      <GoToTop/>
     </div>
     
     
