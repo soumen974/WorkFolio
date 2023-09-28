@@ -60,28 +60,8 @@ export default function FormResume({
 
  
 
-  // const handleSubmit = () => {
-  //   handleLastName(UserLastName);
-  //   handleWorkPost(UserWorkPost);
-  //   handleSkills(UserSkills);
-  //   handleProjects(UserProjects)
-  //   handleEducation(UserEducation)
-  //   handleAchievement(UserAchievement)
-  //   handleDomain(UserDomain)
-  //   handleObjectives(UserObjectives)
-  //   handleMobile(UserMobile)
-  //   handleMail(UserMail)
-  //   handleLinkedIn(UserLinkedIn)
-  //   handleGitHub(UserGitHub)
-  //   handleLocation(UserGitHub)
-  //   handleInternships(UserInternships)
-  //   handleInterest(UserInterests)
-  //   handleLanguage(UserLanguages)
+ 
 
-    
-    
-
-  // };
 
   const handleInputFirstName = (e) => {
     setUserFirstName(e.target.value);

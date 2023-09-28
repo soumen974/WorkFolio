@@ -43,13 +43,11 @@ export default function NavBar(props) {
                <Link to='/'> <div className="logo"  > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></Link>
                 <div className="LinkComponents">
                     <ul>
-                     <NavLink to='/' className={(isActive)=>`${isActive ? " my-link-active": "my-link " }`} > <li >Home</li></NavLink>
-                     {/* <NavLink to='/' className={ ({isActive}) =>  ${ isActive ? "my-link-active" : " my-link" }  } > <li >Home</li></NavLink> */}
-
-                       <Link to='/'> <li>Templates</li></Link>
-                       <Link to='/'> <li>Examples</li></Link>
-                       <Link to='/'> <li>About</li></Link>
-                       <Link to='/'> <li>Help</li></Link>
+                     <NavLink to='/' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li >Home</li></NavLink>
+                     <NavLink to='/Template' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>Templates</li></NavLink>
+                     <NavLink to='/Example' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>Examples</li></NavLink>
+                     <NavLink to='/About' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>About</li></NavLink>
+                     <NavLink to='/Help' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>Help</li></NavLink>
                     </ul>
                 </div>
 
