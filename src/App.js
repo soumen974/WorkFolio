@@ -1,9 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, BrowserRouter, Outlet } from 'react-router-dom';
 import NavBar from "./Components/NavBar";
 import FormResume from './Components/FormResume';
 import Footer from './Components/Footer';
 import Home from './Home';
+import GoToTop from "./Components/GoToTop";
 
 
 function App() {
@@ -11,16 +12,12 @@ function App() {
   return (
     <>
     
-    <Router>
-    <NavBar />
+      <NavBar />
 
-      <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/FormResume" element={<FormResume />} />
-      </Routes>
-      <GoToTop/>
+      <Outlet/>
 
-    </Router> 
+      <Footer/>
+
 
 
    
