@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './navBar.css'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
 
 export default function NavBar(props) {
 
@@ -43,7 +43,9 @@ export default function NavBar(props) {
                <Link to='/'> <div className="logo"  > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></Link>
                 <div className="LinkComponents">
                     <ul>
-                     <Link to='/'> <li >Home</li></Link>
+                     <NavLink to='/' className={(isActive)=>`${isActive ? " my-link-active": "my-link " }`} > <li >Home</li></NavLink>
+                     {/* <NavLink to='/' className={ ({isActive}) =>  ${ isActive ? "my-link-active" : " my-link" }  } > <li >Home</li></NavLink> */}
+
                        <Link to='/'> <li>Templates</li></Link>
                        <Link to='/'> <li>Examples</li></Link>
                        <Link to='/'> <li>About</li></Link>

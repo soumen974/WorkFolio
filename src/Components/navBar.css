@@ -23,7 +23,18 @@
   list-style: none;
 
    }
-   
+
+/* ----------- */
+.my-link {
+  color: black;
+}
+
+.my-link-active {
+  color: blue;
+}
+
+/* ----------- */
+
 
    .navElements{
      display: flex;
