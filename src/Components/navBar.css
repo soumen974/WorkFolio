@@ -24,17 +24,16 @@
 
    }
 
-/* ----------- */
-.my-link {
-  color: black;
-}
-
-.my-link-active {
-  color: blue;
-}
-
-/* ----------- */
-
+   .my-link {
+    color: black;
+  
+  }
+  
+  .my-link-active {
+    color: #4a3af9eb;
+    font-weight: bold;
+  }
+   
 
    .navElements{
      display: flex;
@@ -54,6 +53,7 @@
    }
    .logo h3{
     font-family:cursive;
+    color: black;
 
    }
    .logo_icon{
@@ -88,12 +88,12 @@
    .sec-1 a{
     text-decoration: none;
     list-style: none;
-    color: black;
+    /* color: black; */
    }
    .LinkComponents a{
     text-decoration: none;
     list-style: none;
-    color: black;
+    /* color: black; */
    }
    .navElements ul {
      
