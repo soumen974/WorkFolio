@@ -239,7 +239,10 @@ const [selectedImage, setSelectedImage] = useState(null);
    {
     useShowTheForm &&
 
-    <div className="FormBody">
+    <div className="demoused">
+
+  
+       <div className="FormBody">
 
           <div className="FormHeadder">
                 <svg width="905" height="87" viewBox="0 0 905 87" fill="none">
@@ -372,11 +375,14 @@ const [selectedImage, setSelectedImage] = useState(null);
                 
               </div>
 
-              <div className="download-resume-dv">
+              <div className="">
               <a href=" #" style={{ textDecoration: "none" ,color:"black" }}> 
-                <div className="Download_button" onClick={ResumeShow} >
+                <div className="resumeshoing" >
+                  <button onClick={ResumeShow} >
                   <h2>Review Resume  </h2>
                   <img src={ResumeFileIcon} alt='reume download'/>
+
+                  </button>
                 
                 </div>
               </a>
@@ -390,6 +396,7 @@ const [selectedImage, setSelectedImage] = useState(null);
 
 
         </div>
+    </div>
 
 
    }

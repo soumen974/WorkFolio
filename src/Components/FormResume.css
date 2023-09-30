@@ -3,7 +3,15 @@
     padding: 0;
    
 }
+.demoused{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    width: min(95%,70rem);
+    margin-inline: auto;
+    padding-block: 2rem;
+}
 .ormWholeThings{
+
     display: flex;
 }
 
@@ -250,28 +258,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     box-sizing:content-box;
 }
 
-.Download_button{
-    background-color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 0rem 3rem 0rem 0 ;
-    border-radius: 0.4rem;
-  cursor: pointer;
 
-}
-.Download_button h2{
-    padding: 1.5rem 0 1rem 0 ;
- width: 100%;
- /* background-color: greenyellow; */
-
-
-}
-.Download_button img{
- width: 4rem;
- /* height: 7rem; */
- padding: 1rem 0 0 0 ;
- background-color: gainsboro;
-}
 
 
 .default-massaging-passing{
@@ -323,6 +310,23 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
 
 }
 
+.resumeshoing button{
+    display: flex;
+    justify-content:space-between;
+    padding: 0.61rem 4rem;
+    border-radius: 12rem;
+    border-color: transparent;
+    outline: transparent;
+}
+.resumeshoing button:hover{
+   box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.327);
+}
+.resumeshoing{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
 
 
 @media (max-width:1160px) {
@@ -441,31 +445,5 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
         padding:  4rem 2vw 0 2vw;
         max-width: 88vw;
     }
-    
-    .Download_button{
-        display: flex;
-        flex-wrap: nowrap;
-        padding: 0rem 3rem 0rem 0 ;
-        border-radius: 5rem;
-        height: 3.4rem;
-        /* gap: 2rem; */
-    
-    
-    }
-    .Download_button h2{
-        padding: 0.89rem 0.21rem 1rem 1.5rem ;
-     font-size: 1.4rem;
-     /* background-color: greenyellow; */
-    
-    
-    }
-    .Download_button img{
-     padding: 1rem 0rem 0 0rem ;
-     background-color: gainsboro;
-     /* margin-left: 2rem; */
-     margin-right: -1rem;
-    
-    }
-    
-    
+     
 }
