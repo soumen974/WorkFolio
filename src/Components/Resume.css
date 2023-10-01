@@ -1,18 +1,21 @@
 .ResumeWhole-body{
-    padding: 0rem 30rem;
-    margin: 0 auto;
-    text-align: center;
-    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    width: min(70%,30rem);
+    margin-inline: auto;
+    padding-block: 4rem;
 
 }
 .resumeWholeBack{
-    background: greenyellow;
+    background: #5345FF;
     border: 1px solid;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
     box-sizing: content-box;
     width: 100%;
+    color: white;
+    border-radius: 0.4rem
 
 }
 .resumeWholeBack img{
@@ -26,16 +29,16 @@
     justify-content: center;
 }
 .ResumeDetails{
- border: 1px solid ;
+ /* border: 1px solid ; */
  text-align: left;
  width: 100%;
 }
 .rightWhiteDiv{
     /* background: gray; */
-    padding: 5rem;
+    padding: 1rem;
 }
 .ResumeHead{
-    border: 1px solid ;
+    /* border: 1px solid ; */
     width: fit-content;
     display: grid;
     justify-content: center;

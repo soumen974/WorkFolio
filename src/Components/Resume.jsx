@@ -129,8 +129,9 @@ export default function Resume({UserFirstName,
 
       <div className="receipt-actions-div">
             <div className="actions-right">
-              <button
-                className="receipt-modal-download-button"
+            <abbr title="DownLoad Your Resume"> 
+            <button
+                className="Resume-download-button"
                 onClick={downloadPDF}
                 disabled={!(loader===false)}
               >
@@ -141,6 +142,7 @@ export default function Resume({UserFirstName,
                 )}
 
               </button> 
+             </abbr>
             </div>
           </div>
 
