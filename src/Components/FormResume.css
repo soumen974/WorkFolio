@@ -11,8 +11,7 @@
     padding-block: 2rem;
 }
 .ormWholeThings{
-
-    display: flex;
+ display: flex;
 }
 
 .FormBody ::placeholder{
