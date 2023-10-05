@@ -40,10 +40,10 @@ export default function NavBar(props) {
     <section className="sec-1">
         <nav>
             <div className="navElements">
-               <Link to='/'> <div className="logo"  > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></Link>
+               <Link to='/WorkFolio'> <div className="logo"  > <span className="logo_icon"><abbr title="WorkFolio Home">W</abbr></span><h3>WorkFolios</h3></div></Link>
                 <div className="LinkComponents">
                     <ul>
-                     <NavLink to='/' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li >Home</li></NavLink>
+                     <NavLink to='/WorkFolio' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li >Home</li></NavLink>
                      <NavLink to='/Template' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>Templates</li></NavLink>
                      <NavLink to='/Example' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>Examples</li></NavLink>
                      <NavLink to='/About' className={({isActive})=>`${isActive ? " my-link-active": "my-link " }`} > <li>About</li></NavLink>
