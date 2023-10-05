@@ -316,6 +316,7 @@ background: linear-gradient(9deg, rgba(26, 6, 255, 0.63) 50.96%, rgba(26, 6, 255
     border-radius: 12rem;
     border-color: transparent;
     outline: transparent;
+    cursor: pointer;
 }
 .resumeshoing button:hover{
    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.327);
